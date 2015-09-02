@@ -25,7 +25,7 @@
 
 .ms-skin-default .ms-nav-next,
 .ms-skin-default .ms-nav-prev {
-	/*width: 30px;
+	width: 30px;
 	background: url(light-skin-1.png);
 	background-position: -89px -26px;
 	height: 40px;
@@ -34,12 +34,12 @@
 	left: 30px;
 	margin-top: -20px;
 	position: absolute;
-	z-index: 110;*/
+	z-index: 110;
 }
 .ms-skin-default .ms-nav-next {
-	/*right: 30px;
+	right: 30px;
 	left: auto;
-	background-position: -89px -103px;*/
+	background-position: -89px -103px;
 }
 
 
@@ -203,7 +203,8 @@
 }
 
 .ms-layer.text7meem {
-	width: 100%;
+	/*width: 100%;*/
+	padding: 8px;
 	text-align: center;
 	color: #8052A4;
 	font-size: 35px;

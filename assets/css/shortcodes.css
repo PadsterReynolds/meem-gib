@@ -1898,7 +1898,7 @@ a.but_woman:hover {
 	background-color: #b3b3b3;
 	border-radius: 5px;
 	transition: all 0.3s ease;
-	border-bottom: 3px solid #fff;
+	/*border-bottom: 3px solid #fff;*/
 	white-space: nowrap;
 }
 .but_small4:hover {

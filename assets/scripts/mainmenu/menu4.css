@@ -8,7 +8,8 @@ ul.nav>li>a:hover.active {
 }
 
 ul.nav>li>a:hover {
-	color:#848484;
+	/*color:#848484;*/
+    color:#7F58A2;
 }
 
 .list-unstyled a.active {
@@ -571,7 +572,8 @@ ul.nav>li>a.active {
 
 
 .navbar-default .navbar-nav>li>a {
-color: #bcbec0;
+/*color: #bcbec0;*/
+    color: #4E4E4E;
 font-size:14px;
 font-weight: 600;
 text-transform: lowercase;
