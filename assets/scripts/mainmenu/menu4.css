@@ -1,15 +1,16 @@
 ul.nav>li>a.active {
-	color:#8052A4;
+	color:#824BB0;
 	/* border-bottom: 2px solid #fff; */
 }
 
 ul.nav>li>a:hover.active {
-	color:#7F58A2;
+	color:#824BB0;
 }
 
 ul.nav>li>a:hover {
 	/*color:#848484;*/
-    color:#7F58A2;
+    /*color:#7F58A2;*/
+    color:#A47CC9;
 }
 
 .list-unstyled a.active {
@@ -420,7 +421,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 
 
-.header{height: auto; padding-top: 5px;}
+.header{height: auto; padding-top: 2px;}
 
 .compact .header #logo4{
     background-size: 32%;
@@ -573,7 +574,8 @@ ul.nav>li>a.active {
 
 .navbar-default .navbar-nav>li>a {
 /*color: #bcbec0;*/
-    color: #4E4E4E;
+    /*color: #4E4E4E;*/
+    color:#156570;
 font-size:14px;
 font-weight: 600;
 text-transform: lowercase;

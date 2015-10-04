@@ -167,6 +167,7 @@
 	font-size: 59px;
 	line-height: 50px;
 	font-family: 'Raleway', sans-serif;
+	/*font-family: 'newjuneboldregular', sans-serif;*/
 	font-weight: 300;
 }
 .ms-layer.text1.center {
@@ -182,10 +183,10 @@
 .ms-layer.text2 {
 	/*color: #bdbcc0;*/
 	color: #ffffff;
-	font-size: 59px;
-	line-height: 67px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'newjuneboldregular', sans-serif;
+	font-weight: 300;
 }
 .ms-layer.text2.caps {
 	text-transform: uppercase;
@@ -666,7 +667,7 @@
 	line-height: 27px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	background: #9eca45;
+	background: #824BB0;
 	padding: 13px 30px;
 	cursor: pointer;
 	transition: all 0.3s ease;
