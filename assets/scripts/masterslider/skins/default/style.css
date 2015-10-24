@@ -669,6 +669,7 @@
 	font-weight: 500;
 	background: #824BB0;
 	padding: 13px 30px;
+	border-radius: 20px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
