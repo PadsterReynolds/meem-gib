@@ -1,0 +1,175 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="{{ page.lang }}" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="{{ page.lang }}" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="{{ page.lang }}" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{ page.lang }}" class="no-js"> <!--<![endif]-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport meta tag for mobile/tablet browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>{% if page.title %}
+            {{ page.title }}
+        {% else %}
+            meem | Digital Banking
+        {% endif %}</title>
+    {% if page.meta-description %}
+    <meta name="description" content="{{ page.meta-description}}" />
+    {% endif %}
+    <meta name="keywords" content="{{ page.meta-keywords }}" />
+
+    <!-- Open Graph meta data -->
+    <meta property="og:title" content="{{ page.og-title }}"/>
+    <meta property="og:image" content="{{ page.og-image }}"/>
+    <meta property="og:site_name" content="{{ page.og-sitename }}"/>
+    <meta property="og:description" content="{{ page.og-description}}"/>
+
+    <meta property="og:type" content="{{ page.og-type }}"/>
+    <meta property="og:url" content="{{ page.og-url }}"/>
+    <meta property="og:audio" content="{{ page.og-audio }}"/>
+    <meta property="og:locale" content="{{ page.og-locale }}"/>
+
+    <meta property="og:locale:alternate" content="{{ page.og-title-alt }}"/>
+    <meta property="og:video" content="{{ page.og-video }}"/>
+    <meta property="xpm-enabled" content="false"/>
+
+    <!-- Twitter cards -->
+    <meta name=”twitter:card” content=”{{ page.tw-summary }}” />
+    <meta name=”twitter:title” content=”{{ page.tw-title }}” />
+    <meta name=”twitter:description” content=”{{ page.tw-description}}” />
+    <meta name=”twitter:url” content=”{{ page.tw-url }}” />
+    <meta name=”twitter:image” content=”{{ page.tw-image }}” />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="/resources/images/favicon.png"/>
+
+    <!-- fonts -->
+    {% include fonts-en.html %}
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- ######### CSS STYLES ######### -->
+
+    <link rel="stylesheet" href="/resources/styles/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/styles/style.css" type="text/css" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="/resources/styles/font-awesome/css/font-awesome.min.css">
+
+    <!-- simple line icons -->
+    <link rel="stylesheet" type="text/css" href="/resources/styles/simpleline-icons/simple-line-icons.css" media="screen" />
+
+    <!-- et linefont icons -->
+    <link rel="stylesheet" href="/resources/styles/et-linefont/etlinefont.css">
+
+    <!-- animations -->
+    <link href="/resources/scripts/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- responsive devices styles -->
+    <link rel="stylesheet" media="screen" href="/resources/styles/responsive-leyouts.css" type="text/css" />
+
+    <!-- shortcodes -->
+    <link rel="stylesheet" media="screen" href="/resources/styles/shortcodes.css" type="text/css" />
+
+    <!-- mega menu -->
+    <link href="/resources/scripts/mainmenu/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/scripts/mainmenu/demo.css" rel="stylesheet">
+    <link href="/resources/scripts/mainmenu/menu4.css" rel="stylesheet">
+
+    <!-- MasterSlider -->
+    <link rel="stylesheet" href="/resources/scripts/masterslider/style/masterslider.css" />
+    <link rel="stylesheet" href="/resources/scripts/masterslider/skins/default/style.css" />
+
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="/resources/scripts/cubeportfolio/cubeportfolio.css">
+
+    <!-- owl carousel -->
+    <link href="/resources/scripts/carouselowl/owl.transitions.css" rel="stylesheet">
+    <link href="/resources/scripts/carouselowl/owl.carousel.css" rel="stylesheet">
+
+    <!-- accordion -->
+    <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
+
+</head>
+
+<body>
+
+<div class="site_wrapper">
+
+    <!-- top nav link block -->
+    <div class="top_nav">
+        <div class="container">
+
+            <div class="left">
+            </div><!-- end right -->
+
+            <div class="right">
+                <a href="/ar/index.html" class="tpbut two">&nbsp; العربية</a>
+                <a href="#" class="tpbut two"><i class="fa fa-comment"></i>&nbsp; chat</a>
+                <a href="https://online.meem.sa/default.aspx" class="tpbut two "><i class="fa fa-lock"></i>&nbsp; Login</a>
+                <a href="https://online.meem.sa/default.aspx" class="tpbut"><i class="fa fa-pencil-square-o"></i>&nbsp; Apply Now</a>
+            </div><!-- end right -->
+
+        </div>
+    </div><!-- end top navigation links -->
+
+    <!-- header block & main menu -->
+    <header class="header">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="logo"><a href="/en/index.html" id="logo4"></a></div>
+
+            <!-- Navigation Menu -->
+            <div class="menu_main">
+
+                <div class="navbar yamm navbar-default">
+
+                    <div class="navbar-header">
+                        <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"> <span>Menu</span>
+                            <button type="button" > <i class="fa fa-bars"></i></button>
+                        </div>
+                    </div>
+
+                    <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
+
+                        <nav>
+                            <ul class="nav navbar-nav">
+
+                                <li class="dropdown"> <a href="meem-why-choose-us-en.html" class="dropdown-toggle active">why meem by GIB?</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li> <a href="meem-about-us-en.html">About Us</a> </li>
+                                        <li> <a href="meem-ceo-board-en.html">CEO & Board</a> </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown"> <a href="meem-products-services-en.html" class="dropdown-toggle">products &amp; services</a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li> <a href="meem-one-pack-account-en.html">One Pack</a> </li>
+                                        <li> <a href="meem-currency-card-en.html">Currency Card</a> </li>
+                                        <li> <a href="meem-murabaha-deposit-en.html">Murabaha Deposit</a> </li>
+                                        <li> <a href="meem-visa-platinum-credit-card-en.html">Credit Card</a> </li>
+                                        <li> <a href="meem-personal-finance-en.html">Personal Finance</a> </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown"> <a href="meem-contact-us-en.html" class="dropdown-toggle">contact us</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                </div>
+            </div><!--/ end Navigation Menu -->
+
+        </div>
+
+    </header>
+
+    <div class="clearfix"></div>

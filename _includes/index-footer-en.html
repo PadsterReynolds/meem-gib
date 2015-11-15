@@ -1,0 +1,114 @@
+
+{% include contact-block-en.html %}
+<!-- footer block -->
+<footer class="footer4">
+    <div class="container">
+
+        <div class="fmlinks">
+            <a href="http://www.gib.com" target="_blank" style="text-transform: capitalize;">GIB</a>
+            <a href="#">Islamic Banking</a>
+            <a href="http://careers.gib.com/" target="_blank">careers</a>
+            <a href="http://www.meem.sa/en-us/Documents/JuneFees.pdf" target="_blank">fees &amp; charges</a>
+            <a href="http://www.meem.sa/en-us/Documents/Consumer.Protection.Document.English.pdf" target="_blank">consumer protection</a>
+            <a href="http://www.meem.sa:8383/locations-en/" target="_blank">locations</a>
+            <a href="#">sitemap</a>
+        </div>
+
+        Copyright © 2015 Meem.com. All rights reserved.  <a href="#">terms of use</a> | <a href="#">privacy policy</a>
+
+        <div class="footer_social_links4">
+            <a href="https://www.facebook.com/meem" class="animate" data-anim-type="zoomIn" data-anim-delay="100" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
+            <a href="https://twitter.com/meem" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>
+            <a href="https://instagram.com/meem" class="animate" data-anim-type="zoomIn" data-anim-delay="100" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/MEEM" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fa fa-lg fa-youtube"></i></a>
+            <a href="https://plus.google.com/112846378363910344164" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fa fa-lg fa-google-plus"></i></a>
+            <a href="https://www.linkedin.com/company/meem" class="animate" data-anim-type="zoomIn" data-anim-delay="150" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a>
+        </div>
+
+    </div><!-- end footer -->
+</footer>
+
+<a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+
+</div><!-- close page wrapper -->
+
+
+<!-- ######### JS FILES ######### -->
+<!-- get jQuery used for the theme -->
+<script type="text/javascript" src="/resources/scripts/universal/jquery.js"></script>
+<script type="text/javascript" src="/resources/scripts/style-switcher/styleselector.js"></script>
+<script type="text/javascript" src="/resources/scripts/animations/js/animations.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/ScrollToPlugin.min.js"></script>
+<script>
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    // build tween
+    var tween = TweenMax.from("#mslider", 0.5, {autoAlpha: 0, scale: 0.7});
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "a#learn_more", duration: 200, triggerHook: "onLeave"})
+            .setTween(tween)
+            .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+    // change behaviour of controller to animate scroll instead of jump
+    controller.scrollTo(function (newpos) {
+        TweenMax.to(window, 0.5, {scrollTo: {y: newpos}});
+    });
+
+    //  bind scroll to anchor links
+    $(document).on("click", "a[href^='#']", function (e) {
+        var id = $(this).attr("href");
+        if ($(id).length > 0) {
+            e.preventDefault();
+
+            // trigger scroll
+            controller.scrollTo(id);
+
+            // if supported by the browser we can even update the URL.
+            if (window.history && window.history.pushState) {
+                history.pushState("", document.title, id);
+            }
+        }
+    });
+</script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/bootstrap.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/customeUI.js"></script>
+<script type="text/javascript" src="/resources/scripts/masterslider/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/masterslider/masterslider.min.js"></script>
+<script type="text/javascript">
+    (function($) {
+        "use strict";
+        var slider = new MasterSlider();
+        // adds Arrows navigation control to the slider.
+        slider.control('arrows');
+        slider.control('bullets');
+
+        slider.setup('masterslider' , {
+            width:1400,    // slider standard width
+            height:900,   // slider standard height
+            space:0,
+            speed:27,
+            layout:'fullwidth',
+            loop:true,
+            preload:0,
+            autoplay:true,
+            view:"wave"
+        });
+    })(jQuery);
+</script>
+<script type="text/javascript" src="/resources/scripts/scrolltotop/totop.js"></script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/sticky.js"></script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/modernizr.custom.75180.js"></script>
+<script type="text/javascript" src="/resources/scripts/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/cubeportfolio/main3.js"></script>
+<script type="text/javascript" src="/resources/scripts/aninum/jquery.animateNumber.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/carouselowl/owl.carousel.js"></script>
+<script type="text/javascript" src="/resources/scripts/accordion/jquery.accordion.js"></script>
+<script type="text/javascript" src="/resources/scripts/accordion/custom.js"></script>
+<script type="text/javascript" src="/resources/scripts/universal/custom.js"></script>
+
+</body>
+</html>
