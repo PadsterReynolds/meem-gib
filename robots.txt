@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow: /
+Sitemap: http://indigo-eland.cloudvent.net/sitemap.xml
