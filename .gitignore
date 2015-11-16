@@ -5,6 +5,6 @@ _site
 Thumbs.db
 *.iml
 .jekyll-metadata
-webchat-meem.js
 webchat-form.html
 webchat-working.js
+webchat-meem.js

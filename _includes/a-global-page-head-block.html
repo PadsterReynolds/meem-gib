@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="{{ page.lang }}" class="isie ie7 oldie no-js" dir="{{ page.dir }}"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="{{ page.lang }}" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="{{ page.lang }}" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{ page.lang }}" class="no-js"> <!--<![endif]-->
+{% if page.lang == 'ar-sa' %}<html lang="ar" dir="rtl">{% elsif page.lang == 'en-us' %}<html lang="en">{% endif %}
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {% comment %} Viewport meta tag for mobile/tablet browsers {% endcomment %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>{% if page.lang == 'ar-sa' %}{{ page.title }}
+        {% elsif page.lang == 'en-us' %}{{ page.title }}{% else %}
+        meem | Digital Banking{% endif %}</title>
+    {% if page.meta-description %}
+    <meta name="description" content="{{ page.meta-description }}" />
+    {% endif %}
+    <meta name="keywords" content="{{ page.meta-keywords }}" />
+
+    {% comment %} Open Graph meta data {% endcomment %}
+    <meta property="og:title" content="{{ page.og-title }}"/>
+    <meta property="og:image" content="{{ page.og-image }}"/>
+    <meta property="og:site_name" content="{{ page.og-sitename }}"/>
+    <meta property="og:description" content="{{ page.og-description}}"/>
+
+    <meta property="og:type" content="{{ page.og-type }}"/>
+    <meta property="og:url" content="{{ page.og-url }}"/>
+    <meta property="og:audio" content="{{ page.og-audio }}"/>
+    <meta property="og:locale" content="{{ page.og-locale }}"/>
+
+    <meta property="og:locale:alternate" content="{{ page.og-title-alt }}"/>
+    <meta property="og:video" content="{{ page.og-video }}"/>
+    <meta property="xpm-enabled" content="false"/>
+
+    {% comment %} Twitter cards {% endcomment %}
+    <meta name=”twitter:card” content=”{{ page.tw-summary }}” />
+    <meta name=”twitter:title” content=”{{ page.tw-title }}” />
+    <meta name=”twitter:description” content=”{{ page.tw-description}}” />
+    <meta name=”twitter:url” content=”{{ page.tw-url }}” />
+    <meta name=”twitter:image” content=”{{ page.tw-image }}” />
+
+    {% comment %} Favicon {% endcomment %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="/resources/images/favicon.png"/>
+
+    {% comment %} fonts {% endcomment %}
+    {% if page.lang == 'ar-sa' %}{% include ar-fonts.html %}{% elsif page.lang == 'en-us' %}{% include en-fonts.html %}{% endif %}
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% comment %} ######### CSS STYLES ######### {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/reset.css" />
+    {% comment %} main site stylesheet {% endcomment %}
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/styles/style-ar.css" />
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/styles/style.css" />{% endif %}
+    {% comment %} font awesome icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/font-awesome/css/font-awesome.min.css">
+    {% comment %} simple line icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/simpleline-icons/simple-line-icons.css" media="screen" />
+    {% comment %} et linefont icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/et-linefont/etlinefont.css">
+    {% comment %} animations {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/animations/css/animations.min.css" media="all" />
+    {% comment %} responsive devices styles {% endcomment %}
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/styles/responsive-leyouts-ar.css" media="screen" />
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/styles/responsive-leyouts.css" media="screen" />{% endif %}
+    {% comment %} shortcodes {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/shortcodes.css" media="screen"  />
+    {% comment %} mega menu {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/mainmenu/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/scripts/mainmenu/demo.css">
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/scripts/mainmenu/menu-ar.css">
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/scripts/mainmenu/menu4.css">{% endif %}
+    {% comment %} MasterSlider {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/masterslider/style/masterslider.css" />
+    <link rel="stylesheet" href="/resources/scripts/masterslider/skins/default/style.css" />
+    {% comment %} cubeportfolio {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/cubeportfolio/cubeportfolio.css">
+    {% comment %} owl carousel {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.transitions.css">
+    <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.carousel.css">
+    {% comment %} accordion {% endcomment %}
+    <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
+
+</head>
+
+<body>
+
+<div class="site_wrapper">
