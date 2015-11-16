@@ -2487,7 +2487,7 @@
 .featured_section31 {
 	float: left;
 	width: 100%;
-	padding: 25px 0  20px 33%;
+	padding: 25px 0 20px 33%;
 	text-align: left;
 	background: #7F58A2;
 }
@@ -2513,7 +2513,7 @@
 	text-align: center;
 	vertical-align: middle;
 	line-height: 46px;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .featured_section31 h2 i:hover {
 	 border: 1px solid #783F95;
@@ -7681,7 +7681,7 @@ ul.footer_social_links5 {
 	width: 30px;
 	height: 2px;
 	margin-bottom: 12px;
-	background: #50c9d4;
+	background: #8052A4;
 }
 
 .title25 {

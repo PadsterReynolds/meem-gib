@@ -724,6 +724,7 @@ li.dropdown ul.dropdown-menu .yamm-content li a:hover {color: #999; }
 background: none;
 border: 0;
 /*float: right; */
+    padding-right:62%;
 }
 .navbar-default .navbar-toggle i {
 	color: #fff;

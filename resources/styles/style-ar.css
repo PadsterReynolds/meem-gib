@@ -66,7 +66,7 @@
 .content_fullwidth {
 	float: left;
 	width: 100%;
-	padding: 120px 0px 0px 0px;
+	padding: 20px 0 0 0;
 }
 
 .content_fullwidth.less {
@@ -1745,21 +1745,29 @@
 
 /* featured section 15 */
 .featured_section15 {
-	float: left;
+	float: right;
 	width: 100%;
+    padding: 60px 0;
+    background-color: #E0E1DD;
+}
+.featured_section15 h3 {
+    color: #156570;
+    text-align: center;
 }
 .featured_section15 .one_third span {
 	font-size: 30px;
 	color: #5076bb;
-	float: left;
-	margin-right: 25px;
+	float: right;
+	margin-left: 25px;
 	margin-bottom: 50px;
 	margin-top: 5px;
 }
 .featured_section15.colored .one_third span {
 	color: #9eca45;
 }
-
+.featured_section15.colored .one_third h4, .featured_section15.colored .one_third p {
+    text-align: right;
+}
 .featured_section15.two {
 	text-align: center;
 }
@@ -1949,8 +1957,8 @@
 	color: #999;
 	border: 1px solid #eee;
 	padding: 14px;
-	float: left;
-	margin-right: 30px;
+	float: right;
+	margin-left: 30px;
 }
 .featured_section18 .isboxs h5 {
 	margin-top: 5px;
@@ -2496,21 +2504,25 @@
 .featured_section31 {
 	float: left;
 	width: 100%;
-	padding: 35px 0px 30px 0px;
-	text-align: center;
+	padding: 25px 33% 20px 0;
+	text-align: right;
 	background: #7F58A2;
 }
 .featured_section31 h2 {
 	color: #fff;
 	font-weight: 600;
-	margin: 0;
+	margin: 8px 0;
 }
 .featured_section31 h2 strong {
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
+	direction: ltr;
 }
+.featured_section31 h2 strong:hover {
+     color: #999;
+ }
 .featured_section31 h2 i {
 	border: 1px solid #fff;
 	border-radius: 100%;
@@ -2520,6 +2532,11 @@
 	vertical-align: middle;
 	line-height: 46px;
 	margin-left: 20px;
+}
+.featured_section31 h2 i:hover {
+    border: 1px solid #783F95;
+    background: #fff;
+    color: #783F95;
 }
 
 /* whats next */
@@ -2604,6 +2621,9 @@
 	float: left;
 	width: 100%;
 	text-align: center;
+}
+.featured_section34 h3 {
+    color: #156570;
 }
 .featured_section34 img {
 	float: left;
@@ -6649,7 +6669,7 @@
 	background: #50c9d4;
 	border-radius: 3px;
 	text-transform: uppercase;
-	margin: -5px 0px 0 0px;
+	margin: -5px 0 0 0;
 	transition: all 0.3s ease;
 }
 .parallax_section17 a:hover {
@@ -6663,7 +6683,7 @@
 	float: left;
 	width: 100%;
 	text-align: center;
-	padding: 120px 0px 110px 0px;
+	padding: 120px 0 110px 0;
 	background: #999 url("../images/site-img159.jpg");
 	background-attachment: fixed;
 	background-origin: initial;
@@ -7678,7 +7698,7 @@ ul.footer_social_links5 {
 	width: 30px;
 	height: 2px;
 	margin-bottom: 12px;
-	background: #50c9d4;
+	background: #8052A4;
 }
 
 .title25 {
@@ -8072,8 +8092,8 @@ ul.footer_social_links5 {
 	width: 100%;
 	color: #fff;
 	text-align: left;
-	margin-top: 100px;
-	padding: 100px 0px 60px 0px;
+	margin-top: 30px;
+	padding: 200px 0 20px 0;
 	background: #999 url(../images/page-title-bg1.jpg) no-repeat center top;
 }
 .page_title1 h1 {
@@ -8081,6 +8101,7 @@ ul.footer_social_links5 {
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
+    text-align: right;
 }
 .page_title1 h1 em {
 	color: #fff;
@@ -9015,7 +9036,7 @@ ul.adsbanner-list {
 }
 
 .cforms .button {
-	float: left;
+	float: right;
 	margin-top: 10px;
 	color: #fff;
 	padding: 14px 20px;
