@@ -2487,8 +2487,8 @@
 .featured_section31 {
 	float: left;
 	width: 100%;
-	padding: 25px 0 20px 33%;
-	text-align: left;
+	padding: 25px 0 20px 0;
+	text-align: center;
 	background: #7F58A2;
 }
 .featured_section31 h2 {
@@ -2518,7 +2518,7 @@
 .featured_section31 h2 i:hover {
 	 border: 1px solid #783F95;
 	 background: #fff;
-	color: #783F95;
+	 color: #783F95;
  }
 
 /* whats next */
@@ -4165,7 +4165,6 @@
 	width: 100%;
 	padding: 30px 0 30px 0;
 	text-align: center;
-	/*background: #f3f3f3 url(../images/pattern5.jpg) repeat left top;*/
 }
 .featured_section81 .box {
 	float: left;
