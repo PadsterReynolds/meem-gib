@@ -31,10 +31,10 @@ permalink: /ar/index.html
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-
-            <img src="/resources/images/banners/meem_exit_terminal-banner.jpg"
-                 data-src="/resources/images/banners/meem_exit_terminal-banner.jpg"
-                 alt="ميم | الخدمات المصرفية الرقمي"/>
+            {% for slider in site.banners-ar %}
+            <img src="{{ slider.ar-banner-image }}"
+                 data-src="{{ slider.ar-banner-image }}"
+                 alt="{{ slider.ar-banner-alt-text }}" />
 
             <h3 class="ms-layer text1 center"
                 style="right: 0; top: 300px;"
@@ -43,7 +43,7 @@ permalink: /ar/index.html
                 data-duration="2000"
                 data-delay="500"
                 data-ease="easeOutExpo"
-            ><strong>م في كل مكان</strong></h3>
+            >{{ slider.ar-banner-main-title }}</h3>
 
             <h4 class="ms-layer text2 center"
                 style="right: 0; top: 355px;"
@@ -52,20 +52,20 @@ permalink: /ar/index.html
                 data-duration="1200"
                 data-delay="1500"
                 data-ease="easeOutExpo"
-            >فية متى ما بغيت، ووين ما كنت</h4>
+            >{{ slider.ar-banner-subtitle }}</h4>
 
             <a class="ms-layer sbut2"
                style="right: 450px; top: 500px;"
                data-type="text"
-               href="#"
+               href="{{ slider.ar-banner-button-01-url }}" target={{ slider.ar-banner-button-01-target }}
                data-effect="bottom(45)"
                data-duration="2000"
                data-delay="1500"
                data-ease="easeOutExpo"
-            >نفذ عملياتك المصر</a>
+            >{{ slider.ar-banner-button-01-text }}</a>
 
             <a class="ms-layer sbut2"
-               href="https://online.meem.sa/default.aspx" target="_self"
+               href="{{ slider.ar-banner-button-02-url }}" target={{ slider.ar-banner-button-02-target }}
                style="right: 650px; top: 500px;"
                data-type="text"
                data-effect="bottom(45)"
@@ -73,11 +73,10 @@ permalink: /ar/index.html
                data-delay="1200"
                data-ease="easeOutExpo"
                data-effect="scale(1.5,1.6)"
-               href="meem-one-pack-account-ar.html"
-            >أبغى تفاصل أكثر</a>
+            >{{ slider.ar-banner-button-02-text }}</a>
 
             <a class="ms-layer sbut2"
-               href="https://online.meem.sa/default.aspx" target="_self"
+               href="{{ slider.ar-banner-button-03-url }}" target={{ slider.ar-banner-button-03-target }}
                style="right: 850px; top: 500px;"
                data-type="text"
                data-effect="bottom(45)"
@@ -85,13 +84,8 @@ permalink: /ar/index.html
                data-delay="800"
                data-ease="easeOutExpo"
                data-effect="scale(1.5,1.6)"
-            >أبغى أفتح حسابي</a>
-
-            <!--<video data-autopause="false" data-mute="true" data-loop="true" data-fill-mode="fill">
-                <source src="https://a0.muscache.com/airbnb/static/SanFrancisco-P1-0.mp4" type="video/mp4"/>
-                <source src="https://a0.muscache.com/airbnb/static/SanFrancisco-P1-0.webm" type="video/webm"/>
-                <source src="https://a0.muscache.com/airbnb/static/SanFrancisco-P1-0.ogg" type="video/ogg"/>
-            </video>-->
+            >{{ slider.ar-banner-button-03-text }}</a>
+            {% endfor %}
         </div>{% comment %} end slide 1 {% endcomment %}
 
     </div>
@@ -229,146 +223,27 @@ permalink: /ar/index.html
 <div class="works01">
 
     <div id="grid-container" class="cbp-l-grid-fullWidth">
-
+        {% for grid in site.stores %}
         <div class="cbp-item">
-            <a href="../resources/images/branch/meem_VirtualGreeter.jpg" class="cbp-caption cbp-lightbox" data-title="شاشة الإستقبال">
+            <a href="{{ grid.store-grid-lightbox-image }}"
+               class="cbp-caption cbp-lightbox"
+               data-title="{{ grid.en-store-grid-lightbox-title }}" >
                 <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_VirtualGreeter.jpg" alt="">
+                    <img src="{{ grid.store-grid-lightbox-image }}" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap center">
                     <div class="cbp-l-caption-alignLeft">
                         <div class="cbp-l-caption-body">
-                            <h4>شاشة الإستقبال</h4>
-                            <h6>أول شي تشوفه في مراكزنا ومنافذ الخدمة هي شاشة الإستقبال واللي راح تسجل خلالها رقم جوالك أو بطاقتك وراح تفهم شاشة الإستقبال أسباب زيارتك وراح تعطيك التعليمات اللي تحتاجها.</h6>
+                            <h4>{{ grid.ar-store-grid-title }}</h4>
+                            <h6>{{ grid.en-store-grid-description }}</h6>
                         </div>
                     </div>
                 </div>
             </a>
         </div><!-- end virtual greeter -->
-
-        <div class="cbp-item">
-            <a href="../resources/images/branch/meem_interactive_table.jpg" class="cbp-caption cbp-lightbox" data-title="الطاولة التفاعلية">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_interactive_table.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h4>الطاولة التفاعلية</h4>
-                            <h6>في الوقت القليل اللي راح تستنى فيه موظف خدمة العملاء، نشجع إنك تجرب تتفاعل مع وحدة من الطاولات التفاعلية الموجودة في المراكز الرئيسية. أحنا متأكدين إنك ما راح تمل بالإنتظار، خاصة إذا بديت تلعب لعبة الهوكي أو لعبة الصياد مع شخص ثاني في المركز!</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end interactive table -->
-
-        <div class="cbp-item hidden-md hidden-sm">
-            <a href="../resources/images/branch/meem_assisted_service_table.jpg" class="cbp-caption cbp-lightbox" data-title="جهاز خدمة العملاء">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_assisted_service_table.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h4>جهاز خدمة العملاء</h4>
-                            <h6>سواءً كانت زيارتك لنا لأجل إكمال إجراءات فتح الحساب أو لأي خدمة ثانية، راح تتلقى خدمتك في غرفة تحمي خصوصيتك بشفافية تامة بإستخدام شاشة أفقية راح تلاقيها بينك وبين موظف خدمة العملاء.</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end assisted services table -->
-
-        <div class="cbp-item">
-            <a href="../resources/images/branch/meem_self_service_terminal.jpg" class="cbp-caption cbp-lightbox" data-title="جهاز الخدمة الذاتية">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_self_service_terminal.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h4>جهاز الخدمة الذاتية</h4>
-                            <h6>من الأشياء اللي راح تلاحظها في زيارتك لمراكزنا هو أختفاء الصرافين وإختفاء الحاجة بإنك تتكلم مع الموظفين عبر الزجاج.
-                                من خلال أجهزة الخدمة الذاتية الموجودة في كل مراكزنا ومنافذ الخدمة راح تقدر تنفذ كل عملياتك المصرفية بشكل عملي وبسيط.</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end item -->
-
-
-        <div class="cbp-item">
-            <a href="../resources/images/branch/meem_main_store.jpg" class="cbp-caption cbp-lightbox" data-title="المراكز الرئيسية">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_main_store.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h4>المراكز الرئيسية</h4>
-                            <h6>حاليا عندنا 3 مراكز رئيسية تقدر تزورها. مركز في الرياض، ومركز في جدة ومركز في الظهران.
-                                كل مراكزنا مفتوحة وتحت أمرك طوال أيام الأسبوع.</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end main store -->
-
-        <div class="cbp-item hidden-md hidden-sm">
-            <a href="../resources/images/branch/meem_nano_store.jpg" class="cbp-caption cbp-lightbox" data-title="منافذ الخدمة">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_nano_store.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h4>منافذ الخدمة</h4>
-                            <h6>حاليا عندنا 9 منافذ خدمة منتشرة في الرياض، وجدة، والدمام والخبر، كلهم تحت أمرك وفي خدمتك.
-                                والشيء الجميل واللي يميز منافذ خدمة م إنك تقدر تلاقيهم في المجمعات التجارية ومحلات إكسترا. مع العلم إنهم مفتوحين ليل ونهار طوال أيام الأسبوع!</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end nano store -->
-
-        <div class="cbp-item">
-            <a href="hassets/images/branch/meem_self_atm_service.jpg" class="cbp-caption cbp-lightbox" data-title="الصراف">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_self_atm_service.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h3>الصراف</h3>
-                            <h6>تقدر تلاقي أجهزة الصراف الآلي في مراكزنا، كلهم يخدمونك 24 ساعة طوال أيام الأسبوع.</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end atms -->
-
-        <div class="cbp-item">
-            <a href="../resources/images/branch/meem_exit_terminal.jpg" class="cbp-caption cbp-lightbox" data-title="شاشة تقييم الخدمة">
-                <div class="cbp-caption-defaultWrap">
-                    <img src="../resources/images/branch/meem_exit_terminal.jpg" alt="">
-                </div>
-                <div class="cbp-caption-activeWrap center">
-                    <div class="cbp-l-caption-alignLeft">
-                        <div class="cbp-l-caption-body">
-                            <h3>شاشة تقييم الخدمة</h3>
-                            <h6>عند خروجك من مراكز ومنافذ خدمة م، راح تلاقي شاشة قريبة عند المخرج تقدر من خلالها إن تشاركنا فيها رأيك عن الخدمة اللي تلقيتها.</h6>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div><!-- end exit terminal -->
+        {% endfor %}
 
     </div>
-
-    <!--<div class="cbp-l-loadMore-text">
-        <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
-    </div>-->
-
-
 </div><!-- end works section -->
 
 <div class="clearfix margin_top10"></div>
