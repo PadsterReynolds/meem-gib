@@ -19,7 +19,18 @@ defaults:
       layout: "default-en" # overrides previous default layout
       author: ""
 
+collections:
+  - banners-ar
+  - banners-en
+  - banners-video
+  - stores
+
 url:
+
+# Analytics ID's
+google_analytics_id:
+google_tag_manager_id:
+bing_id:
 
 sass:
   sass_dir: _sass
