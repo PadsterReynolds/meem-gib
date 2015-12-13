@@ -26,8 +26,8 @@
 .ms-skin-default .ms-nav-next,
 .ms-skin-default .ms-nav-prev {
 	width: 30px;
-	background: url(light-skin-1.png);
-	background-position: -89px -26px;
+/*	background: url(light-skin-1.png);
+	background-position: -89px -26px; */
 	height: 40px;
 	cursor: pointer;
 	top: 50%;
@@ -47,7 +47,7 @@
 .ms-skin-default .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(light-skin-1.png) no-repeat;
+/*	background: url(light-skin-1.png) no-repeat; */
 	margin: 4px;
 	background-position: -34px -117px;
 }
