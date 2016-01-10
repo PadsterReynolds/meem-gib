@@ -35,9 +35,12 @@ social-image-ar: /resources/images/twitter/seo_twitter_cover/slide2.png
 # Analytics ID's
 uat_google_analytics_id: UA-72224806-2
 uat_google_tag_manager_id: GTM-NCWW46
+uat_heap_analytics_id: 1475982962
 
 prod_google_analytics_id: UA-72224806-1
 prod_google_tag_manager_id: GTM-5XXDXR
+prod_heap_analytics_id: 2909756379
+
 
 bing_id: CC60B461E8EA9A7B8D2C2DD9132730E9
 
