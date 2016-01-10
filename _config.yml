@@ -25,7 +25,9 @@ collections:
   - banners-video
   - stores
 
-url:
+url: http://www.meem.com
+social-sitename: Meem Personal Banking
+
 
 # Analytics ID's
 google_analytics_id:
