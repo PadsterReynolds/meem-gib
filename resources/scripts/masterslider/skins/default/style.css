@@ -151,12 +151,9 @@
 	padding: 10px;
 	background: silver;
 	background: rgba(240, 240, 240, 0.88);
-	text-shadow: 0 1px 0px white;
+	text-shadow: 0 1px 0 white;
 	margin-left: -1px;
 }
-
-
-
 
 
 /* slider text styles */
@@ -609,9 +606,6 @@
 	width: 100%;
 	text-align: center;
 }
-
-
-
 
 
 /* slider button styles */
@@ -1067,16 +1061,11 @@
 .ms-layer.sbox7 {
 	width: 35%;
 	height: 210px;
-	padding: 0px;
+	padding: 0;
 	background: rgba(255, 255, 255, 0.9);
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 }
-
-
-
-
-
 
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 
@@ -1294,7 +1283,7 @@
 .ms-layer.sbox2 span,
 .ms-layer.sbox3 span {
 	font-size: 21px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .ms-layer.sbox1 strong,
@@ -1327,7 +1316,7 @@
 .ms-layer.sbox6 span {
 	font-size: 18px;
 	margin-right: 7px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .ms-layer.sbox6 strong {
 	font-size: 9px;
@@ -1378,7 +1367,7 @@
 .ms-layer.sbox2 span,
 .ms-layer.sbox3 span {
 	font-size: 14px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .ms-layer.sbox1 strong,
@@ -1417,7 +1406,7 @@
 .ms-layer.sbox6 span {
 	font-size: 12px;
 	margin-right: 5px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 .ms-layer.sbox6 strong {
 	font-size: 7px;
@@ -1451,14 +1440,6 @@
 
 }
 
-
-
-
-
-
-
-
-
 /* retina */
 @media 
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -1474,7 +1455,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-default .ms-nav-next,
 	.ms-skin-default .ms-nav-prev,
 	.ms-skin-default .ms-bullet{
-		background-image:url(light-skin-1-retina.png);
+		/*background-image:url(light-skin-1-retina.png);*/
 		background-size: 152px 225px;
 	}
 	
