@@ -18,11 +18,11 @@
 
     {% comment %} Open Graph meta data {% endcomment %}
     <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:image" content="{{ page.social-image }}"/>
-    <meta property="og:site_name" content="{{ site.social-sitename }}"/>
+    <meta property="og:image" content="{% if page.lang == 'ar-sa' %}{{ site.social-image-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-image-en }}{% endif %}"/>
+    <meta property="og:site_name" content="{% if page.lang == 'ar-sa' %}{{ site.social-sitename-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-sitename-en }}{% endif %}"/>
     <meta property="og:description" content="{{ page.meta-description}}"/>
 
-    <meta property="og:type" content=""/>
+    <meta property="og:type" content="finance"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     <meta property="og:audio" content="{{ page.social-audio }}"/>
     <meta property="og:locale" content="{% if page.lang == 'ar-sa' %}ar_SA{% elsif page.lang == 'en-us' %}en_US{% endif %}"/>
@@ -30,14 +30,13 @@
     <meta property="og:locale:alternate" content="{% if page.lang == 'ar-sa' %}en_US{% elsif page.lang == 'en-us' %}ar_SA{% endif %}"/>
     <meta property="og:video" content="{{ page.social-video }}"/>
     <meta property="xpm-enabled" content="false"/>
-
-    {% comment %} Twitter cards {% endcomment %}
-    <meta name=”twitter:card” content=”{{ page.tw-summary }}” />
-    <meta name=”twitter:title” content=”meem | {{ page.title }}” />
-    <meta name=”twitter:description” content=”{{ page.meta-description}}” />
-    <meta name=”twitter:url” content=”{{ site.url }}{{ page.url }}” />
-    <meta name=”twitter:image” content=”{{ page.social-image }}” />
-
+    {% for item in page.social-media %}
+    <meta name="twitter:card" content="{{ page.tw-summary }}" />
+    <meta name="twitter:title" content="{{ page.tw-title }}" />
+    <meta name="twitter:description" content="{{ page.meta-description}}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:image" content="{% if page.lang == 'ar-sa' %}{{ site.social-image-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-image-en }}{% endif %}" />
+    {% endfor %}
     {% comment %} Favicon {% endcomment %}
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="shortcut icon" type="image/png" href="/resources/images/favicon.png"/>
