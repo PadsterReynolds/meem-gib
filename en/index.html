@@ -1,28 +1,63 @@
 ---
 lang: en-us
 layout: homepage-en
-title: meem | Digital Banking
-meta-description: This is a total of 150 (one hundred and fifty) characters, spacing and punctuation.  This is the optimal paragraph size for ideal search optimisation.
-meta-keywords: keywords
-og-title:
-og-description:
-og-image:
-og-sitename:
-og-type:
-og-url:
-og-audio:
-og-locale:
-og-locale-alt:
-og-video:
-tw-summary:
-tw-title:
-tw-description:
-tw-url:
-tw-image:
-permalink: /en/index.html
----
-{% comment %} Slider  ======================================= {% endcomment %}
+title: Digital Banking
+meta-description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
+social-audio:
+social-video:
 
+social-media:
+  - tw-summary: Meem by GIB is a self served bank by Gulf International Bank
+    tw-title: meem digital personal banking
+
+homepage-banner-en:
+  - en-banner-image: /resources/images/banners/meem_exit_terminal-banner.jpg
+    en-banner-alt-text: meem | Digital Personal Banking
+    en-banner-main-title: <strong>Welcome to Meem</strong>
+    en-banner-subtitle: Self Service Banking
+    en-banner-button-01-url: "#learn_more"
+    en-banner-button-01-target:
+    en-banner-button-01-text: Learn More
+    en-banner-button-02-url: https://online.meem.sa/default.aspx
+    en-banner-button-02-target: "_self"
+    en-banner-button-02-text: Login
+    en-banner-button-03-url: https://online.meem.sa/default.aspx
+    en-banner-button-03-target: "_self"
+    en-banner-button-03-text: Apply Now!
+
+usp-block1:
+  - feature-block1:
+    feature-class: fa-hand-o-right
+    feature-title: Self Service
+    feature-text: Through our self-service terminals you can withdraw up to SAR 50K and make unlimited deposits
+  - feature-block2:
+    feature-class: fa-briefcase
+    feature-title: Applying for products
+    feature-text: Through our innovative app and web banking applying for products is only few clicks away
+  - feature-block3:
+    feature-class: fa-dollar
+    feature-title: Currencies Card
+    feature-text: A dynamic Visa debit card which carries up to four foreign currencies with 8 currencies to choose from
+
+usp-block2:
+  - feature-block4:
+    feature-class: fa-clock-o
+    feature-title: Open till Midnight
+    feature-text: For your convenience, our stores are open 7 days a week from 9:30 to 23:00
+  - feature-block5:
+    feature-class: fa-money
+    feature-title: Personal Finance &amp; Credit Cards
+    feature-text: pply and we will guarantee you getting a response within 5 minutes 24/7 without visiting the store
+  - feature-block6:
+    feature-class: fa-globe
+    feature-title: Digital Banking
+    feature-text: meem is the first Sharia compliant digital bank in the world
+
+permalink: /en/index.html
+
+---
+
+{% comment %} Slider  ======================================= {% endcomment %}
 <!-- masterslider -->
 <div id="mslider" class="slidermar1">
     <div class="master-slider ms-skin-default" id="masterslider">
@@ -30,45 +65,45 @@ permalink: /en/index.html
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% for banner in site.banners-en %}
-            <img src="{{ banner.banner-image }}" data-src="{{ banner.banner-image }}" alt="{{ banner.en-banner-alt-text }}" class="editable" />
+            {% for item in page.homepage-banner-en %}
+            <img src="{{ item.en-banner-image }}" data-src="{{ item.en-banner-image }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
 
             <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
-                {{ banner.en-banner-main-title }}
+                {{ item.en-banner-main-title }}
             </h3>
 
             <h4 class="ms-layer text2 center" style="left: 0; top: 355px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="1000" data-ease="easeOutExpo">
-                {{ banner.en-banner-subtitle }}
+                {{ item.en-banner-subtitle }}
             </h4>
 
-            <a class="ms-layer sbut2" id="learn" href="{{ en-banner-button-01-url }}" target={{ en-banner-button-01-target }}
+            <a class="ms-layer sbut2" id="learn" href="{{ item.en-banner-button-01-url }}" target="{{ item.en-banner-button-01-target }}"
                style="left: 450px; top: 500px;"
                data-type="text"
                data-delay="400"
                data-ease="easeOutExpo"
                data-duration="1200"
                data-effect="scale(1.5,1.6)">
-               {{ en-banner-button-01-text }}
+               {{ item.en-banner-button-01-text }}
             </a>
 
-            <a class="ms-layer sbut2" href="{{ en-banner-button-02-url }}" target={{ en-banner-button-02-target }}
+            <a class="ms-layer sbut2" href="{{ item.en-banner-button-02-url }}" target="{{ item.en-banner-button-02-target }}"
                style="left: 650px; top: 500px;"
                data-type="text"
                data-delay="800"
                data-ease="easeOutExpo"
                data-duration="1200"
                data-effect="scale(1.5,1.6)">
-                {{ en-banner-button-02-text }}
+                {{ item.en-banner-button-02-text }}
             </a>
 
-            <a class="ms-layer sbut2" href="{{ en-banner-button-03-url }}" target={{ en-banner-button-03-target }}
+            <a class="ms-layer sbut2" href="{{ item.en-banner-button-03-url }}" target="{{ item.en-banner-button-03-target }}"
                style="left: 800px; top: 500px;"
                data-type="text"
                data-delay="1200"
                data-ease="easeOutExpo"
                data-duration="1200"
                data-effect="scale(1.5,1.6)">
-                {{ en-banner-button-03-text }}
+                {{ item.en-banner-button-03-text }}
             </a>
             {% endfor %}
         </div> <!-- end slide 1 -->
@@ -77,36 +112,28 @@ permalink: /en/index.html
 </div><!-- end of masterslider -->
 
 <div class="clearfix"></div>
-
+<a id="learn_more"></a>
 <!-- Why choose block -->
 <div class="featured_section31">
     <div class="container">
         <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">Why choose Meem?</h2>
     </div>
-</div><!-- end why choose block -->
+</div><!-- end/ why choose block -->
 
 <div class="clearfix"></div>
 
 <!-- USP block -->
 <div class="featured_section81 colored">
     <div class="container animate" data-anim-type="fadeIn" data-anim-delay="300">
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-hand-o-right"></span></p><h4>Self Service</h4><p>Through our self-service terminals you can withdraw up to SAR 50K and make unlimited deposits</p></div><!-- end section -->
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-briefcase"></span></p><h4>Applying for products</h4><p>Through our innovative app and web banking applying for products is only few clicks away</p></div><!-- end section -->
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-dollar"></span></p><h4>Currencies Card</h4><p>A dynamic Visa debit card which carries up to four foreign currencies with 8 currencies to choose from</p></div><!-- end section -->
-
+        {% for item in page.usp-block1 %}
+        <div class="box"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
+        {% endfor %}
         <div class="clearfix"></div>
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-clock-o"></span></p><h4>Open till Midnight</h4><p>For your convenience, our stores are open 7 days a week from 9:30 to 23:00</p></div><!-- end section -->
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-money"></span></p><h4>Personal Finance &amp; Credit Cards</h4><p>Apply and we will guarantee you getting a response within 5 minutes 24/7 without visiting the store</p></div><!-- end section -->
-
-        <div class="box editable"><p><span aria-hidden="true" class="fa fa-globe"></span></p><h4>Digital Banking</h4><p>meem is the first Sharia compliant digital bank in the world</p></div><!-- end section -->
-
+        {% for item in page.usp-block2 %}
+        <div class="box"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
+        {% endfor %}
     </div>
-</div><!-- end featured section 81 -->
+</div><!-- /end USP block -->
 
 <!-- awesome banking -->
 <div class="featured_section27">
@@ -199,7 +226,7 @@ permalink: /en/index.html
 <div class="featured_section26">
     <div class="container">
 
-        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+        <div class="animate" data-anim-type="fadeIn" data-anim-delay="100">
 
             <i class="fa fa-phone"></i>
 
@@ -208,7 +235,7 @@ permalink: /en/index.html
                 <h5 style="font-size:14px;" class="editable">Our customer care team is available to receive your calls 24 hours a day, 7 days a week.</h5>
             </div>
 
-        </div><!-- end section -->
+        </div><!-- end section
 
         <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
 
@@ -219,7 +246,7 @@ permalink: /en/index.html
                 <h5 style="font-size:14px;" class="editable">Chat live with our customer care team regarding any queries you may have.</h5>
             </div>
 
-        </div><!-- end section -->
+        </div> --><!-- end section
 
         <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
 
@@ -230,7 +257,7 @@ permalink: /en/index.html
                 <h5 style="font-size:14px;" class="editable">We have 12 stores scattered around Riyadh, Jeddah, Dammam, Khobar and Dhahran.</h5>
             </div>
 
-        </div><!-- end section -->
+        </div> --><!-- end section -->
 
     </div>
 </div><!-- end featured section 26 -->
