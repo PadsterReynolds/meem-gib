@@ -8747,7 +8747,7 @@ ul.footer_social_links5 {
     text-align: left;
     margin-top: 30px;
     padding: 200px 0 20px 0;
-    background: #999 url(../images/page-title-bg2.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-contact-us.jpg) no-repeat center top;
 }
 
 .page_title1 h1 {
@@ -8767,31 +8767,31 @@ ul.footer_social_links5 {
 }
 
 .page_title1.sty2 {
-    background: #999 url(../images/page-title-bg3.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-why-us.jpg) no-repeat center top;
 }
 
 .page_title1.sty3 {
-    background: #999 url(../images/page-title-bg4.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-products-services.jpg) no-repeat center top;
 }
 
 .page_title1.sty4 {
-    background: #999 url(../images/page-title-bg5.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-products-services.jpg) no-repeat center top;
 }
 
 .page_title1.sty5 {
-    background: #999 url(../images/page-title-bg6.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-one-pack-account.jpg) no-repeat center top;
 }
 
 .page_title1.sty6 {
-    background: #999 url(../images/page-title-bg7.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-currencies-card.jpg) no-repeat center top;
 }
 
 .page_title1.sty7 {
-    background: #999 url(../images/page-title-bg8.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-murabaha-deposit.jpg) no-repeat center top;
 }
 
 .page_title1.sty8 {
-    background: #999 url(../images/page-title-bg9.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-customer-care.jpg) no-repeat center top;
 }
 
 .page_title1.sty9 {
@@ -8799,9 +8799,12 @@ ul.footer_social_links5 {
 }
 
 .page_title1.stybb {
-    background: #999 url(../images/banners/meem-Board-of-Directors-and-CEO.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-about-us.jpg) no-repeat center top;
 }
 
+.page_title1.stycc {
+    background: #999 url(../images/banners/meem-Board-of-Directors-and-CEO.jpg) no-repeat center top;
+}
 /*.page_title2 {
 	float: left;
 	width: 100%;
