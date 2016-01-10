@@ -2,24 +2,59 @@
 lang: ar-sa
 direction: rtl
 layout: homepage-ar
-title: 'م" | للخدمات المصرفية الذاتية"'
-meta-description: 'This is a total of 150 (one hundred and fifty) characters, spacing and punctuation.  This is the optimal paragraph size for ideal search optimisation.'
-meta-keywords: keywords
-og-title: ''
-og-description: ''
-og-image: ''
-og-sitename: ''
-og-type: ''
-og-url: ''
-og-audio: ''
-og-locale: ''
-og-locale-alt: ''
-og-video: ''
-tw-summary: ''
-tw-title: ''
-tw-description: ''
-tw-url: ''
-tw-image: ''
+title: م من بنك الخليج الدولي | خدمات مصرفية ذاتية
+meta-description: م من بنك الخليج الدولي هو بنك للخدمة الذاتية ومجموعة خدمات مصرفية مقدمة من بنك الخليج الدولي في المملكة العربية السعودية
+social-audio:
+social-video:
+
+social-media:
+  - tw-summary: ميم من قبل بنك الخليج الدولي هو بنك خدم الذاتي من قبل بنك الخليج الدولي
+    tw-title: الخدمات المصرفية الشخصية ميم
+
+homepage-banner-ar:
+  - Slide1:
+    ar-banner-image: /resources/images/banners/meem_exit_terminal-banner.jpg
+    ar-banner-alt-text: ميم | الخدمات المصرفية الر
+    ar-banner-main-title: <strong>م في كل مكان</strong>
+    ar-banner-subtitle: فية متى ما بغيت، ووين ما كنت
+    ar-banner-button-01-url: "#"
+    ar-banner-button-01-target:
+    ar-banner-button-01-text: نفذ عملياتك المصر
+    ar-banner-button-02-url: https://online.meem.sa/default.aspx
+    ar-banner-button-02-target: "_self"
+    ar-banner-button-02-text: أبغى تفاصل أكثر
+    ar-banner-button-03-url: https://online.meem.sa/default.aspx
+    ar-banner-button-03-target: "_self"
+    ar-banner-button-03-text: أبغى أفتح حسابي
+
+usp-block1:
+  - feature-block1:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block2:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block3:
+    feature-class:
+    feature-title:
+    feature-text:
+
+usp-block2:
+  - feature-block4:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block5:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block6:
+    feature-class:
+    feature-title:
+    feature-text:
+
 permalink: /ar/index.html
 ---
 {%comment %} Slider======================================= {% endcomment %}
@@ -71,13 +106,13 @@ permalink: /ar/index.html
 </div>{% comment %} end of masterslider {% endcomment %}
 
 <div class="clearfix"></div>
-
+<a id="learn_more"></a>
 <!-- Why choose block -->
 <div class="featured_section31">
     <div class="container">
         <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">ليش "م"؟</h2>
     </div>
-</div><!-- end why choose block -->
+</div><!-- /end why choose block -->
 
 <div class="clearfix"></div>
 
@@ -136,7 +171,7 @@ permalink: /ar/index.html
         </div><!-- end section -->
 
     </div>
-</div><!-- /end featured section -->
+</div><!-- /end USP block -->
 
 <!-- awesome banking -->
 <div class="featured_section27">
@@ -187,7 +222,7 @@ permalink: /ar/index.html
         </div><!-- end section -->
 
     </div>
-</div><!-- /end featured section -->
+</div><!-- /end awesome banking -->
 
 <div class="clearfix margin_top8"></div>
 
@@ -204,7 +239,7 @@ permalink: /ar/index.html
     <div id="grid-container" class="cbp-l-grid-fullWidth">
         {% for grid in site.stores %}
         <div class="cbp-item">
-            <a href="{{ grid.store-grid-lightbox-image }}" class="cbp-caption cbp-lightbox" data-title="{{ grid.en-store-grid-lightbox-title }}">
+            <a href="{{ grid.store-grid-lightbox-image }}" class="cbp-caption cbp-lightbox" data-title="{{ grid.ar-store-grid-lightbox-title }}">
                 <div class="cbp-caption-defaultWrap">
                     <img src="{{ grid.store-grid-lightbox-image }}" alt="" />
                 </div>
@@ -212,16 +247,16 @@ permalink: /ar/index.html
                     <div class="cbp-l-caption-alignLeft">
                         <div class="cbp-l-caption-body">
                             <h4>{{ grid.ar-store-grid-title }}</h4>
-                            <h6>{{ grid.en-store-grid-description }}</h6>
+                            <h6>{{ grid.ar-store-grid-description }}</h6>
                         </div>
                     </div>
                 </div>
             </a>
-        </div><!-- end virtual greeter -->
+        </div><!-- end our stores grid -->
         {% endfor %}
 
     </div>
-</div><!-- end works section -->
+</div><!-- /end stores grid -->
 
 <div class="clearfix margin_top10"></div>
 
@@ -229,7 +264,7 @@ permalink: /ar/index.html
 <div class="featured_section26">
     <div class="container">
 
-        <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+        <!-- <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
 
             <div class="cont">
                 <h3>زور أقرب مركز م</h3>
@@ -239,9 +274,9 @@ permalink: /ar/index.html
 
             <i class="fa fa-map-marker"></i>
 
-        </div><!-- end section -->
+        </div>end section -->
 
-        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+        <!-- <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
 
             <div class="cont">
                 <h3>تواصل معنا عن طريق الشات</h3>
@@ -251,11 +286,11 @@ permalink: /ar/index.html
 
             <i class="fa fa-comments"></i>
 
-        </div><!-- end section -->
+        </div>end section -->
 
-        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100" style="float:right">
 
-            <div class="cont">
+            <div class="cont editable">
                 <h3>كلمنا على 920026336</h3>
                 <h5>تبي نتكلم عن خدماتنا ومنتجاتنا؟</h5>
                 <p class="margin_top1">فريق رعاية العملاء في م موجود وحاضر وتحت الخدمة 24 ساعة طوال أيام الأسبوع.ع</p>
@@ -266,7 +301,7 @@ permalink: /ar/index.html
         </div><!-- end section -->
 
     </div>
-</div><!-- end featured section 26 -->
+</div><!-- /end links block -->
 
 <div class="clearfix margin_top10"></div>
 
@@ -275,7 +310,7 @@ permalink: /ar/index.html
     <div class="container">
         <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">حساب "م"</h2>
     </div>
-</div><!-- end contact number block -->
+</div><!-- /end pack title -->
 
 <div class="clearfix margin_top5"></div>
 
@@ -332,7 +367,7 @@ permalink: /ar/index.html
         </div><!-- end section -->
 
     </div>
-</div><!-- end featured section 28 -->
+</div><!-- /end one pack info block -->
 
 <div class="clearfix margin_top4"></div>
 
@@ -379,6 +414,6 @@ permalink: /ar/index.html
         </div><!-- end currency -->
 
     </div>
-</div><!-- end parallax section 4 -->
+</div><!-- /end other products & services -->
 
 <div class="clearfix margin_top4"></div>

@@ -25,7 +25,12 @@ collections:
   - banners-video
   - stores
 
-url:
+#url: http://www.meem.com
+social-sitename-en: Meem Personal Banking
+social-sitename-ar: الخدمات المصرفية الشخصية ميم
+social-image-en: /resources/images/twitter/seo_twitter_cover/slide1.png
+social-image-ar: /resources/images/twitter/seo_twitter_cover/slide2.png
+
 
 # Analytics ID's
 google_analytics_id:

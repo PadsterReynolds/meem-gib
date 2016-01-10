@@ -6,7 +6,7 @@ ar-banner-alt-text: ميم | الخدمات المصرفية الر
 ar-banner-main-title: <strong>م في كل مكان</strong>
 ar-banner-subtitle: فية متى ما بغيت، ووين ما كنت
 
-ar-banner-button-01-url: "#"
+ar-banner-button-01-url: "#learn_more"
 ar-banner-button-01-target: 
 ar-banner-button-01-text: نفذ عملياتك المصر
 
