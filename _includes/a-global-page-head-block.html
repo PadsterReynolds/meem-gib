@@ -15,6 +15,8 @@
     {% if page.meta-description %}
     <meta name="description" content="{{ page.meta-description }}" />
     {% endif %}
+    {% comment %} Alternative Language Content {% endcomment %}
+    <link rel="alternate" href="{{ site.prod_url }}{{ page.alt_url }}" hreflang="{{ page.lang}}" />
 
     {% comment %} Open Graph meta data {% endcomment %}
     <meta property="og:title" content="{{ page.title }}"/>
