@@ -1,2 +1,4 @@
-User-agent: * 
+Sitemap: http://www.meem.com/sitemap.xml
+
+User-agent: *
 Disallow:
