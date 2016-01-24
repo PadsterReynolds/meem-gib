@@ -18,7 +18,7 @@ homepage-banner-ar:
     ar-banner-alt-text: ميم | الخدمات المصرفية الر
     ar-banner-main-title: <strong>م في كل مكان</strong>
     ar-banner-subtitle: فية متى ما بغيت، ووين ما كنت
-    ar-banner-button-01-url: "#"
+    ar-banner-button-01-url: "#learn_more"
     ar-banner-button-01-target:
     ar-banner-button-01-text: نفذ عملياتك المصر
     ar-banner-button-02-url: https://online.meem.sa/default.aspx
@@ -74,15 +74,17 @@ permalink: /ar/index.html
 
             <h4 class="ms-layer text2 center" style="right: 0; top: 355px;" data-type="text" data-effect="top(45)" data-duration="1200" data-delay="1500" data-ease="easeOutExpo">{{ slider.ar-banner-subtitle }}</h4>
 
-            <a class="ms-layer sbut2" style="right: 450px; top: 500px;" data-type="text" href="{{ slider.ar-banner-button-01-url }}" target={{ slider.ar-banner-button-01-target }}
+            <a class="ms-layer sbut2" style="right: 450px; top: 500px;" data-type="text" href="{{ slider.ar-banner-button-01-url }}" target="{{ slider.ar-banner-button-01-target }}"
+               id="learn_more_button"
                data-effect="bottom(45)"
                data-duration="2000"
                data-delay="1500"
                data-ease="easeOutExpo"
             >{{ slider.ar-banner-button-01-text }}</a>
 
-            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-02-url }}" target={{ slider.ar-banner-button-02-target }}
+            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-02-url }}" target="{{ slider.ar-banner-button-02-target }}"
                style="right: 650px; top: 500px;"
+               id="login_button"
                data-type="text"
                data-effect="bottom(45)"
                data-duration="1200"
@@ -91,8 +93,9 @@ permalink: /ar/index.html
                data-effect="scale(1.5,1.6)"
             >{{ slider.ar-banner-button-02-text }}</a>
 
-            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-03-url }}" target={{ slider.ar-banner-button-03-target }}
+            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-03-url }}" target="{{ slider.ar-banner-button-03-target }}"
                style="right: 850px; top: 500px;"
+               id="apply_now_button"
                data-type="text"
                data-effect="bottom(45)"
                data-duration="1200"
@@ -116,6 +119,7 @@ permalink: /ar/index.html
 </div><!-- /end why choose block -->
 
 <div class="clearfix"></div>
+<a id="learn_more"></a>
 
 <!-- USP block -->
 <div class="featured_section81 colored">
