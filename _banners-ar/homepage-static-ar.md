@@ -2,7 +2,7 @@
 ar-banner-image: /resources/images/banners/meem_exit_terminal-banner.jpg
 ar-banner-alt-text: 'م | خدمات مصرفية ذاتية'
 ar-banner-main-title: '<strong> حياك الله في موقع م </strong>'
-ar-banner-subtitle: متى ما بغيت، ووين ما كنت.. لأنك تستاهل أكثر
+ar-banner-subtitle: متى ما بغيت، وين ما كنت..
 ar-banner-button-01-url: '#learn_more'
 ar-banner-button-01-target: ''
 ar-banner-button-01-text: سجل دخول لحسابك
