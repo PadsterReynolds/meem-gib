@@ -1,0 +1,75 @@
+---
+lang: ar-sa
+direction: rtl
+layout: "default-ar"
+
+title: ""
+meta-long_description: ""
+social-audio: ""
+social-video: ""
+
+social-media:
+- tw-summary: ""
+tw-title: ""
+
+offer-info-blocks:
+  - offer-info-title: "Offer Heading Title"
+    offer-info-long_description: "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting remaining essentially unchanged. It was popularised in the with the release.<br /><br />Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions  combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. default model text, and a search for 'lorem ipsum' will uncover many web sites The generated Lorem Ipsum is therefore always."
+    - offer-info-panel-heading: "30 Diffrent Websites"
+      offer-info-panel-long_description: "Discover the undoubtable source Ipsum comes from sections."
+      offer-info-panel-number: "one"
+      offer-info-panel-icon: "fa-trophy"
+    - offer-info-panel-heading: "Fast Downlaod Site"
+      offer-info-panel-long_description: "Discover the undoubtable source Ipsum comes from sections."
+      offer-info-panel-number: "two"
+      offer-info-panel-icon: "fa-leaf"
+    - offer-info-panel-heading: "Creative Sections"
+      offer-info-panel-long_description: "Discover the undoubtable source Ipsum comes from sections."
+      offer-info-panel-number: "three"
+      offer-info-panel-icon: "fa-umbrella"
+    - offer-info-panel-heading: "Awesome Features"
+      offer-info-panel-long_description: "Discover the undoubtable source Ipsum comes from sections."
+      offer-info-panel-number: "four"
+      offer-info-panel-icon: "fa-cog"
+
+
+permalink: "/en/partners/new-filename.html" # replace new filename with product name (no spaces between words - use hyphens)
+alt_url: "/ar/partners/new-filename.html" # replace new filename with product name (no spaces between words - use hyphens)
+
+---
+{% comment %} page title {% endcomment %}
+<div class="page_title1 stybb">
+    <div class="container">
+        <h1 class="editable">عن "م"<em>"م"</em></h1>
+    </div>
+</div>{% comment %} end page title {% endcomment %}
+
+{% comment %} offer information block  {% endcomment %}
+
+<div class="featured_section69">
+    <div class="container">
+
+        <div class="one_half">{% comment %} start left section {% endcomment %}
+            {% for feature in page.offer-info-blocks %}
+            <h2 class="roboto caps">{{ feature.offer-info-title }}</h2>
+            <div class="hsmline6"></div>
+            <br />
+            <p class="bigtfont gray">{{ feature.offer-info-long_description }}</p>
+
+        </div>{% comment %} end left section {% endcomment %}
+
+        <div class="one_half last">{% comment %} start right section {% endcomment %}
+
+            <div class="box {{ feature.offer-info-panel-number }} animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                <i class="fa {{ feature.offer-info-panel-icon }}"></i>
+                <h4 class="roboto">{{ feature.offer-info-panel-heading }}</h4>
+                <p>{{ feature.offer-info-panel-long_description }}</p>
+            </div><!-- end box -->
+
+        </div>{% comment %} end right section {% endcomment %}
+
+    </div>
+</div>{% comment %} end featured section {% endcomment %}
+
+<div class="clearfix margin_top12"></div>
+{% comment %} end offer information {% endcomment %}
