@@ -1,15 +1,15 @@
-
 {% comment %} Live Chat link block {% endcomment %}
+{% for contact in site.data.contact %} {% if contact.lang == "ar" %}
 <div class="featured_section31">
     <div class="container">
         <div class="one_half">
-            <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="600"><a href="mailto:q@meem.com"><i class="fa fa-envelope-o"></i>راسلنا على&nbsp;<strong>q@meem.com</strong></a></h2>
+            <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="600"><a href="mailto:{{ contact.email }}"><i class="fa fa-envelope-o"></i>{{ contact.email-label }}<strong>{{ contact.email }}</strong></a></h2>
         </div>
 
         <div class="one_half last">
-            <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="400"><i class="fa fa-phone"></i> تواصل معنا على&nbsp;<strong>920026336</strong></h2>
+            <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="400"><i class="fa fa-phone"></i>{{ contact.phone-label }}<strong>{{ contact.telephone }}</strong></h2>
         </div>
     </div>
 </div>{% comment %} end contact number block {% endcomment %}
-
+{% endif %}{% endfor %}
 <div class="clearfix"></div>

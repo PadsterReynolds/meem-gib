@@ -1,60 +1,60 @@
 ---
-lang: en-us
+lang: "en-us"
 layout: homepage-en
-title: Digital Banking
-alt_url: /ar/index.html
-meta-description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
-social-audio:
-social-video:
+title: "Meem Digital Banking"
+alt_url: "/ar/index.html"
+meta-long_description: "Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia."
+social-audio: ""
+social-video: ""
 
 social-media:
-  - tw-summary: Meem by GIB is a self served bank by Gulf International Bank
-    tw-title: meem digital personal banking
+  - tw-summary: "Meem by GIB is a self served bank by Gulf International Bank"
+    tw-title: "meem digital personal banking"
 
 homepage-banner-en:
-  - en-banner-image: /resources/images/banners/meem_exit_terminal-banner.jpg
-    en-banner-alt-text: meem | Digital Personal Banking
-    en-banner-main-title: <strong>Welcome to Meem</strong>
-    en-banner-subtitle: Self Service Banking
+  - en-banner-image_path: "/resources/images/banners/meem_exit_terminal-banner.jpg"
+    en-banner-alt-text: "meem | Digital Personal Banking"
+    en-banner-main-title: "<strong>Welcome to Meem</strong>"
+    en-banner-subtitle: "Self Service Banking"
     en-banner-button-01-url: "#learn_more"
-    en-banner-button-01-target:
-    en-banner-button-01-text: Learn More
-    en-banner-button-02-url: https://online.meem.sa/default.aspx
+    en-banner-button-01-target: ""
+    en-banner-button-01-text: "Learn More"
+    en-banner-button-02-url: "https://online.meem.sa/default.aspx"
     en-banner-button-02-target: "_self"
-    en-banner-button-02-text: Login
-    en-banner-button-03-url: https://online.meem.sa/default.aspx
-    en-banner-button-03-target:
-    en-banner-button-03-text: Apply Now!
+    en-banner-button-02-text: "Login"
+    en-banner-button-03-url: "https://online.meem.sa/default.aspx"
+    en-banner-button-03-target: ""
+    en-banner-button-03-text: "Apply Now!"
 
 usp-block1:
   - feature-block1:
-    feature-class: fa-hand-o-right
-    feature-title: Self Service
-    feature-text: Through our self-service terminals you can withdraw up to SAR 50K and make unlimited deposits
-  - feature-block2:
-    feature-class: fa-briefcase
-    feature-title: Applying for products
-    feature-text: Through our innovative app and web banking applying for products is only few clicks away
-  - feature-block3:
-    feature-class: fa-dollar
-    feature-title: Currencies Card
-    feature-text: A dynamic Visa debit card which carries up to four foreign currencies with 8 currencies to choose from
+    feature-class: "fa-hand-o-right"
+    feature-title: "Self Service"
+    feature-text: "Through our self-service terminals you can withdraw up to SAR 50K and make unlimited deposits"
+  - feature-block2: ""
+    feature-class: "fa-briefcase"
+    feature-title: "Applying for products"
+    feature-text: "Through our innovative app and web banking applying for products is only few clicks away"
+  - feature-block3: ""
+    feature-class: "fa-dollar"
+    feature-title: "Currencies Card"
+    feature-text: "A dynamic Visa debit card which carries up to four foreign currencies with 8 currencies to choose from"
 
 usp-block2:
   - feature-block4:
-    feature-class: fa-clock-o
-    feature-title: Open till Midnight
-    feature-text: For your convenience, our stores are open 7 days a week from 9:30 to 23:00
+    feature-class: "fa-clock-o"
+    feature-title: "Open till Midnight"
+    feature-text: "For your convenience, our stores are open 7 days a week from 9:30 to 23:00"
   - feature-block5:
-    feature-class: fa-money
-    feature-title: Personal Finance &amp; Credit Cards
-    feature-text: pply and we will guarantee you getting a response within 5 minutes 24/7 without visiting the store
+    feature-class: "fa-money"
+    feature-title: "Personal Finance &amp; Credit Cards"
+    feature-text: "Apply and we will guarantee you getting a response within 5 minutes 24/7 without visiting the store"
   - feature-block6:
-    feature-class: fa-globe
-    feature-title: Digital Banking
-    feature-text: meem is the first Sharia compliant digital bank in the world
+    feature-class: "fa-globe"
+    feature-title: "Digital Banking"
+    feature-text: "meem is the first Sharia compliant digital bank in the world"
 
-permalink: /index.html
+permalink: "/index.html"
 
 ---
 
@@ -67,7 +67,7 @@ permalink: /index.html
 
             <div class="slide-pattern"></div>
             {% for item in page.homepage-banner-en %}
-            <img src="{{ item.en-banner-image }}" data-src="{{ item.en-banner-image }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
+            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
 
             <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
                 {{ item.en-banner-main-title }}
@@ -79,7 +79,7 @@ permalink: /index.html
 
             <a class="ms-layer sbut2" href="{{ item.en-banner-button-01-url }}" target="{{ item.en-banner-button-01-target }}"
                style="left: 450px; top: 500px;"
-               id="learn_more_button"
+               id="learn_more_button_home"
                data-type="text"
                data-delay="400"
                data-ease="easeOutExpo"
@@ -90,7 +90,7 @@ permalink: /index.html
 
             <a class="ms-layer sbut2" href="{{ item.en-banner-button-02-url }}" target="{{ item.en-banner-button-02-target }}"
                style="left: 650px; top: 500px;"
-               id="login_button"
+               id="login_button_home"
                data-type="text"
                data-delay="800"
                data-ease="easeOutExpo"
@@ -101,7 +101,7 @@ permalink: /index.html
 
             <a class="ms-layer sbut2" href="{{ item.en-banner-button-03-url }}" target="{{ item.en-banner-button-03-target }}"
                style="left: 800px; top: 500px;"
-               id="apply_now_button"
+               id="apply_now_button_home"
                data-type="text"
                data-delay="1200"
                data-ease="easeOutExpo"

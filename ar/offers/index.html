@@ -1,0 +1,302 @@
+---
+lang: ar-sa
+direction: rtl
+layout: default-ar
+
+title: ""
+meta-long_description: ""
+social-audio:
+social-video:
+
+social-media:
+  - tw-summary: ""
+    tw-title: ""
+
+offer-box-panels:
+  - offer-info-title: "Nunquam acquirere hibrida"
+    offer-info-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar."
+    boxes:
+      - offer-info-panel-heading: "Heading Title"
+        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
+        offer-info-panel-number: "one"
+        offer-info-panel-icon: "fa-envelope"
+      - offer-info-panel-heading: "Heading Title"
+        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
+        offer-info-panel-number: "two"
+        offer-info-panel-icon: "fa-trophy"
+      - offer-info-panel-heading: "Heading Title"
+        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
+        offer-info-panel-number: "three"
+        offer-info-panel-icon: "fa-globe"
+      - offer-info-panel-heading: "Heading Title"
+        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
+        offer-info-panel-number: "four"
+        offer-info-panel-icon: "fa-umbrella"
+
+permalink: "/ar/offers/index.html"
+alt_url: "/en/offers/index.html"
+
+---
+<div class="page_title1 stybb">
+    <div class="container">
+        <h1 class="editable">Page Title</h1>
+    </div>
+</div><!-- end page title -->
+
+<div class="clearfix margin_top8"></div>
+
+<div class="content_fullwidth">
+
+<div class="featured_section69">
+        <div class="container">
+            {% for feature in page.offer-box-panels %}
+            <div class="one_half">
+                {% for box in feature.boxes %}
+                <div class="box {{ box.offer-info-panel-number }} animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                    <i class="fa {{ box.offer-info-panel-icon }}"></i>
+                    <h4 class="roboto">{{ box.offer-info-panel-heading }}</h4>
+                    <p>{{ box.offer-info-panel-long_description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="one_half last">
+
+                <h2 class="roboto caps">{{ feature.offer-info-title }}</h2>
+                <div class="hsmline6"></div>
+                <br />
+                <p class="bigtfont gray">{{ feature.offer-info-long_description }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+<div class="clearfix margin_top12"></div>
+
+<div class="works01">
+
+    <div id="filters-container" class="cbp-l-filters-alignCenter">
+        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+            ALL <div class="cbp-filter-counter"></div>
+        </div> /
+        <div data-filter=".identity" class="cbp-filter-item">
+            IDENTITY <div class="cbp-filter-counter"></div>
+        </div> /
+        <div data-filter=".web-design" class="cbp-filter-item">
+            WEB DESIGN <div class="cbp-filter-counter"></div>
+        </div> /
+        <div data-filter=".graphic" class="cbp-filter-item">
+            GRAPHIC <div class="cbp-filter-counter"></div>
+        </div> /
+        <div data-filter=".logos" class="cbp-filter-item">
+            LOGO <div class="cbp-filter-counter"></div>
+        </div> /
+        <div data-filter=".motion" class="cbp-filter-item">
+            MOTION <div class="cbp-filter-counter"></div>
+        </div>
+    </div>
+
+    <div id="grid-container" class="cbp-l-grid-masonry">
+
+        <div class="cbp-item identity motion">
+            <a class="cbp-caption cbp-lightbox" data-title="Easy Note<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x600" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Easy Note</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item web-design">
+            <a class="cbp-caption cbp-lightbox" data-title="The Gang Blue<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">The Gang Blue</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item graphic logos">
+            <a class="cbp-caption cbp-lightbox" data-title="Tiger<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x600" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Tiger</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item logos motion">
+            <a class="cbp-caption cbp-lightbox" data-title="Flat Roman Typeface Ui<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Flat Roman Typeface Ui</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item identity">
+            <a class="cbp-caption cbp-lightbox" data-title="Seemple* Music for iPad<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x600" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Seemple* Music for iPad</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item graphic motion">
+            <a class="cbp-caption cbp-lightbox" data-title="Remind~Me More<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Remind~Me More</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item web-design logos">
+            <a class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x200" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Workout Buddy</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item identity">
+            <a class="cbp-caption cbp-lightbox" data-title="Volume Knob<br>by GSRthemes9" href="http://vimeo.com/156783#">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Volume Knob</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item identity">
+            <a class="cbp-caption cbp-lightbox" data-title="Ski * Buddy<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x600" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Ski * Buddy</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item web-design graphic">
+            <a class="cbp-caption cbp-lightbox" data-title="Virtualization Icon<br>by GSRthemes9" href="https://www.youtube.com/watch?v=dChhzNGHgnA">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x600" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Virtualization Icon</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item web-design graphic">
+            <a class="cbp-caption cbp-lightbox" data-title="World Clock Widget<br>by GSRthemes9" href="http://placehold.it/800x600">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">World Clock Widget</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="cbp-item web-design graphic">
+            <a class="cbp-caption cbp-lightbox" data-title="Sickpuppy<br>by GSRthemes9" href="http://ipsumimage.appspot.com/1200x900,2d67b9">
+                <div class="cbp-caption-defaultWrap">
+                    <img src="http://placehold.it/400x400" alt="">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                    <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                            <div class="cbp-l-caption-title">Sickpuppy</div>
+                            <div class="cbp-l-caption-desc">by GSRthemes9</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!--<div class="cbp-l-loadMore-text">
+        <div data-href="ajax/loadMore.html" class="cbp-l-loadMore-text-link">LOADING...</div>
+    </div>-->
+
+
+</div>
+
+<div class="clearfix margin_top12"></div>

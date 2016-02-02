@@ -24,7 +24,8 @@ collections:
 
 # Site URL's
 prod_url: http://www.meem.com
-uat_url: http://uat.meem.com
+uat_url: http://indigo-eland.cloudvent.net/
+dev_url: http://green-monkey.cloudvent.net/
 
 social-sitename-en: Meem Personal Banking
 social-sitename-ar: الخدمات المصرفية الشخصية ميم
@@ -41,6 +42,10 @@ prod_google_analytics_id: UA-72224806-1
 prod_google_tag_manager_id: GTM-5XXDXR
 prod_heap_analytics_id: 2909756379
 
+# Google Custom Site Search
+cloudcannon_google_cse_cx: 012444785599460374865:fwvovuvqnki
+cloudcannon_dev_google_cse_cx: 012444785599460374865:mwf0rds5p1a
+prod_google_cse_cx: 012444785599460374865:yxkkdvhfn9u
 
 bing_id: CC60B461E8EA9A7B8D2C2DD9132730E9
 

@@ -3,7 +3,7 @@ lang: en-us
 layout: homepage-en
 title: Digital Banking
 alt_url: /ar/index.html
-meta-description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
+meta-long_description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
 social-audio:
 social-video:
 
@@ -12,7 +12,7 @@ social-media:
     tw-title: meem digital personal banking
 
 homepage-banner-en:
-  - en-banner-image: /resources/images/banners/meem_exit_terminal-banner.jpg
+  - en-banner-image_path: /resources/images/banners/meem_exit_terminal-banner.jpg
     en-banner-alt-text: meem | Digital Personal Banking
     en-banner-main-title: <strong>Welcome to Meem</strong>
     en-banner-subtitle: Self Service Banking
@@ -67,7 +67,7 @@ permalink: /en/index.html
 
             <div class="slide-pattern"></div>
             {% for item in page.homepage-banner-en %}
-            <img src="{{ item.en-banner-image }}" data-src="{{ item.en-banner-image }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
+            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
 
             <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
                 {{ item.en-banner-main-title }}
@@ -142,9 +142,9 @@ permalink: /en/index.html
             <h4 class="editable">Jam Jar</h4>
             <p class="editable">By using Jam Jars you can create and keep constant track of your personal saving plans.</p>
 
-        </div><!-- end section -->
+        </div>
 
-        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300"><img src="/resources/images/site-img25.jpg" alt="" class="rimg editable" /></div><!-- end section -->
+        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300"><img src="/resources/images/site-img25.jpg" alt="" class="rimg editable" /></div>
 
         <div class="onecol_thirtyfive last right animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
@@ -201,7 +201,7 @@ permalink: /en/index.html
         </div><!-- end item -->
         {% endfor %}
     </div>
-</div><!-- end works section -->
+</div>
 
 <div class="clearfix margin_top10"></div>
 

@@ -1,0 +1,5 @@
+id,city,type,location,long,lat,link,directions
+e001,"Dhahran","main","Dammam/Khobar Express Highway","26.22365","50.10152","http://goo.gl/OujmIP","Alkifah Tower/ Dammam-Khobar Highway/ In front of Alsharqeah Chamber"
+e002,"Khobar","Nano","AlRashid Mall","26.291830","50.180376","http://goo.gl/1XS3gv","KHOBAR-Gate-5"
+e003,"Khobar","Nano","eXtra Store","26.334116","50.211936","http://goo.gl/wC1zNN","KHOBAR"
+e004,"Dammam","Nano","eXtra Store","26.24214","50.03447","http://goo.gl/NNge26","DAMMAM – Al-Faisaliah"
