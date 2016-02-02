@@ -13,7 +13,7 @@
         {% elsif page.lang == 'en-us' %}meem | {{ page.title }}{% else %}
         meem | Digital Banking{% endif %}</title>
     {% if page.meta-description %}
-    <meta name="description" content="{{ page.meta-description }}" />
+    <meta name="description" content="{{ page.meta-long_description }}" />
     {% endif %}
     {% comment %} Alternative Language Content {% endcomment %}
     <link rel="alternate" href="{{ site.prod_url }}{{ page.alt_url }}" hreflang="{{ page.lang}}" />
@@ -84,22 +84,12 @@
     <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.carousel.css">
     {% comment %} accordion {% endcomment %}
     <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
-    <script type="text/javascript">
-        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
-        heap.load("{{ site.prod_heap_analytics_id }}");
-    </script>
+    {% include components/heap/heap-analytics.html %}
 </head>
 
 <body>
 <script>
     dataLayer = [];
 </script>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ site.prod_google_tag_manager_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','{{ site.prod_google_tag_manager_id }}');</script>
-<!-- End Google Tag Manager -->
+{% include components/google/tag_manager/google_tag_manager.html %}
 <div class="site_wrapper">
