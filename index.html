@@ -69,7 +69,7 @@ alt_url: "/en/index.html"
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% for slider in site.banners-ar %}
+            {% for slider in page.homepage-banner-ar %}
             <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" />
 
             <h3 class="ms-layer text1 center" style="right: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
