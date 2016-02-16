@@ -1,6 +1,7 @@
 ---
 store-grid-lightbox-image: "/resources/images/branch/meem_self_service_terminal.jpg"
 store-grid-image: "/resources/images/branch/meem_self_service_terminal.jpg"
+store-image-alt-text: "Meem Self Service digital terminal"
 ar-store-grid-lightbox-title: "جهاز الخدمة الذاتية"
 ar-store-grid-title: "جهاز الخدمة الذاتية"
 ar-store-grid-description: "من الأشياء اللي راح تلاحظها في زيارتك لمراكزنا هو أختفاء الصرافين وإختفاء الحاجة بإنك تتكلم مع الموظفين عبر الزجاج.                                                            من خلال أجهزة الخدمة الذاتية الموجودة في كل مراكزنا ومنافذ الخدمة راح تقدر تنفذ كل عملياتك المصرفية بشكل عملي وبسيط."

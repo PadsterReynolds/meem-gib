@@ -8052,7 +8052,7 @@ ul.recent_posts_list {
 .error_pagenotfound {
 	padding: 50px 30px 58px 30px;
 	margin: 0 auto;
-	width: 59%;
+	width: 80%;
 	background-color: #fff;
 	border: 1px solid #eee;
 	border-bottom: 5px solid #eee;
@@ -8070,7 +8070,7 @@ ul.recent_posts_list {
 }
 .error_pagenotfound b {
 	display: block;
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 50px;
 	color: #999;
 	margin: 0;

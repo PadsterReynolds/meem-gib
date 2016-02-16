@@ -1,6 +1,7 @@
 ---
 store-grid-lightbox-image: "/resources/images/branch/meem_nano_store.jpg"
 store-grid-image: "/resources/images/branch/meem_nano_store.jpg"
+store-image-alt-text: "Picture of Meem Nano Store"
 ar-store-grid-lightbox-title: "منافذ الخدمة"
 ar-store-grid-title: "منافذ الخدمة"
 ar-store-grid-description: حاليا عندنا 9 منافذ خدمة منتشرة في الرياض، وجدة، والدمام والخبر، كلهم تحت أمرك وفي خدمتك.                                                            والشيء الجميل واللي يميز منافذ خدمة م إنك تقدر تلاقيهم في المجمعات التجارية ومحلات إكسترا. مع العلم إنهم مفتوحين ليل ونهار طوال أيام الأسبوع!""
