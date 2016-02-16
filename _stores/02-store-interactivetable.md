@@ -1,6 +1,7 @@
 ---
 store-grid-lightbox-image: "/resources/images/branch/meem_interactive_table.jpg"
 store-grid-image: "/resources/images/branch/meem_interactive_table.jpg"
+store-image-alt-text: "Meem Interactive banking table"
 ar-store-grid-lightbox-title: "الطاولة التفاعلية"
 ar-store-grid-title: "الطاولة التفاعلية"
 ar-store-grid-description: "في الوقت القليل اللي راح تستنى فيه موظف خدمة العملاء، نشجع إنك تجرب تتفاعل مع وحدة من الطاولات التفاعلية الموجودة في المراكز الرئيسية. أحنا متأكدين إنك ما راح تمل بالإنتظار، خاصة إذا بديت تلعب لعبة الهوكي أو لعبة الصياد مع شخص ثاني في المركز!"

@@ -1,6 +1,7 @@
 ---
 store-grid-lightbox-image: "/resources/images/branch/meem_assisted_service_table.jpg"
 store-grid-image: "/resources/images/branch/meem_assisted_service_table.jpg"
+store-image-alt-text: "Meem assisted digital service table"
 ar-store-grid-lightbox-title: "جهاز الخدمة بالمساعدة"
 ar-store-grid-title: "جهاز الخدمة بالمساعدة"
 ar-store-grid-description: سواءً كانت زيارتك لنا لأجل إكمال إجراءات فتح الحساب أو لأي خدمة ثانية، راح تتلقى خدمتك في غرفة تحمي خصوصيتك بشفافية تامة بإستخدام شاشة أفقية راح تلاقيها بينك وبين موظف خدمة العملاء."

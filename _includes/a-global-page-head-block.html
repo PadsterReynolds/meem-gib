@@ -12,9 +12,7 @@
     <title>{% if page.lang == 'ar-sa' %}{{ page.title }}
         {% elsif page.lang == 'en-us' %}meem | {{ page.title }}{% else %}
         meem | Digital Banking{% endif %}</title>
-    {% if page.meta-description %}
-    <meta name="description" content="{{ page.meta-long_description }}" />
-    {% endif %}
+    <meta name="description" content="{{ page.description }}" />
     {% comment %} Alternative Language Content {% endcomment %}
     <link rel="alternate" href="{{ site.prod_url }}{{ page.alt_url }}" hreflang="{{ page.lang}}" />
 
@@ -42,7 +40,7 @@
     {% comment %} Favicon {% endcomment %}
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="shortcut icon" type="image/png" href="/resources/images/favicon.png"/>
-    <link rel="apple-touch-icon" href="resources/images/touch-icon-144.png">
+    <link rel="apple-touch-icon" href="/touch-icon-144.png">
 
     {% comment %} fonts {% endcomment %}
     {% if page.lang == 'ar-sa' %}{% include ar-fonts.html %}{% elsif page.lang == 'en-us' %}{% include en-fonts.html %}{% endif %}
@@ -59,9 +57,9 @@
     {% comment %} font awesome icons {% endcomment %}
     <link rel="stylesheet" href="/resources/styles/font-awesome/css/font-awesome.min.css">
     {% comment %} simple line icons {% endcomment %}
-    <link rel="stylesheet" href="/resources/styles/simpleline-icons/simple-line-icons.css" media="screen" />
+    <link rel="stylesheet" href="/resources/styles/simpleline-icons/simple-line-icons.min.css" media="screen" />
     {% comment %} et linefont icons {% endcomment %}
-    <link rel="stylesheet" href="/resources/styles/et-linefont/etlinefont.css">
+    <link rel="stylesheet" href="/resources/styles/et-linefont/etlinefont.min.css">
     {% comment %} animations {% endcomment %}
     <link rel="stylesheet" href="/resources/scripts/animations/css/animations.min.css" media="all" />
     {% comment %} responsive devices styles {% endcomment %}

@@ -1,5 +1,5 @@
 id,city,type,location,long,lat,link,directions
-r001,"Riyadh","main","Granada – GOSI Complex","24.47146","46.43334","http://goo.gl/epUQ4N","Qurnata Oasis/ Airport Road/ In GOSI Compound Gate # 1 / Exit 8 & 9 / on the same Road of Princess Nora University"
-r002,"Riyadh","Nano","Panorama Mall","24.693407","46.669379","http://goo.gl/C5RFNX","RYIADH -Takhassosi Road,Madhar Ash shamali ( معذر الشمالي  ).Gate-2"
-r003,"Riyadh","Nano","Sahafa eXtra Store","","","http://goo.gl/maps/wDrFv","RYIADH - Alsahafa - thumama road"
-r004,"Riyadh","Nano","Wurood eXtra Store","24.43208","46.41302","http://goo.gl/VPnqaO","RYIADH - Worood - King AbdulAziz Street"
+r001,"Riyadh","Main Store","Granada – GOSI Complex","24.47146","46.43334","http://goo.gl/epUQ4N","Qurnata Oasis/ Airport Road/ In GOSI Compound Gate # 1 / Exit 8 & 9 / on the same Road of Princess Nora University"
+r002,"Riyadh","Nano Store","Panorama Mall","24.693407","46.669379","http://goo.gl/C5RFNX","RYIADH -Takhassosi Road,Madhar Ash shamali ( معذر الشمالي  ).Gate-2"
+r003,"Riyadh","Nano Store","Sahafa eXtra Store","","","http://goo.gl/maps/wDrFv","RYIADH - Alsahafa - thumama road"
+r004,"Riyadh","Nano Store","Wurood eXtra Store","24.43208","46.41302","http://goo.gl/VPnqaO","RYIADH - Worood - King AbdulAziz Street"

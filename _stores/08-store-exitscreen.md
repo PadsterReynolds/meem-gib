@@ -1,6 +1,7 @@
 ---
 store-grid-lightbox-image: "/resources/images/branch/meem_exit_terminal.jpg"
 store-grid-image: "/resources/images/branch/meem_exit_terminal.jpg"
+store-image-alt-text: "Picture of Meem Store exit terminal"
 ar-store-grid-lightbox-title: "شاشة تقييم الخدمة"
 ar-store-grid-title: "شاشة تقييم الخدمة"
 ar-store-grid-description: "وأنت طالع من مراكز ومنافذ خدمة م، راح تلاقي شاشة قريبة عند المخرج تقدر من خلالها إن تشاركنا فيها رأيك عن الخدمة اللي تلقيتها."
