@@ -1324,7 +1324,7 @@
 .featured_section3 {
     float: left;
     width: 100%;
-    padding: 120px 0 110px 0;
+    padding: 60px 0 110px 0;
     background: #f3f3f3;
 }
 
@@ -2772,6 +2772,28 @@
     background: #fff;
     color: #783F95;
 }
+
+.featured_section31 h4 {
+    color: #FFFFFF;
+}
+
+.featured_section31 .label {
+    color: #FFFFFF;
+}
+
+.featured_section31 .emailtxt {
+    width: 300px;
+}
+
+.featured_section31 button.green {
+    background-color: #00859D;
+}
+
+.featured_section31 button.green:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 
 /* whats next */
 .whats-next {
@@ -4271,10 +4293,39 @@
     margin-bottom: 12px;
 }
 
+.featured_section69 ul li {
+    list-style-type: disc;
+    padding-bottom: 12px;
+}
+
 .featured_section69 .box p {
     color: #999;
     font-size: 13px;
     line-height: 18px;
+}
+
+.featured_section69 h2 h3 {
+    color: #824BB0;
+}
+
+.featured_section69 h3 {
+    text-align: center;
+}
+
+.featured_section69 ol li {
+    padding-bottom: 12px;
+}
+
+.featured_section69 a.offer-links {
+    color: #8052A4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featured_section69 a.offer-links:hover {
+    color: #00859D;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* featured section 70 */
@@ -8329,7 +8380,9 @@ ul.footer_social_links5 {
 .title23 {
     font-weight: 600;
     margin-bottom: 55px;
+    color: #00859E;
 }
+
 
 .title23 em {
     margin: 0 auto;

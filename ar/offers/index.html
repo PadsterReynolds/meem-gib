@@ -12,62 +12,308 @@ social-media:
   - tw-summary: ""
     tw-title: ""
 
-offer-box-panels:
-  - offer-info-title: "Nunquam acquirere hibrida"
-    offer-info-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar.With peanut butter drink plain vinegar."
-    boxes:
-      - offer-info-panel-heading: "Heading Title"
-        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
-        offer-info-panel-number: "one"
-        offer-info-panel-icon: "fa-envelope"
-      - offer-info-panel-heading: "Heading Title"
-        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
-        offer-info-panel-number: "two"
-        offer-info-panel-icon: "fa-trophy"
-      - offer-info-panel-heading: "Heading Title"
-        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
-        offer-info-panel-number: "three"
-        offer-info-panel-icon: "fa-globe"
-      - offer-info-panel-heading: "Heading Title"
-        offer-info-panel-long_description: "With peanut butter drink plain vinegar.With peanut butter drink plain vinegar"
-        offer-info-panel-number: "four"
-        offer-info-panel-icon: "fa-umbrella"
+offer-banner:
+  - offer-image_path: "/resources/images/a-samples/site-img60.png"
+    offer-image-alt-text: ""
+    offer-heading-text-1: "This is an editable text block"
+    offer-heading-text-2: "For an Promotion Offer Title"
+    offer-heading-text-3: "Shout Out Loud"
+    offer_description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour randomised words enerators onthe Internet tend to repea predefined chunks as necessary making words combine with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable generated Lorem Ipsum is therefore always."
+    offer_button-1-text: "Existing Customer"
+    offer_button-1-link: "https://online.meem.sa/default.aspx"
+    offer_button-2-text: "New Customer"
+    offer_button-2-link: "#newcustomer"
+    offer_button-3-text: "For more info request a call from our Telesales Team"
+    offer_button-3-link: "#telesales"
 
-permalink: "/ar/offers/index.html"
-alt_url: "/en/offers/index.html"
+apply-button:
+  - button-text: "قدم الآن!"
+    button-link: "https://online.meem.sa/default.aspx"
+
+product:
+  - product-title: "بطاقة العملات"
+    product_description: "الأول من نوعه في المملكة العربية السعودية هي بطاقة العملات التي هي عبارة عن بطاقة الخصم فيزا تقدم مجانا و بدون رسوم الحولية . بطاقة يمكن ربط 4 عملات مختلفة مصممة لراحتك والادخار عند السفر إلى الخارج ."
+
+
+product-benefits:
+  - product-benefit-title: "It's free!"
+    product-benefit_description: "Issued free of charge, and no annual fees"
+    product-benefit-icon: "icon-energy"
+    product-benefit-delay: "100"
+  - product-benefit-title: "Charge free POS transactions"
+    product-benefit_description: "Absolutely no fees on point of sale transactions"
+    product-benefit-icon: "icon-magic-wand"
+    product-benefit-delay: "200"
+  - product-benefit-title: "Total Control"
+    product-benefit_description: "Depending on your needs, you may link and unlink foreign accounts to your currencies card"
+    product-benefit-icon: "icon-trophy"
+    product-benefit-delay: "300"
+
+
+offer:
+  - offer-title: "Offer"
+    offer_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non viverra nisl, sed lacinia justo. Proin quis condimentum ex, at sodales turpis. Praesent in velit eu odio viverra commodo. Nam eu mauris pharetra, vestibulum lorem vel, aliquam libero. Praesent quis velit dolor. Nunc sit amet est vehicula, bibendum arcu eget, vestibulum velit. Suspendisse ac odio efficitur tellus consequat placerat sed nec dui. Suspendisse vel lorem arcu. Suspendisse leo lectus, ornare eget quam vitae, fermentum vehicula nulla. Pellentesque varius rutrum nibh, sit amet commodo mauris pellentesque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+
+offer-conditions:
+  - conditions-text: "Donec placerat augue nisl, quis auctor enim volutpat et. Ut aliquam ultricies ante vel lacinia. Donec nec lobortis mauris. Ut id nunc et sapien pharetra auctor sed at nulla. Pellentesque efficitur ipsum non orci ullamcorper feugiat. Morbi auctor elementum quam quis vulputate."
+  - conditions-text: "Cras in metus lorem. Donec nulla velit, feugiat non facilisis vel, molestie fringilla nisi. Fusce scelerisque posuere augue, et vulputate mi luctus pellentesque."
+  - conditions-text: "Duis id aliquam urna. Phasellus rhoncus tempor dolor sed iaculis. In facilisis enim eget ullamcorper euismod. Mauris elementum laoreet pellentesque. Aliquam erat volutpat. Vivamus vel metus in lorem ultricies vehicula. Aliquam erat volutpat."
+  - conditions-text: "Sed efficitur metus at sapien varius, eu scelerisque lectus efficitur. Duis a libero rhoncus ante lacinia congue. Quisque ac aliquam tellus. Mauris pharetra ipsum ut ex aliquam consectetur. Vivamus fermentum euismod odio sit amet convallis."
+
+permalink: "/en/offers/index.html"
+alt_url: "/ar/offers/index.html"
 
 ---
 <div class="page_title1 stybb">
     <div class="container">
-        <h1 class="editable">Page Title</h1>
+        <h1 class="editable">عنوان العرض</h1>
     </div>
-</div><!-- end page title -->
-
-<div class="clearfix margin_top8"></div>
+</div>
 
 <div class="content_fullwidth">
 
-<div class="featured_section69">
+    <div class="featured_section3 two">
         <div class="container">
-            {% for feature in page.offer-box-panels %}
-            <div class="one_half">
-                {% for box in feature.boxes %}
-                <div class="box {{ box.offer-info-panel-number }} animate" data-anim-type="fadeInUp" data-anim-delay="100">
-                    <i class="fa {{ box.offer-info-panel-icon }}"></i>
-                    <h4 class="roboto">{{ box.offer-info-panel-heading }}</h4>
-                    <p>{{ box.offer-info-panel-long_description }}</p>
-                </div>
-                {% endfor %}
+            {% for offer in page.offer-banner %}
+
+            <div class="onecol_sixty animate" data-anim-type="fadeInRight" data-anim-delay="300">
+    	<span><em>{{ offer.offer-heading-text-1 }}</em>
+		<b>{{ offer.offer-heading-text-2 }}</b>
+		<strong class="color3">{{ offer.offer-heading-text-3 }}</strong></span>
+                <p class="bigtfont">{{ offer.offer_description }}</p>
+                <br /><br /><br />
+                <a href="{{ offer.offer_button-1-link }}" class="button three">{{ offer.offer_button-1-text }}</a>
+                <a href="{{ offer.offer_button-2-link }}" class="button three">{{ offer.offer_button-2-text }}</a>
+                <br /><br /><br />
+                <a href="{{ offer.offer_button-3-link }}" class="button three" style="font-size: 10px;">{{ offer.offer_button-3-text }}</a>
             </div>
 
-            <div class="one_half last">
-
-                <h2 class="roboto caps">{{ feature.offer-info-title }}</h2>
-                <div class="hsmline6"></div>
-                <br />
-                <p class="bigtfont gray">{{ feature.offer-info-long_description }}</p>
-
-            </div>
+            <div class="onecol_forty last"><img src="{{ offer.offer-image_path }}" alt="{{ offer.offer-image-alt-text }}" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
             {% endfor %}
         </div>
     </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section32">
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_top" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section18">
+        <div class="container">
+
+            <div class="onecol_sixty ">
+                {% for offer in page.offer %}
+                <h2 class="editable">{{ offer.offer-title }}</h2>
+                <p class="bigtfont editable">{{ offer.offer_description }}</p>
+                {% endfor %}
+            </div>
+
+            <div class="onecol_forty last">
+                {% for product in page.product %}
+                <h2 class="editable">{{ product.product-title }}</h2>
+                <p class="bigtfont editable">{{ product.product_description }}</p>
+                {% endfor %}
+                {% for benf in page.product-benefits %}
+                <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                    <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                    <h5>{{ benf.product-benefit-title }}</h5>
+                    <p>{{ benf.product-benefit_description }}</p>
+
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section15 colored">
+        <div class="container">
+
+            <h3 class="margin_bottom6 editable">Additional Personal Finance Benefits</h3>
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+                <span aria-hidden="true" class="icon-rocket"></span>
+
+                <h4 class="editable">Finance Amount</h4>
+                <p class="editable">Amount of SAR 10,000 to SAR 1,000,000</p>
+
+            </div>
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+                <span aria-hidden="true" class="icon-badge"></span>
+
+                <h4 class="editable">Repayments</h4>
+                <p class="editable">Repayment period from 12 months to 60 months</p>
+
+            </div><!-- end section -->
+
+            <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+                <span aria-hidden="true" class="icon-settings"></span>
+
+                <h4 class="editable">Salary Transfer</h4>
+                <p class="editable">Salary transfer is not required to be eligible to apply &nbsp;</p>
+
+            </div>
+
+            <div class="clearfix margin_top6"></div>
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                <span aria-hidden="true" class="icon-basket-loaded"></span>
+
+                <h4 class="editable">Settlement</h4>
+                <p class="editable">Early settlement is allowed</p>
+
+            </div>
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="500">
+
+                <span aria-hidden="true" class="icon-social-dropbox"></span>
+
+                <h4 class="editable">Takaful Insurance Cover</h4>
+                <p class="editable">In case of death or permanent total medical disability, god forbid, all outstanding amounts will be considered paid.</p>
+
+            </div>
+
+            <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="600">
+
+                <span aria-hidden="true" class="icon-trophy"></span>
+
+                <h4 class="editable">Smart online application form</h4>
+                <p class="editable">With a smart and simple application form, applying for Personal Finance have never been easier</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section32">
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+    <a id="telesales"></a>
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69">
+        <div class="container">
+
+            <div class="one_third">
+
+                <div class="" style="background-color: #0088A2">
+                    <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br/>from our Telesales Team</p>
+                </div>
+
+                <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
+                    <label class="label editable">Name <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="name" id="name" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label editable">E-mail <em>*</em></label>
+                    <label class="input">
+                        <input type="email" name="email" id="email" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label editable">Phone <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="phone" id="phone" />
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <label class="label editable">Preferred Time for Calling<em>*</em></label>
+                    <label class="">
+                        <input type="time" name="prefer_time">
+                    </label>
+
+                    <div class="clearfix"></div>
+
+                    <input type="hidden" name="token" value="FsWga4&@f6aw" />
+                    <button type="submit" class="button editable">Send Message</button>
+
+                </form>
+            </div>
+
+            <div class="two_third last">
+                <h2 class="editable">Offer Terms & Conditions</h2>
+                <ul class="">
+                    {% for terms in page.offer-conditions%}
+                    <li>{{ terms.conditions-text }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="newcustomer"></a>
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section20">
+        <div class="container">
+            <h2 class="title23 editable">كيفية التقديم؟</h2>
+        </div>
+    </div>
+
+    <div class="featured_section69">
+        <div class="container">
+
+            <div class="one_half">
+                <h3 class="editable">New Customers</h3>
+                <p>First you will need to open a meem <a href="/en/meem-one-pack-account-en.html" class="offer-links" >One Pack Account</a> to be able to apply for meem's products. Opening the One Pack Account can be done simply by following these steps:</p>
+                <ol>
+                    <li>Click <a href="https://online.meem.sa/default.aspx" class="offer-links">HERE</a></li>
+                    <li>Click on "Apply Now!" button</li>
+                    <li>Fill in the application form</li>
+                    <li>Visit the nearest meem store to complete your account opening. Find nearest meem store by clicking <a href="/en/meem-locations-en.html" class="offer-links" target="_blank">HERE</a></a></li>
+                    <li>Once you have your account set up, you may follow the steps of how to apply for existing meemers.</li>
+                </ol>
+            </div>
+
+            <div class="one_half last">
+                <h3 class="editable">Existing Customers</h3>
+                <ol>
+                    <li>Click on the Apply Now! button below</li>
+                    <li>Login to your account</li>
+                    <li>Click on the products icon</li>
+                    <li>Select PRODUCT from ther list</li>
+                    <li>Press on "Add New Product"</li>
+                    <li>Follow the application instruction and you will place your PRODUCT within 5 minutes!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured_section32">
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
