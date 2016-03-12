@@ -318,17 +318,19 @@
 }
 
 .button.twentyone {
-	color: #59abe3;
+	color: #fff;
+	background: #8052A4;
 	font-size: 13px;
 	padding: 10px 27px;
 	border-radius: 3px;
 	white-space: nowrap;
-	border: 1px solid #59abe3;
+	border: 1px solid #8052A4;
 	transition: all 0.3s ease;
 }
 .button.twentyone:hover {
-	color: #fff;
-	background: #59abe3;
+	color: #8052A4;
+	background: #fff;
+	border: 1px solid #8052A4;
 }
 
 .button.twentytwo {

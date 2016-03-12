@@ -1,22 +1,18 @@
-<div class="featured_section31">
+<div class="newsletter2">
     <div class="container">
-        <h4 class="" style="margin-bottom: 40px;">Never miss meem's offers and promotions. Subscribe to our mailing list.</h4>
+        {% for element in page.newsletter %}
+        <div class="one_half animate" data-anim-type="fadeInRight" data-anim-delay="300">
 
-        <div class="one_half">
-            <form type="POST" id="gsr-subscribe" onsubmit="return valid_datas( this );">
-                <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                <button type="submit" class="button eight green">Subscribe Now</button>
-        </div>
-        <div class="one_half last">
-            <label class="label editable">E-mail <em>*</em></label>
-            <label class="input">
-                <input type="email" name="email" id="email" class="emailtxt" />
-            </label>
+            <form method="get" action="{{ element.form-action_link }}">
+                <input name="" value="{{ element.form-subscribe-button-text }}" class="input_submit" type="submit">
+                <input class="enter_email_input" name="enquiry-email" id="enquiry-email" value="" onFocus="if(this.value == '{{ element.form-input-field-comment }}') {this.value = '';}" onBlur="if (this.value == '') {this.value = '{{ element.form-input-field-comment }}';}" type="text">
             </form>
+
         </div>
 
-        <div class="clearfix"></div>
-
-        <h4 class="">OR<br>Follow us on our Social Media channels below</h4>
+        <div class="one_half last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            <h2 class="roboto">{{ element.subscribe-text }}</h2>
+        </div>
+        {% endfor %}
     </div>
 </div>
