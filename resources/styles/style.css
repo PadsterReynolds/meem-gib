@@ -1905,7 +1905,7 @@
 }
 
 .featured_section15.colored .one_third span {
-    color: #9eca45;
+    color: #8052A4;
 }
 
 .featured_section15.two {
@@ -4260,6 +4260,10 @@
 .featured_section69 {
     float: left;
     width: 100%;
+}
+
+.featured_section69.colored {
+    background-color: #E0E1DD;
 }
 
 .featured_section69 p {
@@ -7612,7 +7616,7 @@ ul.faddress {
     float: left;
     width: 100%;
     padding: 30px 0 16px 0;
-    background: #d4d9de;
+    background: #7F58A2;
 }
 
 .newsletter2 h2 {
@@ -8379,8 +8383,9 @@ ul.footer_social_links5 {
 
 .title23 {
     font-weight: 600;
-    margin-bottom: 55px;
+    margin: 20px 0;
     color: #00859E;
+    text-align: center;
 }
 
 
@@ -8905,7 +8910,7 @@ ul.footer_social_links5 {
     text-align: center;
     margin-top: 100px;
     padding: 140px 0 90px 0;
-    background: #999 url(../images/page-title-bg2.jpg) no-repeat center top;
+    background: #999 url(/resources/images/page-title-bg2.jpg) no-repeat center top;
 }
 
 .page_title3 h1 {
@@ -9862,8 +9867,8 @@ ul.adsbanner-list {
     padding: 14px 20px;
     font-size: 14px;
     font-weight: 500;
-    background: #9eca45;
-    border: 1px solid #7ea821;
+    background: #7F58A2;
+    border: 1px solid #7F58A2;
     border-radius: 3px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
@@ -10004,8 +10009,8 @@ ul.adsbanner-list {
     padding: 14px 20px;
     font-size: 14px;
     font-weight: 500;
-    background: #9eca45;
-    border: 1px solid #9eca45;
+    background: #7F58A2;
+    border: 1px solid #7F58A2;
     border-radius: 3px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
