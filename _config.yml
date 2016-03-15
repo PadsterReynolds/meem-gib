@@ -21,6 +21,12 @@ collections:
   - banners-en
   - banners-video
   - stores
+  - ar
+  - ar/offers
+  - ar/partners
+  - en
+  - en/offers
+  - en/partners
 
 # Site URL's
 prod_url: http://www.meem.com

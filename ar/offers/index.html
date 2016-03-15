@@ -17,20 +17,14 @@ offer-banner:
     offer-heading-text-1: "About Us"
     offer-heading-text-2: "Many desktop publish package generators"
 
-how-to-apply-panel-top:
-  - panel-title: "From the Blogs"
-    panel-description: "Five centuries but also the leap into electronic unchanged many web sites."
-
 how-to-apply-boxes:
   - box-last-panel: false
-    box-image_path: "http://placehold.it/585x300"
     box-image-alt-text: ""
     box-title: "Free Lifetime Updates"
     box-description: "Passage lorem lpsum you need sure there anythin embarrassin senerators on Internet the first true generator."
     box-link: "#"
     box-button-text: "READ MORE"
   - box-last-panel: true
-    box-image_path: "http://placehold.it/585x300"
     box-image-alt-text: ""
     box-title: "Designed for any Website"
     box-description: "Passage you need sure there anythin embarrassin senerators on Internet the first true generator."
@@ -85,17 +79,12 @@ alt_url: "/ar/offers/index.html"
 
     <div class="featured_section80">
         <div class="container">
-            {% for block in page.how-to-apply-panel-top %}
-            <h2 class="title21">{{ block.panel-title }} <em>{{ block.panel-description }}</em></h2>
-            {% endfor %}
             {% for block in page.how-to-apply-boxes %}
             {% if block.box-last-panel == true %}
             <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
                 {% else %}
                 <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
                     {% endif %}
-                    <img src="{{ block.box-image_path }}" alt="{{ block.box-image-alt-text }}" />
-
     	    <span>
         	    <h3 class="caps">{{ block.box-title }}</h3>
                 <p class="bigtfont">{{ block.box-description }}</p>
@@ -143,6 +132,8 @@ alt_url: "/ar/offers/index.html"
 
     <div class="featured_section15 colored">
             <div class="container">
+
+                <h3 class="margin_bottom6 editable">Additional Personal Finance Benefits</h3>
 
                 <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
 
@@ -280,12 +271,6 @@ alt_url: "/ar/offers/index.html"
     </div>
     <a id="newcustomer"></a>
     <div class="clearfix margin_top6"></div>
-
-    <div class="featured_section20">
-        <div class="container">
-            <h2 class="title23 editable">?How to apply</h2>
-        </div>
-    </div>
 
     <div class="featured_section69 colored">
         <div class="container">
