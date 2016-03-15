@@ -50,8 +50,13 @@ usp-block2:
     feature-class: ''
     feature-title: ''
     feature-text: ''
+
 permalink: /ar/index.html
 alt_url: /en/index.html
+
+sitemap:
+  exclude: no
+
 ---
 {%comment %} Slider======================================= {% endcomment %}
 
@@ -216,7 +221,7 @@ alt_url: /en/index.html
         <div class="cbp-item">
             <a href="{{ grid.store-grid-lightbox-image }}" class="cbp-caption cbp-lightbox" data-title="{{ grid.ar-store-grid-lightbox-title }}">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="{{ grid.store-grid-lightbox-image }}" alt="" />
+                    <img src="{{ grid.store-grid-lightbox-image }}" alt="{{ grid.ar-store-grid-description }}" />
                 </div>
                 <div class="cbp-caption-activeWrap center">
                     <div class="cbp-l-caption-alignLeft">
