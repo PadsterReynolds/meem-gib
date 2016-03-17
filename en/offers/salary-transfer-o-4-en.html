@@ -1,0 +1,318 @@
+---
+lang: en-us
+layout: offers-page-en
+title:
+description:
+
+social-audio:
+social-video:
+
+social-media:
+  - tw-summary:
+    tw-title:
+
+offer-banner:
+  - offer-image_path: "/resources/images/a-samples/test-1280x400.jpg"
+    offer-image-alt-text: ""
+    offer-heading-text-1: "About Us"
+    offer-heading-text-2: "Many desktop publish package generators"
+
+how-to-apply-boxes:
+  - box-last-panel: false
+    box-title: "Designed for any Website"
+    box-description: "Passage lorem lpsum you need sure there anythin embarrassin senerators on Internet the first true generator."
+    box-link: "#"
+    box-button-text: "READ MORE"
+  - box-last-panel: true
+    box-title: "Free Lifetime Updates"
+    box-description: "Passage you need sure there anythin embarrassin senerators on Internet the first true generator."
+    box-link: "#"
+    box-button-text: "READ MORE"
+
+apply-button:
+  - button-text: "Apply Now!"
+    button-link: "https://online.meem.sa/default.aspx"
+
+product:
+  - product-title: "Currencies Card"
+    product_description: "First of its kind in Saudi Arabia is the Currencies Card which is a visa debit card offered free of charge and without annuals fees. The card can be linked to 4 different currencies designed for your convenience and saving when travelling abroad."
+
+product-benefits:
+  - product-benefit-title: "It's free!"
+    product-benefit_description: 'Issued free of charge, and no annual fees'
+    product-benefit-icon: icon-energy
+    product-benefit-delay: '100'
+  - product-benefit-title: Charge free POS transactions
+    product-benefit_description: Absolutely no fees on point of sale transactions
+    product-benefit-icon: icon-magic-wand
+    product-benefit-delay: '200'
+  - product-benefit-title: Total Control
+    product-benefit_description: 'Depending on your needs, you may link and unlink foreign accounts to your currencies card'
+    product-benefit-icon: icon-trophy
+    product-benefit-delay: '300'
+
+offer:
+  - offer-title: Offer
+    offer_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non viverra nisl, sed lacinia justo. Proin quis condimentum ex, at sodales turpis. Praesent in velit eu odio viverra commodo. Nam eu mauris pharetra, vestibulum lorem vel, aliquam libero. Praesent quis velit dolor. Nunc sit amet est vehicula, bibendum arcu eget, vestibulum velit. Suspendisse ac odio efficitur tellus consequat placerat sed nec dui. Suspendisse vel lorem arcu. Suspendisse leo lectus, ornare eget quam vitae, fermentum vehicula nulla. Pellentesque varius rutrum nibh, sit amet commodo mauris pellentesque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+
+offer-conditions:
+  - conditions-text: 'Donec placerat augue nisl, quis auctor enim volutpat et. Ut aliquam ultricies ante vel lacinia. Donec nec lobortis mauris. Ut id nunc et sapien pharetra auctor sed at nulla. Pellentesque efficitur ipsum non orci ullamcorper feugiat. Morbi auctor elementum quam quis vulputate.'
+  - conditions-text: 'Cras in metus lorem. Donec nulla velit, feugiat non facilisis vel, molestie fringilla nisi. Fusce scelerisque posuere augue, et vulputate mi luctus pellentesque.'
+  - conditions-text: Duis id aliquam urna. Phasellus rhoncus tempor dolor sed iaculis. In facilisis enim eget ullamcorper euismod. Mauris elementum laoreet pellentesque. Aliquam erat volutpat. Vivamus vel metus in lorem ultricies vehicula. Aliquam erat volutpat.
+  - conditions-text: 'Sed efficitur metus at sapien varius, eu scelerisque lectus efficitur. Duis a libero rhoncus ante lacinia congue. Quisque ac aliquam tellus. Mauris pharetra ipsum ut ex aliquam consectetur. Vivamus fermentum euismod odio sit amet convallis.'
+
+newsletter:
+  - subscribe-text: "Never miss meem's offers and promotions. Subscribe to our mailing list."
+    form-action_link: "#"
+    form-subscribe-button-text: "Submit"
+    form-input-field-comment: "Enter your email..."
+
+permalink: /en/offers/salary-transfer-o-4-en.html
+alt_url: /ar/offers/salary-transfer-o-4-ar.html
+
+sitemap:
+  exclude: no
+
+---
+{% for mast in page.offer-banner %}
+<div class="page_title3" style="background: #999 url({{ mast.offer-image_path }}) no-repeat center top;" >
+    <div class="container">
+        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
+    </div>
+</div>
+{% endfor %}
+<div class="content_fullwidth">
+
+<div class="featured_section80">
+    <div class="container">
+        {% for block in page.how-to-apply-boxes %}
+        {% if block.box-last-panel == true %}
+        <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            {% else %}
+        <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+        {% endif %}
+    	    <span>
+        	    <h3 class="caps">{{ block.box-title }}</h3>
+                <p class="bigtfont">{{ block.box-description }}</p>
+                <br /><br />
+        	    <a href="{{ block.box-link }}" class="button twentyone">{{ block.box-button-text }}</a>
+            </span>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section18">
+    <div class="container">
+        <div class="onecol_forty">
+            {% for product in page.product %}
+            <h2 class="editable">{{ product.product-title }}</h2>
+            <p class="bigtfont editable">{{ product.product_description }}</p>
+            {% endfor %}
+            {% for benf in page.product-benefits %}
+            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                <h5>{{ benf.product-benefit-title }}</h5>
+                <p>{{ benf.product-benefit_description }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="onecol_sixty last">
+            {% for offer in page.offer %}
+            <h2 class="editable">{{ offer.offer-title }}</h2>
+            <p class="bigtfont editable">{{ offer.offer_description }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section15 colored">
+    <div class="container">
+
+        <h3 class="margin_bottom6 editable">Additional Personal Finance Benefits</h3>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+            <span aria-hidden="true" class="icon-rocket"></span>
+
+            <h4 class="editable">Finance Amount</h4>
+            <p class="editable">Amount of SAR 10,000 to SAR 1,000,000</p>
+
+        </div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+            <span aria-hidden="true" class="icon-badge"></span>
+
+            <h4 class="editable">Repayments</h4>
+            <p class="editable">Repayment period from 12 months to 60 months</p>
+
+        </div>
+
+        <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+            <span aria-hidden="true" class="icon-settings"></span>
+
+            <h4 class="editable">Salary Transfer</h4>
+            <p class="editable">Salary transfer is not required to be eligible to apply &nbsp;</p>
+
+        </div>
+
+        <div class="clearfix margin_top6"></div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+            <span aria-hidden="true" class="icon-basket-loaded"></span>
+
+            <h4 class="editable">Settlement</h4>
+            <p class="editable">Early settlement is allowed</p>
+
+        </div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="500">
+
+            <span aria-hidden="true" class="icon-social-dropbox"></span>
+
+            <h4 class="editable">Takaful Insurance Cover</h4>
+            <p class="editable">In case of death or permanent total medical disability, god forbid, all outstanding amounts will be considered paid.</p>
+
+        </div>
+
+        <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="600">
+
+            <span aria-hidden="true" class="icon-trophy"></span>
+
+            <h4 class="editable">Smart online application form</h4>
+            <p class="editable">With a smart and simple application form, applying for Personal Finance have never been easier</p>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section32">
+    <div class="container">
+        {% for btn in page.apply-button %}
+        <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+        <p class="editable" style="padding-top: 20px;">Terms & conditions apply</p>
+        {% endfor %}
+    </div>
+</div>
+<a id="telesales"></a>
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section69">
+    <div class="container">
+        <div class="two_third">
+            <h2 class="editable">Offer Terms & Conditions</h2>
+            <ul class="">
+                {% for terms in page.offer-conditions%}
+                <li>{{ terms.conditions-text }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="one_third last">
+
+            <div class="" style="background-color: #0088A2">
+                <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br/>from our Telesales Team</p>
+            </div>
+
+            <div class="cforms">
+
+            <div id="form_status"></div>
+
+            <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
+
+                <label class="label editable">Name <em>*</em></label>
+                <label class="input">
+                    <input type="text" name="name" id="name" />
+                </label>
+
+                <div class="clearfix"></div>
+
+                <label class="label editable">E-mail <em>*</em></label>
+                <label class="input">
+                    <input type="email" name="email" id="email" />
+                </label>
+
+                <div class="clearfix"></div>
+
+                <label class="label editable">Phone <em>*</em></label>
+                <label class="input">
+                    <input type="text" name="phone" id="phone" />
+                </label>
+
+                <div class="clearfix"></div>
+
+                <label class="label editable">Preferred Time for Calling<em>*</em></label>
+                <label class="">
+                    <input type="time" name="prefer_time">
+                </label>
+
+                <div class="clearfix"></div>
+
+                <input type="hidden" name="token" value="FsWga4&@f6aw" />
+                <button type="submit" class="button editable">Send Message</button>
+
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="newcustomer"></a>
+<div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69 colored">
+        <div class="container">
+
+            <h2 class="title23 editable">How To Apply?</h2>
+
+            <div class="one_half">
+                <h3 class="editable">New Customers</h3>
+                <p class="editable">First you will need to open a meem <a href="/en/meem-one-pack-account-en.html" class="offer-links">One Pack Account</a> to be able to apply for meem's products. Opening the One Pack Account can be done simply by following these steps:</p>
+                <ol>
+                    <li class="editable">Click <a href="https://online.meem.sa/default.aspx" class="offer-links">HERE</a></li>
+                    <li class="editable">Click on "Apply Now!" button</li>
+                    <li class="editable">Fill in the application form</li>
+                    <li class="editable">Visit the nearest meem store to complete your account opening. Find nearest meem store by clicking <a href="/en/meem-locations-en.html" class="offer-links" target="_blank">HERE</a></li>
+                    <li class="editable">Once you have your account set up, you may follow the steps of how to apply for existing meemers.</li>
+                </ol>
+            </div>
+
+            <div class="one_half last">
+                <h3 class="editable">Existing Customers</h3>
+                <ol>
+                    <li class="editable">Click on the Apply Now! button below</li>
+                    <li class="editable">Login to your account</li>
+                    <li class="editable">Click on the products icon</li>
+                    <li class="editable">Select PRODUCT from ther list</li>
+                    <li class="editable">Press on "Add New Product"</li>
+                    <li class="editable">Follow the application instruction and you will place your PRODUCT within 5 minutes!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+<div class="featured_section32">
+    <div class="container">
+        {% for btn in page.apply-button %}
+        <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div>
