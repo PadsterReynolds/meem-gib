@@ -5,14 +5,17 @@ title:
 description:
 social-audio:
 social-video:
+
 social-media:
   - tw-summary:
     tw-title:
+
 offer-banner:
   - offer-image_path: /resources/images/a-samples/st_o.4_1920x550.jpg
     offer-image-alt-text:
     offer-heading-text-1: offer
     offer-heading-text-2: Many desktop publish package generators
+
 how-to-apply-boxes:
   - box-last-panel: false
     box-title: Designed for any Website
@@ -24,12 +27,15 @@ how-to-apply-boxes:
     box-description: Passage you need sure there anythin embarrassin senerators on Internet the first true generator.
     box-link: '#'
     box-button-text: READ MORE
+
 apply-button:
   - button-text: 'Apply Now!'
     button-link: 'https://online.meem.sa/default.aspx'
+
 product:
   - product-title: Currencies Card
     product_description: First of its kind in Saudi Arabia is the Currencies Card which is a visa debit card offered free of charge and without annuals fees. The card can be linked to 4 different currencies designed for your convenience and saving when travelling abroad.
+
 product-benefits:
   - product-benefit-title: "It's free!"
     product-benefit_description: 'Issued free of charge, and no annual fees'
@@ -43,21 +49,32 @@ product-benefits:
     product-benefit_description: 'Depending on your needs, you may link and unlink foreign accounts to your currencies card'
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
+
 offer:
   - offer-title: Offer
     offer_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non viverra nisl, sed lacinia justo. Proin quis condimentum ex, at sodales turpis. Praesent in velit eu odio viverra commodo. Nam eu mauris pharetra, vestibulum lorem vel, aliquam libero. Praesent quis velit dolor. Nunc sit amet est vehicula, bibendum arcu eget, vestibulum velit. Suspendisse ac odio efficitur tellus consequat placerat sed nec dui. Suspendisse vel lorem arcu. Suspendisse leo lectus, ornare eget quam vitae, fermentum vehicula nulla. Pellentesque varius rutrum nibh, sit amet commodo mauris pellentesque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+
 offer-conditions:
   - conditions-text: 'Donec placerat augue nisl, quis auctor enim volutpat et. Ut aliquam ultricies ante vel lacinia. Donec nec lobortis mauris. Ut id nunc et sapien pharetra auctor sed at nulla. Pellentesque efficitur ipsum non orci ullamcorper feugiat. Morbi auctor elementum quam quis vulputate.'
   - conditions-text: 'Cras in metus lorem. Donec nulla velit, feugiat non facilisis vel, molestie fringilla nisi. Fusce scelerisque posuere augue, et vulputate mi luctus pellentesque.'
   - conditions-text: Duis id aliquam urna. Phasellus rhoncus tempor dolor sed iaculis. In facilisis enim eget ullamcorper euismod. Mauris elementum laoreet pellentesque. Aliquam erat volutpat. Vivamus vel metus in lorem ultricies vehicula. Aliquam erat volutpat.
   - conditions-text: 'Sed efficitur metus at sapien varius, eu scelerisque lectus efficitur. Duis a libero rhoncus ante lacinia congue. Quisque ac aliquam tellus. Mauris pharetra ipsum ut ex aliquam consectetur. Vivamus fermentum euismod odio sit amet convallis.'
+
+form-contact-label-name-text: "Name"
+form-contact-label-email-text: "Email"
+form-contact-label-phone-text: "Phone"
+form-contact-label-calltime-text: "Preferred Time for Calling"
+form-contact-label-button-text: "Send Message"
+
 newsletter:
   - subscribe-text: "Never miss meem's offers and promotions. Subscribe to our mailing list."
     form-action_link: '#'
     form-subscribe-button-text: Submit
     form-input-field-comment: Enter your email...
+
 permalink: /en/offers/index.html
 alt_url: /ar/offers/index.html
+
 sitemap:
   exclude: 'no'
 ---
@@ -218,42 +235,41 @@ sitemap:
 
             <div class="cforms">
 
-            <div id="form_status"></div>
+                <div id="form_status"></div>
 
-            <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
+                <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
+                    <label class="label editable">{{ page.form-contact-label-name-text }} <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="name" id="name" />
+                    </label>
 
-                <label class="label editable">Name <em>*</em></label>
-                <label class="input">
-                    <input type="text" name="name" id="name" />
-                </label>
+                    <div class="clearfix"></div>
 
-                <div class="clearfix"></div>
+                    <label class="label">{{ page.form-contact-label-email-text }} <em>*</em></label>
+                    <label class="input">
+                        <input type="email" name="email" id="email" />
+                    </label>
 
-                <label class="label editable">E-mail <em>*</em></label>
-                <label class="input">
-                    <input type="email" name="email" id="email" />
-                </label>
+                    <div class="clearfix"></div>
 
-                <div class="clearfix"></div>
+                    <label class="label">{{ page.form-contact-label-phone-text }} <em>*</em></label>
+                    <label class="input">
+                        <input type="text" name="phone" id="phone" />
+                    </label>
 
-                <label class="label editable">Phone <em>*</em></label>
-                <label class="input">
-                    <input type="text" name="phone" id="phone" />
-                </label>
+                    <div class="clearfix"></div>
 
-                <div class="clearfix"></div>
+                    <label class="label">{{ page.form-contact-label-calltime-text }} <em>*</em></label>
+                    <label>
+                        <input type="time" name="prefer_time" />
+                    </label>
 
-                <label class="label editable">Preferred Time for Calling<em>*</em></label>
-                <label class="">
-                    <input type="time" name="prefer_time">
-                </label>
+                    <div class="clearfix"></div>
 
-                <div class="clearfix"></div>
+                    <input type="hidden" name="token" value="FsWga4&@f6aw" />
+                    <button type="submit" class="button">{{ page.form-contact-label-button-text }}</button>
 
-                <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                <button type="submit" class="button editable">Send Message</button>
-
-            </form>
+                </form>
             </div>
         </div>
     </div>

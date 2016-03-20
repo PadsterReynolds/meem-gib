@@ -64,8 +64,20 @@ offer-conditions:
   - conditions-text: "Duis id aliquam urna. Phasellus rhoncus tempor dolor sed iaculis. In facilisis enim eget ullamcorper euismod. Mauris elementum laoreet pellentesque. Aliquam erat volutpat. Vivamus vel metus in lorem ultricies vehicula. Aliquam erat volutpat."
   - conditions-text: "Sed efficitur metus at sapien varius, eu scelerisque lectus efficitur. Duis a libero rhoncus ante lacinia congue. Quisque ac aliquam tellus. Mauris pharetra ipsum ut ex aliquam consectetur. Vivamus fermentum euismod odio sit amet convallis."
 
+form-contact-label-name-text: "Name"
+form-contact-label-email-text: "Email"
+form-contact-label-phone-text: "Phone"
+form-contact-label-calltime-text: "Preferred Time for Calling"
+form-contact-label-button-text: "Send Message"
+
+newsletter:
+  - subscribe-text: "Never miss meem's offers and promotions. Subscribe to our mailing list."
+    form-action_link: '#'
+    form-subscribe-button-text: Submit
+    form-input-field-comment: Enter your email...
+
 permalink: "/ar/offers/murbaha-deposit-o-5-ar.html"
-alt_url: "/en/offers/murbaha-deposit-o-1-en.html"
+alt_url: "/en/offers/murbaha-deposit-o-5-en.html"
 
 
 sitemap:
@@ -220,7 +232,7 @@ sitemap:
             <div class="one_third">
 
                 <div style="background-color: #0088A2">
-                    <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br />from our Telesales Team</p>
+                    <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">For more info request a call<br />from our Telesales Team</p>
                 </div>
 
                 <div class="cforms">
@@ -228,28 +240,28 @@ sitemap:
                     <div id="form_status"></div>
 
                 <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
-                    <label class="label editable">Name <em>*</em></label>
+                    <label class="label">{{ page.form-contact-label-name-text }} <em>*</em></label>
                     <label class="input">
                         <input type="text" name="name" id="name" />
                     </label>
 
                     <div class="clearfix"></div>
 
-                    <label class="label editable">E-mail <em>*</em></label>
+                    <label class="label">{{ page.form-contact-label-email-text }} <em>*</em></label>
                     <label class="input">
                         <input type="email" name="email" id="email" />
                     </label>
 
                     <div class="clearfix"></div>
 
-                    <label class="label editable">Phone <em>*</em></label>
+                    <label class="label">{{ page.form-contact-label-phone-text }} <em>*</em></label>
                     <label class="input">
                         <input type="text" name="phone" id="phone" />
                     </label>
 
                     <div class="clearfix"></div>
 
-                    <label class="label editable">Preferred Time for Calling<em>*</em></label>
+                    <label class="label">{{ page.form-contact-label-calltime-text }} <em>*</em></label>
                     <label>
                         <input type="time" name="prefer_time" />
                     </label>
@@ -257,7 +269,7 @@ sitemap:
                     <div class="clearfix"></div>
 
                     <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                    <button type="submit" class="button editable">Send Message</button>
+                    <button type="submit" class="button">{{ page.form-contact-label-button-text }}</button>
 
                 </form>
             </div>
@@ -307,6 +319,8 @@ sitemap:
             </div>
         </div>
     </div>
+
+    <div class="clearfix margin_top6"></div>
 
     <div class="featured_section32">
         <div class="container">
