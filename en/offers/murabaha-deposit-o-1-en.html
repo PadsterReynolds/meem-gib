@@ -3,40 +3,33 @@ lang: en-us
 layout: offers-page-en
 title:
 description:
-
 social-audio:
 social-video:
-
 social-media:
   - tw-summary:
     tw-title:
-
 offer-banner:
-  - offer-image_path: "/resources/images/a-samples/test-1280x400.jpg"
-    offer-image-alt-text: ""
-    offer-heading-text-1: "About Us"
-    offer-heading-text-2: "Many desktop publish package generators"
-
+  - offer-image_path: /resources/images/a-samples/st_o.4_1920x550.jpg
+    offer-image-alt-text:
+    offer-heading-text-1: About Us
+    offer-heading-text-2: Many desktop publish package generators
 how-to-apply-boxes:
   - box-last-panel: false
-    box-title: "Designed for any Website"
-    box-description: "Passage lorem lpsum you need sure there anythin embarrassin senerators on Internet the first true generator."
-    box-link: "#"
-    box-button-text: "READ MORE"
+    box-title: Designed for any Website
+    box-description: Passage lorem lpsum you need sure there anythin embarrassin senerators on Internet the first true generator.
+    box-link: '#'
+    box-button-text: READ MORE
   - box-last-panel: true
-    box-title: "Free Lifetime Updates"
-    box-description: "Passage you need sure there anythin embarrassin senerators on Internet the first true generator."
-    box-link: "#"
-    box-button-text: "READ MORE"
-
+    box-title: Free Lifetime Updates
+    box-description: Passage you need sure there anythin embarrassin senerators on Internet the first true generator.
+    box-link: '#'
+    box-button-text: READ MORE
 apply-button:
-  - button-text: "Apply Now!"
-    button-link: "https://online.meem.sa/default.aspx"
-
+  - button-text: 'Apply Now!'
+    button-link: 'https://online.meem.sa/default.aspx'
 product:
-  - product-title: "Currencies Card"
-    product_description: "First of its kind in Saudi Arabia is the Currencies Card which is a visa debit card offered free of charge and without annuals fees. The card can be linked to 4 different currencies designed for your convenience and saving when travelling abroad."
-
+  - product-title: Currencies Card
+    product_description: First of its kind in Saudi Arabia is the Currencies Card which is a visa debit card offered free of charge and without annuals fees. The card can be linked to 4 different currencies designed for your convenience and saving when travelling abroad.
 product-benefits:
   - product-benefit-title: "It's free!"
     product-benefit_description: 'Issued free of charge, and no annual fees'
@@ -50,38 +43,31 @@ product-benefits:
     product-benefit_description: 'Depending on your needs, you may link and unlink foreign accounts to your currencies card'
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
-
 offer:
   - offer-title: Offer
     offer_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non viverra nisl, sed lacinia justo. Proin quis condimentum ex, at sodales turpis. Praesent in velit eu odio viverra commodo. Nam eu mauris pharetra, vestibulum lorem vel, aliquam libero. Praesent quis velit dolor. Nunc sit amet est vehicula, bibendum arcu eget, vestibulum velit. Suspendisse ac odio efficitur tellus consequat placerat sed nec dui. Suspendisse vel lorem arcu. Suspendisse leo lectus, ornare eget quam vitae, fermentum vehicula nulla. Pellentesque varius rutrum nibh, sit amet commodo mauris pellentesque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-
 offer-conditions:
   - conditions-text: 'Donec placerat augue nisl, quis auctor enim volutpat et. Ut aliquam ultricies ante vel lacinia. Donec nec lobortis mauris. Ut id nunc et sapien pharetra auctor sed at nulla. Pellentesque efficitur ipsum non orci ullamcorper feugiat. Morbi auctor elementum quam quis vulputate.'
   - conditions-text: 'Cras in metus lorem. Donec nulla velit, feugiat non facilisis vel, molestie fringilla nisi. Fusce scelerisque posuere augue, et vulputate mi luctus pellentesque.'
   - conditions-text: Duis id aliquam urna. Phasellus rhoncus tempor dolor sed iaculis. In facilisis enim eget ullamcorper euismod. Mauris elementum laoreet pellentesque. Aliquam erat volutpat. Vivamus vel metus in lorem ultricies vehicula. Aliquam erat volutpat.
   - conditions-text: 'Sed efficitur metus at sapien varius, eu scelerisque lectus efficitur. Duis a libero rhoncus ante lacinia congue. Quisque ac aliquam tellus. Mauris pharetra ipsum ut ex aliquam consectetur. Vivamus fermentum euismod odio sit amet convallis.'
-
-form-contact-label-name-text: "Name"
-form-contact-label-email-text: "Email"
-form-contact-label-phone-text: "Phone"
-form-contact-label-calltime-text: "Preferred Time for Calling"
-form-contact-label-button-text: "Send Message"
-
+form-contact-label-name-text: Name
+form-contact-label-email-text: Email
+form-contact-label-phone-text: Phone
+form-contact-label-calltime-text: Preferred Time for Calling
+form-contact-label-button-text: Send Message
 newsletter:
   - subscribe-text: "Never miss meem's offers and promotions. Subscribe to our mailing list."
-    form-action_link: "#"
-    form-subscribe-button-text: "Submit"
-    form-input-field-comment: "Enter your email..."
-
+    form-action_link: '#'
+    form-subscribe-button-text: Submit
+    form-input-field-comment: Enter your email...
 permalink: /en/offers/murabaha-deposit-o-1-en.html
 alt_url: /ar/offers/murabaha-deposit-o-1-ar.html
-
 sitemap:
-  exclude: no
-
+  exclude: 'no'
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3" style="background: #999 url({{ mast.offer-image_path }}) no-repeat center top;" >
+<div class="page_title3" style="background: #999 url({{ mast.offer-image_path }}) no-repeat center top;">
     <div class="container">
         <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
     </div>
@@ -222,7 +208,7 @@ sitemap:
     <div class="container">
         <div class="two_third">
             <h2 class="editable">Offer Terms & Conditions</h2>
-            <ul class="">
+            <ul>
                 {% for terms in page.offer-conditions%}
                 <li>{{ terms.conditions-text }}</li>
                 {% endfor %}
@@ -231,8 +217,8 @@ sitemap:
 
         <div class="one_third last">
 
-            <div class="" style="background-color: #0088A2">
-                <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br/>from our Telesales Team</p>
+            <div style="background-color: #0088A2">
+                <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br />from our Telesales Team</p>
             </div>
 
             <div class="cforms">
@@ -321,3 +307,4 @@ sitemap:
 </div>
 
 <div class="clearfix margin_top6"></div>
+</div></div>
