@@ -12,23 +12,21 @@ social-media:
     tw-title: ""
 
 offer-banner:
-  - offer-image_path: "/resources/images/page-title-bg2.jpg"
-    offer-image-alt-text: ""
-    offer-heading-text-1: "About Us"
-    offer-heading-text-2: "Many desktop publish package generators"
+  - offer-heading-text-1: نقل الراتب الحرة
+    offer-heading-text-2: بالإضافة إلى مكافأة 10 ٪
 
 how-to-apply-boxes:
   - box-last-panel: false
     box-image-alt-text: ""
     box-title: "Free Lifetime Updates"
     box-description: "Passage lorem lpsum you need sure there anythin embarrassin senerators on Internet the first true generator."
-    box-link: "#"
+    box-link: "#phonenowlink"
     box-button-text: "READ MORE"
   - box-last-panel: true
     box-image-alt-text: ""
     box-title: "Designed for any Website"
     box-description: "Passage you need sure there anythin embarrassin senerators on Internet the first true generator."
-    box-link: "#"
+    box-link: "#applynowlink"
     box-button-text: "READ MORE"
 
 
@@ -85,7 +83,7 @@ sitemap:
 
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3" style="background: #999 url({{ mast.offer-image_path }}) no-repeat center top;" >
+<div class="page_title4">
     <div class="container">
         <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
     </div>
@@ -98,10 +96,10 @@ sitemap:
         <div class="container">
             {% for block in page.how-to-apply-boxes %}
             {% if block.box-last-panel == true %}
-            <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            <div class="box last animate" data-anim-type="fadeInRight" data-anim-delay="200">
                 {% else %}
-                <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
-                    {% endif %}
+            <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+                 {% endif %}
     	    <span>
         	    <h3 class="caps">{{ block.box-title }}</h3>
                 <p class="bigtfont">{{ block.box-description }}</p>
@@ -215,6 +213,8 @@ sitemap:
 
     <div class="clearfix margin_top6"></div>
 
+    <a id="phonenowlink"></a>
+
     <div class="featured_section32">
         <div class="container">
             {% for btn in page.apply-button %}
@@ -239,40 +239,79 @@ sitemap:
 
                     <div id="form_status"></div>
 
-                <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
-                    <label class="label">{{ page.form-contact-label-name-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="text" name="name" id="name" />
-                    </label>
+                    <div id="mc_embed_signup">
+                        <form action="//meem.us8.list-manage.com/subscribe/post?u=71634b7b1bf84cec57eb90f41&amp;id=394dcfe6f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
 
-                    <div class="clearfix"></div>
+                                <div class="indicates-required"><label style="text-align: left;">  <em>*</em> مطلوب</label></div>
+                                <div class="mc-field-group margin_top2">
+                                    <label for="mce-MMERGE3" class="label"><em>*</em>  الاسم</label>
+                                    <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+                                </div>
+                                <div class="mc-field-group margin_top2">
+                                    <label for="mce-EMAIL" class="label"><em>*</em>  الايميل
+                                    </label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div class="mc-field-group size1of2 margin_top2">
+                                    <label for="mce-MMERGE1" class="label"><em>*</em> الهاتف   </label>
+                                    <input type="tel" name="MMERGE1" class="" value="" id="mce-MMERGE1">
+                                </div>
+                                <div class="mc-field-group margin_top2">
+                                    <label for="mce-MMERGE5" class="label">الوقت المفضل للاتصال </label>
+                                    <select name="MMERGE5" class="" id="mce-MMERGE5">
+                                        <option value="">اختر من فضلك...</option>
+                                        <option value="09:00am - 12:00pm">09:00am - 12:00pm</option>
+                                        <option value="12:00pm - 03:00pm">12:00pm - 03:00pm</option>
+                                        <option value="03:00pm - 06:00pm">03:00pm - 06:00pm</option>
 
-                    <label class="label">{{ page.form-contact-label-email-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="email" name="email" id="email" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <label class="label">{{ page.form-contact-label-phone-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="text" name="phone" id="phone" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <label class="label">{{ page.form-contact-label-calltime-text }} <em>*</em></label>
-                    <label>
-                        <input type="time" name="prefer_time" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                    <button type="submit" class="button">{{ page.form-contact-label-button-text }}</button>
-
-                </form>
-            </div>
+                                    </select>
+                                </div>
+                                <div class="mc-field-group input-group margin_top2">
+                                    <strong>اود الحصول على عروضكم المستقبلية </strong>
+                                    <ul><li><input type="radio" value="نعم" name="MMERGE6" id="mce-MMERGE6-0"><label class="radio" for="mce-MMERGE6-0">نعم</label></li>
+                                        <li><input type="radio" value="لا" name="MMERGE6" id="mce-MMERGE6-1"><label class="radio"  for="mce-MMERGE6-1">لا</label></li>
+                                    </ul>
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <div style="position: absolute; right: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_71634b7b1bf84cec57eb90f41_394dcfe6f5" tabindex="-1" value="">
+                                </div>
+                                <div class="clear margin_top2">
+                                    <input type="submit" value="اتصل الان!" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='MMERGE3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='number';fnames[5]='MMERGE5';ftypes[5]='dropdown';fnames[6]='MMERGE6';ftypes[6]='radio'; /*
+                     * Translated default messages for the jQuery validation plugin into arabic.
+                     * Locale: AR
+                     */
+                        $.extend($.validator.messages, {
+                            required: "هذا الحقل إلزامي",
+                            remote: "يرجى تصحيح هذا الحقل للمتابعة",
+                            email: "رجاء إدخال عنوان بريد إلكتروني صحيح",
+                            url: "رجاء إدخال عنوان موقع إلكتروني صحيح",
+                            date: "رجاء إدخال تاريخ صحيح",
+                            dateISO: "رجاء إدخال تاريخ صحيح (ISO)",
+                            number: "رجاء إدخال عدد بطريقة صحيحة",
+                            digits: "رجاء إدخال أرقام فقط",
+                            creditcard: "رجاء إدخال رقم بطاقة ائتمان صحيح",
+                            equalTo: "رجاء إدخال نفس القيمة",
+                            accept: "رجاء إدخال ملف بامتداد موافق عليه",
+                            maxlength: $.validator.format("الحد الأقصى لعدد الحروف هو {0}"),
+                            minlength: $.validator.format("الحد الأدنى لعدد الحروف هو {0}"),
+                            rangelength: $.validator.format("عدد الحروف يجب أن يكون بين {0} و {1}"),
+                            range: $.validator.format("رجاء إدخال عدد قيمته بين {0} و {1}"),
+                            max: $.validator.format("رجاء إدخال عدد أقل من أو يساوي (0}"),
+                            min: $.validator.format("رجاء إدخال عدد أكبر من أو يساوي (0}")
+                        });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
 
             </div>
 
@@ -284,6 +323,8 @@ sitemap:
                     {% endfor %}
                 </ul>
             </div>
+
+            <a id="applynowlink"></a>
         </div>
     </div>
     <a id="newcustomer"></a>

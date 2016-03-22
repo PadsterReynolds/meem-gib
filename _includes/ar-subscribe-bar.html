@@ -1,16 +1,49 @@
 <div class="newsletter2">
     <div class="container">
         {% for element in page.newsletter %}
-        <div class="one_half animate" data-anim-type="fadeInRight" data-anim-delay="300">
+        <div class="one_half animate" data-anim-type="fadeInLeft" data-anim-delay="200">
 
-            <form method="get" action="{{ element.form-action_link }}">
-                <input name="" value="{{ element.form-subscribe-button-text }}" class="input_submit" type="submit">
-                <input class="enter_email_input" name="enquiry-email" id="enquiry-email" value="" onFocus="if(this.value == '{{ element.form-input-field-comment }}') {this.value = '';}" onBlur="if (this.value == '') {this.value = '{{ element.form-input-field-comment }}';}" type="text">
+            <form action="//meem.us8.list-manage.com/subscribe/post?u=71634b7b1bf84cec57eb90f41&amp;id=5178d5af17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+                <div style="position: absolute; right: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_71634b7b1bf84cec57eb90f41_5178d5af17" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                    <input type="submit" value="الاشتراك" name="subscribe" id="mc-embedded-subscribe" class="button input_submit">
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email enter_email_input" id="mce-EMAIL">
             </form>
-
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
+         * Translated default messages for the jQuery validation plugin into arabic.
+         * Locale: AR
+         */
+            $.extend($.validator.messages, {
+                required: "هذا الحقل إلزامي",
+                remote: "يرجى تصحيح هذا الحقل للمتابعة",
+                email: "رجاء إدخال عنوان بريد إلكتروني صحيح",
+                url: "رجاء إدخال عنوان موقع إلكتروني صحيح",
+                date: "رجاء إدخال تاريخ صحيح",
+                dateISO: "رجاء إدخال تاريخ صحيح (ISO)",
+                number: "رجاء إدخال عدد بطريقة صحيحة",
+                digits: "رجاء إدخال أرقام فقط",
+                creditcard: "رجاء إدخال رقم بطاقة ائتمان صحيح",
+                equalTo: "رجاء إدخال نفس القيمة",
+                accept: "رجاء إدخال ملف بامتداد موافق عليه",
+                maxlength: $.validator.format("الحد الأقصى لعدد الحروف هو {0}"),
+                minlength: $.validator.format("الحد الأدنى لعدد الحروف هو {0}"),
+                rangelength: $.validator.format("عدد الحروف يجب أن يكون بين {0} و {1}"),
+                range: $.validator.format("رجاء إدخال عدد قيمته بين {0} و {1}"),
+                max: $.validator.format("رجاء إدخال عدد أقل من أو يساوي (0}"),
+                min: $.validator.format("رجاء إدخال عدد أكبر من أو يساوي (0}")
+            });}(jQuery));var $mcj = jQuery.noConflict(true); </script>
         </div>
 
-        <div class="one_half last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+        <div class="one_half last animate" data-anim-type="fadeInRight" data-anim-delay="200">
             <h2 class="roboto">{{ element.subscribe-text }}</h2>
         </div>
         {% endfor %}

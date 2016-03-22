@@ -1,7 +1,7 @@
 ---
 lang: en-us
 layout: offers-page-en
-title:
+title: Murabaha Deposit Offers
 description:
 social-audio:
 social-video:
@@ -9,20 +9,18 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-image_path: /banner sample.jpg
-    offer-image-alt-text:
-    offer-heading-text-1: About Us
-    offer-heading-text-2: Many desktop publish package generators
+  - offer-heading-text-1: Withdraw up to 20% without penalty
+    offer-heading-text-2: The Murabaha Deposit with more flexibility
 how-to-apply-boxes:
   - box-last-panel: false
     box-title: How to apply?
     box-description: "Click the button below to learn how to apply whether you're a new or an existing customer."
-    box-link: '#'
+    box-link: '#applynowlink'
     box-button-text: Find How to Apply
   - box-last-panel: true
     box-title: Request a phone call
     box-description: Click the button below to request our Telesales team to call you in your preferred time.
-    box-link: '#'
+    box-link: '#phonenowlink'
     box-button-text: Go to Call Request
 apply-button:
   - button-text: 'Apply Now!'
@@ -40,7 +38,7 @@ product-benefits:
     product-benefit-icon: icon-magic-wand
     product-benefit-delay: '200'
   - product-benefit-title: Total Control
-    product-benefit_description: 'Depending on your needs, you may link and unlink foreign accounts to your currencies card'
+    product-benefit_description: 'You may link and unlink foreign accounts to your currencies card'
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
 offer:
@@ -67,7 +65,7 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3" style="background: #999 url({{ mast.offer-image_path }}) no-repeat center top;">
+<div class="page_title3">
     <div class="container">
         <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
     </div>
@@ -75,7 +73,7 @@ sitemap:
 {% endfor %}
 <div class="content_fullwidth">
 
-<div class="featured_section80">
+<div class="featured_section80" id="offers">
     <div class="container">
         {% for block in page.how-to-apply-boxes %}
         {% if block.box-last-panel == true %}
@@ -105,7 +103,13 @@ sitemap:
             <p class="bigtfont editable">Want to maximize thte returns on your savings? The first of its kind in the region, our flexible Murabaha deposit is a Sharia-compliant product that offers competitive rates in the market.</p>
             {% endfor %}
             {% for benf in page.product-benefits %}
-            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}"><p><span aria-hidden="true" class="icon-trophy"></span></p><h5>Variety of choice for deposit currencies</h5><h5>&nbsp;</h5></div>
+            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                <h5>{{ benf.product-benefit-title }}</h5>
+                <p>{{ benf.product-benefit_description }}</p>
+            </div>
             {% endfor %}
         </div>
 
@@ -186,6 +190,8 @@ sitemap:
 
 <div class="clearfix margin_top6"></div>
 
+<a id="phonenowlink"></a>
+
 <div class="featured_section32">
     <div class="container">
         {% for btn in page.apply-button %}
@@ -194,7 +200,7 @@ sitemap:
         {% endfor %}
     </div>
 </div>
-<a id="telesales"></a>
+
 <div class="clearfix margin_top6"></div>
 
 <div class="featured_section69">
@@ -214,48 +220,62 @@ sitemap:
                 <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br />from our Telesales Team</p>
             </div>
 
-            <div class="cforms">
+                <div id="mc_embed_signup" class="cforms">
+                    <form action="//meem.us8.list-manage.com/subscribe/post?u=71634b7b1bf84cec57eb90f41&amp;id=108b20c0e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
 
-                <div id="form_status"></div>
+                            <div class="indicates-required"><label style="text-align: right;"><em>*</em> indicates required</label></div>
+                            <div class="mc-field-group margin_top2">
+                                <label for="mce-SUBNAMEN" class="label">Name  <em>*</em>
+                                </label>
+                                <input type="text" value="" name="SUBNAMEN" class="required" id="mce-SUBNAMEN">
+                            </div>
+                            <div class="mc-field-group margin_top2">
+                                <label for="mce-EMAIL">Email Address  <em>*</em>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div class="mc-field-group size1of2 margin_top2">
+                                <label for="mce-SUBEFONEN">Phone  <em>*</em>
+                                </label>
+                                <input type="tel" name="SUBEFONEN" class="required" value="" id="mce-SUBEFONEN">
+                            </div>
+                            <div class="mc-field-group margin_top2">
+                                <label for="mce-SUBCALLEN">Preferred Time for Calling </label>
+                                <select name="SUBCALLEN" class="" id="mce-SUBCALLEN">
+                                    <option value="">Please choose a time...</option>
+                                    <option value="09:00am - 12:00pm">09:00am - 12:00pm</option>
+                                    <option value="12:00pm - 03:00pm">12:00pm - 03:00pm</option>
+                                    <option value="03:00pm - 06:00pm">03:00pm - 06:00pm</option>
 
-                <form type="POST" id="gsr-contact" onsubmit="return valid_datas( this );">
-                    <label class="label editable">{{ page.form-contact-label-name-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="text" name="name" id="name" />
-                    </label>
+                                </select>
+                            </div>
+                            <div class="mc-field-group input-group margin_top2">
+                                <strong>I would like to receive meem offers to my email </strong>
+                                <ul>
+                                    <li><label class="radio" for="mce-SUBSIGNEN-0">Yes</label><input type="radio" value="Yes" name="SUBSIGNEN" id="mce-SUBSIGNEN-0"></li>
+                                    <li><label class="radio" for="mce-SUBSIGNEN-1">No</label><input type="radio" value="No" name="SUBSIGNEN" id="mce-SUBSIGNEN-1"></li>
+                                </ul>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71634b7b1bf84cec57eb90f41_108b20c0e4" tabindex="-1" value=""></div>
+                            <div class="clear">
+                                <input type="submit" value="Call Now!" name="subscribe" id="mc-embedded-subscribe" class="button eight">
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
-                    <div class="clearfix"></div>
-
-                    <label class="label">{{ page.form-contact-label-email-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="email" name="email" id="email" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <label class="label">{{ page.form-contact-label-phone-text }} <em>*</em></label>
-                    <label class="input">
-                        <input type="text" name="phone" id="phone" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <label class="label">{{ page.form-contact-label-calltime-text }} <em>*</em></label>
-                    <label>
-                        <input type="time" name="prefer_time" />
-                    </label>
-
-                    <div class="clearfix"></div>
-
-                    <input type="hidden" name="token" value="FsWga4&@f6aw" />
-                    <button type="submit" class="button">{{ page.form-contact-label-button-text }}</button>
-
-                </form>
             </div>
         </div>
+
+        <a id="applynowlink"></a>
     </div>
 </div>
-<a id="newcustomer"></a>
+
 <div class="clearfix margin_top6"></div>
 
     <div class="featured_section69 colored">
