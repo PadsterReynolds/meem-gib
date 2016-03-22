@@ -9,7 +9,7 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: Withdraw up to 20% without penalty
+  - offer-heading-text-1: 'Withdraw up to 20% without penalty'
     offer-heading-text-2: The Murabaha Deposit with more flexibility
 how-to-apply-boxes:
   - box-last-panel: false
@@ -103,21 +103,14 @@ sitemap:
             <p class="bigtfont editable">Want to maximize thte returns on your savings? The first of its kind in the region, our flexible Murabaha deposit is a Sharia-compliant product that offers competitive rates in the market.</p>
             {% endfor %}
             {% for benf in page.product-benefits %}
-            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
-
-                <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
-
-                <h5>{{ benf.product-benefit-title }}</h5>
-                <p>{{ benf.product-benefit_description }}</p>
-
-            </div>
+            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}"><p><span aria-hidden="true" class="icon-trophy"></span></p><h5>Variety of choice for deposit currencies</h5></div>
             {% endfor %}
         </div>
 
         <div class="onecol_sixty last">
             {% for offer in page.offer %}
             <h2 class="editable">{{ offer.offer-title }}</h2>
-            <p class="bigtfont editable">{{ offer.offer_description }}</p>
+            <p class="bigtfont editable">Offer copy here</p>
             {% endfor %}
         </div>
     </div>
@@ -232,21 +225,21 @@ sitemap:
                         <div class="mc-field-group margin_top2">
                             <label for="mce-SUBNAMEN" class="label">Name  <em>*</em>
                             </label>
-                            <input type="text" value="" name="SUBNAMEN" class="required" id="mce-SUBNAMEN">
+                            <input type="text" value="" name="SUBNAMEN" class="required" id="mce-SUBNAMEN" />
                         </div>
                         <div class="mc-field-group margin_top2">
                             <label for="mce-EMAIL">Email Address  <em>*</em>
                             </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
                         </div>
                         <div class="mc-field-group size1of2 margin_top2">
                             <label for="mce-SUBEFONEN">Phone  <em>*</em>
                             </label>
-                            <input type="tel" name="SUBEFONEN" class="required" value="" id="mce-SUBEFONEN">
+                            <input type="tel" name="SUBEFONEN" class="required" value="" id="mce-SUBEFONEN" />
                         </div>
                         <div class="mc-field-group margin_top2">
                             <label for="mce-SUBCALLEN">Preferred Time for Calling </label>
-                            <select name="SUBCALLEN" class="" id="mce-SUBCALLEN">
+                            <select name="SUBCALLEN" id="mce-SUBCALLEN">
                                 <option value="">Please choose a time...</option>
                                 <option value="09:00am - 12:00pm">09:00am - 12:00pm</option>
                                 <option value="12:00pm - 03:00pm">12:00pm - 03:00pm</option>
@@ -257,17 +250,17 @@ sitemap:
                         <div class="mc-field-group input-group margin_top2">
                             <strong>I would like to receive meem offers to my email </strong>
                             <ul>
-                                <li><label class="radio" for="mce-SUBSIGNEN-0">Yes</label><input type="radio" value="Yes" name="SUBSIGNEN" id="mce-SUBSIGNEN-0"></li>
-                                <li><label class="radio" for="mce-SUBSIGNEN-1">No</label><input type="radio" value="No" name="SUBSIGNEN" id="mce-SUBSIGNEN-1"></li>
+                                <li><label class="radio" for="mce-SUBSIGNEN-0">Yes</label><input type="radio" value="Yes" name="SUBSIGNEN" id="mce-SUBSIGNEN-0" /></li>
+                                <li><label class="radio" for="mce-SUBSIGNEN-1">No</label><input type="radio" value="No" name="SUBSIGNEN" id="mce-SUBSIGNEN-1" /></li>
                             </ul>
                         </div>
                         <div id="mce-responses" class="clear">
                             <div class="response" id="mce-error-response" style="display:none"></div>
                             <div class="response" id="mce-success-response" style="display:none"></div>
                         </div>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71634b7b1bf84cec57eb90f41_108b20c0e4" tabindex="-1" value=""></div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71634b7b1bf84cec57eb90f41_108b20c0e4" tabindex="-1" value="" /></div>
                         <div class="clear">
-                            <input type="submit" value="Call Now!" name="subscribe" id="mc-embedded-subscribe" class="button eight">
+                            <input type="submit" value="Call Now!" name="subscribe" id="mc-embedded-subscribe" class="button eight" />
                         </div>
                     </div>
                 </form>
