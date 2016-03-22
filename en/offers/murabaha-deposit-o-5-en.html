@@ -26,8 +26,8 @@ apply-button:
   - button-text: 'Apply Now!'
     button-link: 'https://online.meem.sa/default.aspx'
 product:
-  - product-title: Currencies Card
-    product_description: First of its kind in Saudi Arabia is the Currencies Card which is a visa debit card offered free of charge and without annuals fees. The card can be linked to 4 different currencies designed for your convenience and saving when travelling abroad.
+  - product-title: Murabaha Deposit
+    product_description: Want to maximize thte returns on your savings? The first of its kind in the region, our flexible Murabaha deposit is a Sharia-compliant product that offers competitive rates in the market.
 product-benefits:
   - product-benefit-title: "It's free!"
     product-benefit_description: 'Issued free of charge, and no annual fees'
@@ -99,11 +99,18 @@ sitemap:
     <div class="container">
         <div class="onecol_forty">
             {% for product in page.product %}
-            <h2 class="editable">Murabaha Deposit</h2>
-            <p class="bigtfont editable">Want to maximize thte returns on your savings? The first of its kind in the region, our flexible Murabaha deposit is a Sharia-compliant product that offers competitive rates in the market.</p>
+            <h2>{{ product.product-title }}</h2>
+            <p class="bigtfont">{{ product.product_description }}</p>
             {% endfor %}
             {% for benf in page.product-benefits %}
-            <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}"><p><span aria-hidden="true" class="icon-trophy"></span></p><h5>Variety of choice for deposit currencies</h5></div>
+            <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                <h5>{{ benf.product-benefit-title }}</h5>
+                <p>{{ benf.product-benefit_description }}</p>
+
+            </div>
             {% endfor %}
         </div>
 

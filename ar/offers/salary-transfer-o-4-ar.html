@@ -126,11 +126,11 @@ sitemap:
 
             <div class="onecol_forty last">
                 {% for product in page.product %}
-                <h2 class="editable">{{ product.product-title }}</h2>
-                <p class="bigtfont editable">{{ product.product_description }}</p>
+                <h2>{{ product.product-title }}</h2>
+                <p class="bigtfont">{{ product.product_description }}</p>
                 {% endfor %}
                 {% for benf in page.product-benefits %}
-                <div class="isboxs animate editable" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+                <div class="isboxs animate " data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
 
                     <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
 

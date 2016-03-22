@@ -8908,34 +8908,26 @@ ul.footer_social_links5 {
     width: 100%;
     height: 450px;
     color: #fff;
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
     padding: 140px 0 90px 0;
-    background: #999 url('/resources/images/offers/murabaha-deposit-1920x500.jpg') no-repeat center bottom;
+    background: #999 url('/resources/images/offers/murabaha-deposit-1920x500.v3.jpg') no-repeat center bottom;
 }
 
 .page_title3 h1 {
     color: #fff;
     font-size: 45px;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .page_title3 h1 em {
-    color: #fff;
+    color: #4A0F61;
     font-weight: 500;
     display: block;
-    font-size: 21px;
+    font-size: 45px;
     font-style: normal;
     text-transform: none;
-    margin-top: 7px;
-}
-
-.page_title3 .line {
-    width: 180px;
-    height: 3px;
-    background: #fff;
-    margin: 18px auto 0 auto;
+    margin-top: 20px;
 }
 
 .page_title4 {
@@ -8958,21 +8950,15 @@ ul.footer_social_links5 {
 }
 
 .page_title4 h1 em {
-    color: #fff;
+    color: #4A0F61;
     font-weight: 500;
     display: block;
-    font-size: 21px;
+    font-size: 45px;
     font-style: normal;
     text-transform: none;
     margin-top: 7px;
 }
 
-.page_title4 .line {
-    width: 180px;
-    height: 3px;
-    background: #fff;
-    margin: 18px 0 0 auto;
-}
 
 /* sidebar widget */
 .sidebar_widget {
