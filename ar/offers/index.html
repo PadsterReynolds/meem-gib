@@ -98,10 +98,10 @@ sitemap:
         <div class="container">
             {% for block in page.how-to-apply-boxes %}
             {% if block.box-last-panel == true %}
-            <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            <div class="box last animate" data-anim-type="fadeInRight" data-anim-delay="200">
                 {% else %}
-                <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
-                    {% endif %}
+            <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+                 {% endif %}
     	    <span>
         	    <h3 class="caps">{{ block.box-title }}</h3>
                 <p class="bigtfont">{{ block.box-description }}</p>

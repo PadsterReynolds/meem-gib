@@ -675,6 +675,43 @@
         font-size: 14px;
     }
 
+    .page_title3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+        padding: 75px 0 90px 0;
+        background: #999 url(../images/offers/murabaha-deposit-1532x400.jpg) no-repeat center bottom;
+    }
+    .page_title3 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .page_title4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 75px 0 90px 0;
+        background: #999 url('/resources/images/offers/savings-transfer-offer_1244x400-left.jpg') no-repeat left bottom;
+    }
+
+    .page_title4 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
     .featured_section2 .one_fourth_less p {
         padding: 25px 20px 20px 20px;
     }
@@ -1619,6 +1656,59 @@
 
     .top_section2 .right .tinfo em {
         line-height: 10px;
+    }
+
+    .page_title3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: center;
+        margin-top: 90px;
+        padding: 75px 0 90px 0;
+        background: #999 url(../images/offers/murabaha-deposit-900x350.jpg) no-repeat center bottom;
+    }
+    .page_title3 h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .page_title3 h1 em {
+        display: block;
+        font-size: 18px;
+        text-transform: none;
+        margin-top: 7px;
+    }
+
+    .page_title4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 75px 0 90px 0;
+        background: #999 url('/resources/images/offers/savings-transfer-offer_1244x400-left.jpg') no-repeat left bottom;
+    }
+
+    .page_title4 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 300px;
+        float: right;
+    }
+
+    .page_title4 h1 em {
+        display: block;
+        font-size: 18px;
+        text-transform: none;
+        margin-top: 7px;
     }
 
     .featured_section2 .one_fourth_less p {
@@ -2917,6 +3007,59 @@
 
     .sample_slider9 {
         margin-top: -155px;
+    }
+
+    .page_title3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 320px;
+        color: #fff;
+        text-align: center;
+        margin-top: 90px;
+        padding: 75px 0 90px 0;
+        background: #999 url(/resources/images/offers/murabaha-deposit-532x300.jpg) no-repeat center bottom;
+    }
+    .page_title3 h1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .page_title3 h1 em {
+        display: block;
+        font-size: 16px;
+        text-transform: none;
+        margin-top: 7px;
+    }
+
+    .page_title4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 320px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 75px 0 90px 0;
+        background: #999 url('/resources/images/offers/savings-transfer-offer_760x350-left.jpg') no-repeat left bottom;
+    }
+
+    .page_title4 h1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 300px;
+        float: right;
+    }
+
+    .page_title4 h1 em {
+        display: block;
+        font-size: 16px;
+        text-transform: none;
+        margin-top: 7px;
     }
 
     .featured_section3 span {
@@ -4319,6 +4462,62 @@
         line-height: 5px;
     }
 
+    .page_title3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 310px;
+        color: #fff;
+        text-align: center;
+        margin-top: 90px;
+        padding: 60px 0 90px 0;
+        background: #999 url(../images/offers/murabaha-deposit-532x300.jpg) no-repeat center bottom;
+    }
+    .page_title3 h1 {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .page_title3 h1 em {
+        display: block;
+        font-size: 16px;
+        text-transform: none;
+        margin-top: 7px;
+    }
+
+    .page_title4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 310px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 60px 0 90px 0;
+        background: #999 url('/resources/images/offers/savings-transfer-offer_538x300-left.jpg') no-repeat left bottom;
+    }
+
+    .page_title4 h1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 200px;
+        float: right;
+    }
+
+    .page_title4 h1 em {
+        display: block;
+        font-size: 15px;
+        text-transform: none;
+        margin-top: 7px;
+    }
+
+    .page_title4 .line {
+        display: none;
+    }
     .sample_slider9 {
         margin-top: -130px;
     }
