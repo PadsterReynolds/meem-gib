@@ -11,6 +11,8 @@ social-media:
 offer-banner:
   - offer-heading-text-1: Enjoy the benefits of the
     offer-heading-text-2: leading profit margin in the market
+    offer-heading-subtitle: Murabaha deposit
+    offer-heading-terms: Terms and conditions apply
 how-to-apply-boxes:
   - box-last-panel: false
     box-title: How to apply?
@@ -65,9 +67,11 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3">
+<div class="page_title4">
     <div class="container">
-        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
+        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em></h1>
+        <p class="muradep" style="">{{ mast.offer-heading-subtitle }}</p>
+        <p class="termscond">{{ mast.offer-heading-terms }}</p>
     </div>
 </div>
 {% endfor %}
