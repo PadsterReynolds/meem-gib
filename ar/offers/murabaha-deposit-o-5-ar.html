@@ -12,6 +12,7 @@ social-media:
 offer-banner:
   - offer-heading-text-1: استمتع بمميزاتنا
     offer-heading-text-2: 'امكانية السحب من الوديعة بحد 20% بدون غرامات'
+    offer-heading-subtitle: خدمات مصرفية ذاتية
     offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
   - box-last-panel: false
@@ -69,9 +70,10 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3">
+<div class="page_title4">
     <div class="container">
         <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em></h1>
+        <p class="muradep">{{ mast.offer-heading-subtitle }}</p>
         <p class="termscond">{{ mast.offer-heading-terms }}</p>
     </div>
 </div>
