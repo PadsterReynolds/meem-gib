@@ -7932,14 +7932,13 @@ ul.footer_social_links5 {
 	color: #fff;
 	text-align: right;
 	margin-top: 100px;
-	padding: 140px 0 90px 0;
+	padding: 120px 0 90px 0;
 	background: #999 url(/resources/images/offers/murabaha-deposit-1920x500.v3.ar.jpg) no-repeat center bottom;
 }
 .page_title3 h1 {
 	color: #fff;
 	font-size: 45px;
 	font-weight: 700;
-	text-transform: uppercase;
 }
 .page_title3 h1 em {
 	color: #4A0F61;
@@ -7949,6 +7948,12 @@ ul.footer_social_links5 {
 	font-style: normal;
 	text-transform: none;
 	margin-top: 20px;
+}
+
+.page_title3 .termscond {
+	font-size: 18px;
+	text-align: left;
+	padding: 70px 0 0 80px;
 }
 
 .page_title4 {

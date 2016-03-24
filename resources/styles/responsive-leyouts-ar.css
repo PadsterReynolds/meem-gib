@@ -95,7 +95,7 @@
         height: 400px;
         color: #fff;
         text-align: right;
-        margin-top: 100px;
+        margin-top: 80px;
         padding: 100px 0 90px 0;
         background: #999 url(/resources/images/offers/murabaha-deposit-1170x450.v3.ar.jpg) no-repeat center bottom;
     }
@@ -110,6 +110,11 @@
         font-size: 42px;
         text-transform: none;
         margin-top: 20px;
+    }
+    .page_title3 .termscond {
+        font-size: 18px;
+        text-align: left;
+        padding: 100px 0 0 60px;
     }
 
     .page_title4 {
@@ -584,7 +589,63 @@
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 999px) {
+@media only screen and (min-width: 970px) and (max-width: 999px) {
+
+    .container {
+        width: 950px;
+    }
+
+    .page_title3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 100px 0 90px 0;
+        background: #999 url(/resources/images/offers/murabaha-deposit-1000x400.v3.ar.jpg) no-repeat center bottom;
+    }
+
+    .page_title3 h1 {
+        color: #fff;
+        font-size: 38px;
+        font-weight: 700;
+        margin: 0 0 0 50px;
+    }
+    .page_title3 h1 em {
+        display: block;
+        font-size: 38px;
+        text-transform: none;
+        margin-top: 20px;
+    }
+    .page_title3 .termscond {
+        font-size: 18px;
+        text-align: left;
+        padding: 120px 0 0 100px;
+    }
+
+    .page_title4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 75px 0 90px 0;
+        background: #999 url(/resources/images/offers/savings-transfer-offer_1244x400-left.jpg) no-repeat left bottom;
+    }
+
+    .page_title4 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 970px) {
     .container {
         width: 747px;
         margin: auto;
@@ -732,15 +793,20 @@
     }
     .page_title3 h1 {
         color: #fff;
-        font-size: 32px;
+        font-size: 35px;
         font-weight: 700;
     }
 
     .page_title3 h1 em {
         display: block;
-        font-size: 28px;
+        font-size: 35px;
         text-transform: none;
         margin-top: 40px;
+    }
+    .page_title3 .termscond {
+        font-size: 18px;
+        text-align: left;
+        padding: 120px 0 0 20px;
     }
 
     .page_title4 {
@@ -759,12 +825,11 @@
         color: #fff;
         font-size: 32px;
         font-weight: 700;
-        text-transform: uppercase;
     }
 
-    .page_title3 h1 em {
+    .page_title4 h1 em {
         display: block;
-        font-size: 42px;
+        font-size: 35px;
         text-transform: none;
         margin-top: 20px;
     }
@@ -1739,6 +1804,12 @@
         text-transform: none;
         margin-top: 7px;
     }
+
+    .page_title3 .termscond {
+             font-size: 18px;
+             text-align: left;
+             padding: 100px 0 0 10px;
+         }
 
     .page_title4 {
         position: relative;
@@ -3070,15 +3141,21 @@
     }
     .page_title3 h1 {
         color: #fff;
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 700;
     }
 
     .page_title3 h1 em {
         display: block;
-        font-size: 20px;
+        font-size: 21px;
         text-transform: none;
         margin-top: 10px;
+    }
+
+    .page_title3 .termscond {
+        font-size: 14px;
+        text-align: left;
+        padding: 100px 0 0 20px;
     }
 
     .page_title4 {
@@ -4454,6 +4531,12 @@
         font-size: 21px;
         text-transform: none;
         margin-top: 7px;
+    }
+
+    .page_title3 .termscond {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
     }
 
     .page_title4 {

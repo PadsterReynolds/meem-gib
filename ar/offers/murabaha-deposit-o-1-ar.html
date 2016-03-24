@@ -12,6 +12,7 @@ social-media:
 offer-banner:
   - offer-heading-text-1: وديعة مرابحة مرنة
     offer-heading-text-2: 'امكانية السحب من الوديعة بحد 20% بدون غرامات'
+    offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
   - box-last-panel: false
     box-image-alt-text:
@@ -70,7 +71,8 @@ sitemap:
 {% for mast in page.offer-banner %}
 <div class="page_title3">
     <div class="container">
-        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
+        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em></h1>
+        <p class="termscond">{{ mast.offer-heading-terms }}</p>
     </div>
 </div>
 {% endfor %}
