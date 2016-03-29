@@ -8137,6 +8137,7 @@ ul.recent_posts_list {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
+
 .error_pagenotfound strong {
 	display: block;
 	font-size: 145px;
@@ -8158,9 +8159,13 @@ ul.recent_posts_list {
 	display: block;
 	font-size: 18px;
 	line-height: 59px;
-	color: #9eca45;
+	color: #7F58A2;
 	margin: 0;
 	font-style: normal;
+}
+
+.conversion {
+	height: 375px;
 }
 
 
