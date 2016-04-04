@@ -1,0 +1,29 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+ Title : Wufoo custom CSS for Arabic forms
+ Author : Padz
+ URL : https://meembygib.wufoo.eu/themes/
+
+ Last Updated : 31 Mar 2016
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+form li.buttons input {
+    float: left;
+    margin-top: 10px;
+    color: #fff;
+    padding: 16px 35px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #7F58A2;
+    border: 1px solid #7F58A2;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form li.buttons input:hover {
+    color: #7F58A2;
+    background: #fff;
+    border: 1px solid #7F58A2;
+}
