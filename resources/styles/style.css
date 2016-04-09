@@ -10392,3 +10392,18 @@ ul.adsbanner-list {
     background: url(../images/scroll-top-arrow.png) no-repeat left top;
     z-index: 9001;
 }
+
+#applynowlink:before {
+    display: block;
+    content: " ";
+    margin-top: 40px;
+    height: 75px;
+    visibility: hidden;
+}
+#phonenowlink:before {
+    display: block;
+    content: " ";
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+}
