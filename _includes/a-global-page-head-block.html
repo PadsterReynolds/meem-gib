@@ -10,7 +10,7 @@
     {% comment %} Viewport meta tag for mobile/tablet browsers {% endcomment %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <title>{% if page.lang == 'ar-sa' %}{{ page.title }}
-        {% elsif page.lang == 'en-us' %}meem | {{ page.title }}{% else %}
+        {% elsif page.lang == 'en-us' %}{{ page.title }}{% else %}
         meem | Digital Banking{% endif %}</title>
     <meta name="description" content="{{ page.description }}" />
     {% comment %} Alternative Language Content {% endcomment %}
