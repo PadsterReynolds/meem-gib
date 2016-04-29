@@ -9,3 +9,6 @@ _layouts/test-layout-ar.html
 _layouts/test-layout-en.html
 ar/test-layout.html
 en/test-layout.html
+.htaccessXXXX
+pagespeed.conf
+_drafts
