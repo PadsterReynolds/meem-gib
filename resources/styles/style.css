@@ -1324,7 +1324,7 @@
 .featured_section3 {
     float: left;
     width: 100%;
-    padding: 60px 0 110px 0;
+    padding: 60px 0 0 0;
     background: #f3f3f3;
 }
 
@@ -1377,7 +1377,7 @@
 
 .featured_section3.two {
     padding-bottom: 0;
-    background: #eee url(../images/site-img61.jpg) no-repeat center top;
+/*    background: #eee url(../images/site-img61.jpg) no-repeat center top;*/
 }
 
 .featured_section3.two .onecol_forty img {
@@ -6430,6 +6430,33 @@
 
 .featured_section133 .box:hover {
     background: #40484d;
+}
+
+
+.featured_section300 {
+    color: #42145F;
+}
+
+.featured_section300 h1 {
+    color: #42145F;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.featured_section300 h2 {
+    color: #42145F;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.featured_section300 ul li {
+    margin-left: 28%;
+    list-style-type: disc;
+}
+
+.featured_section300 p {
+    margin-left: 28%;
 }
 
 /* domain search */

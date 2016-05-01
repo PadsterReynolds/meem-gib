@@ -12,13 +12,9 @@ tw-title: "meem | "
 
 intro_title: Thank you and welcome onboard!
 list_title: WHAT TO DO NEXT?
-list_items:
-  - list_item: Visit the nearest meem store
-  - list_item: Bring your valid National ID for Saudi nationals. And Iqama & Passport for expats
-  - list_item: Bring the mobile you registered
-  - list_item: Sign the T&Cs document
-  - list_item: Fill & sign the FATCA form
-  - list_item: Get your Visa Debit Card!
+info_block:
+  - info_para: "Your account opening application is being reviewed by our team. Please wait for few days."
+  - info_para: "You should receive an update on your registered mobile once the review is over."
 
 app_title: GET THE APP
 app_description: Don't forget to download the meem app on your mobile and tablet.
@@ -27,24 +23,24 @@ apple_store_alt_txt: Click here to download the Meem banking app from the Apple 
 google_play_url: "#"
 google_play_alt_txt: Click here to download the Meem banking app from Google Play store
 
-permalink: "/en/meem-thank-you-en.html"
-alt_url: "/ar/meem-thank-you-ar.html"
+permalink: "/en/meem-thank-you-alt-en.html"
+alt_url: "/ar/meem-thank-you-alt-ar.html"
 
 sitemap:
-  exclude: no
+exclude: no
 
 ---
 <div class="clearfix margin_top21"></div>
 
 <div class="featured_section300">
-<div class="container">
-    <h2 class="margin_bottom8">{{ page.intro_title }}</h2>
+    <div class="container">
+        <h2 class="margin_bottom8">{{ page.intro_title }}</h2>
 
-    <h1>{{ page.list_title | caps }}</h1>
-    <ul>
-        {% for item in page.list_items %}<li>{{ item.list_item }}</li>{% endfor %}
-    </ul>
-</div>
+        <h1>{{ page.list_title | caps }}</h1>
+        {% for para in page.info_block %}
+        <p class="margin_top3">{{ para.info_para }}</p>
+        {% endfor %}
+    </div>
 </div>
 
 <div class="clearfix margin_top10"></div>
@@ -85,10 +81,9 @@ sitemap:
         <div class="onecol_forty"><img src="/resources/images/login/meem-login-iphone.gif" alt="Meem Login" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
 
         <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
-    	<span><b>{{ page.app_title | caps }}</b></span>
+            <span><b>{{ page.app_title | caps }}</b></span>
 
             <p class="bigtfont margin_top4">{{ page.app_description }}</p>
-
             <div class="margin_top8">
                 <div class="one_half download">
                     <a id="apple-store" href="{{ page.apple_store_url }}" class="button app"><img src="/resources/images/buttons/apple_store_230x90.gif" alt="{{ page.apple_store_alt_txt }}" /></a>

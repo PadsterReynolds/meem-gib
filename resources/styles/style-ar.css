@@ -5601,6 +5601,33 @@
 	background: #40484d;
 }
 
+.featured_section300 {
+	color: #42145F;
+}
+
+.featured_section300 h1 {
+	color: #42145F;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.featured_section300 h2 {
+	color: #42145F;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.featured_section300 ul li {
+	margin-right: 28%;
+	list-style-type: disc;
+}
+
+.featured_section300 p {
+	padding-right: 25%;
+}
+
+
 /* domain search */
 .domserch {
 	float: left;

@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% include a-global-page-head-block.html %}
 
-</body>
-</html>
+{% include en-top-bar.html %}
+
+{% include en-main-header-and-menu.html %}
+
+{{ content }}
+
+{% include en-footer-block.html %}
+
+{% include a-global-standard-footer-script-block.html %}
