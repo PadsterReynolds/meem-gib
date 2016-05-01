@@ -1,0 +1,103 @@
+---
+lang: ar-sa
+direction: rtl
+layout: default-ar
+title: شكراً و حياك الله معانا
+description: شكراً و حياك الله معانا
+social-audio:
+social-video:
+
+social-media:
+  - tw-summary: ""
+tw-title: "meem | "
+
+intro_title: شكراً و حياك الله معانا
+list_title: إيش الخطوات التالية؟
+info_block:
+  - info_para: "راح نراجع معلوماتك اللي أدخلتها في النظام خلال الأيام القليلة المقبلة."
+  - info_para: "و بإذن الله راح نتواصل معك من خلال رسالة على الجوال أول ما تنتهي عملية المراجعة."
+
+app_title: الحصول على التطبيق
+app_description: لا تنسى تحمل تطبيق م المصرفي في الجوال و التابلت
+apple_store_url: "#"
+apple_store_alt_txt: انقر هنا لتحميل التطبيق المصرفي ميم من متجر أبل
+google_play_url: "#"
+google_play_alt_txt: انقر هنا لتحميل التطبيق المصرفي ميم من متجر Google Play
+
+permalink: "/ar/meem-thank-you-alt-ar.html"
+alt_url: "/en/meem-thank-you-alt-en.html"
+
+sitemap:
+exclude: no
+
+---
+<div class="clearfix margin_top21"></div>
+
+<div class="featured_section300">
+  <div class="container">
+    <h2 class="margin_bottom8">{{ page.intro_title }}</h2>
+
+    <h1>{{ page.list_title | caps }}</h1>
+    {% for para in page.info_block %}
+    <p class="margin_top3">{{ para.info_para }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="clearfix margin_top10"></div>
+
+<div class="featured_section26">
+  <div class="container">
+
+    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+      <div class="cont">
+        <a href="meem-locations-ar.html"> <h3 class="editable">زور أقرب مركز م</h3></a>
+        <h5 class="editable">تبغى تزورنا؟</h5>
+        <p class="margin_top1 editable">عندنا 12 مركز ومنفذ خدمة منتشرين في الرياض، وجدة، والدمام، والخبر، والظهران. بعض منافذ الخدمة تحت خدمتك حتى في الليل وطول أيام الأسبوع.</p>
+      </div>
+
+      <i class="fa fa-map-marker"></i>
+
+    </div>
+
+    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="100" style="float:right">
+
+      <div class="cont editable">
+        <h3>كلمنا على 920026336</h3>
+        <h5>تبي نتكلم عن خدماتنا ومنتجاتنا؟</h5>
+        <p class="margin_top1">فريق رعاية العملاء في م موجود وحاضر وتحت الخدمة 24 ساعة طوال أيام الأسبوع.ع</p>
+      </div>
+
+      <i class="fa fa-phone"></i>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="clearfix margin_top10"></div>
+
+<div class="featured_section3 two">
+  <div class="container">
+
+    <div class="onecol_forty"><img src="/resources/images/login/meem-login-iphone.gif" alt="Meem Login" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
+
+    <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+      <span><b>{{ page.app_title | caps }}</b></span>
+
+      <p class="bigtfont margin_top4">{{ page.app_description }}</p>
+
+      <div class="margin_top8">
+        <div class="one_half download">
+          <a id="apple-store" href="{{ page.apple_store_url }}" class="button app"><img src="/resources/images/buttons/apple_store_230x90.gif" alt="{{ page.apple_store_alt_txt }}" /></a>
+        </div>
+        <div class="one_half last download">
+          <a id="google-play" href="{{ page.google_play_url }}" class="button app"><img src="/resources/images/buttons/google-play-badge-ar_230x90.gif" alt="{{ page.google_play_alt_txt }}" /></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
