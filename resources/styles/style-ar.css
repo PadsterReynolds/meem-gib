@@ -8029,6 +8029,37 @@ ul.footer_social_links5 {
 	padding: 0;
 }
 
+.page_title5 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 450px;
+	color: #fff;
+	text-align: right;
+	margin-top: 100px;
+	padding: 120px 0 90px 0;
+	background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_1920x500_Arabic_Visual.jpg) no-repeat center top;
+}
+.page_title5 h1 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 600;
+	margin-top:85px;
+	width:400px;
+}
+.page_title5 h3 {
+	color: #4A0F61;
+	font-size: 32px;
+	margin-top: 85px;
+	padding-right: 200px;
+}
+
+.page_title5 h3 em {
+	color: #fff;
+	font-style: normal;
+	font-size: 18px;
+}
+
 /* sidebar widget */
 .sidebar_widget {
 	float: left;

@@ -10,8 +10,9 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: وديعة مرابحة مرنة
-    offer-heading-text-2: 'امكانية السحب من الوديعة بحد 20% بدون غرامات'
+  - offer-heading-text-1: وديعة مرابحة مرنة وديعة مرابحة مرنة
+    offer-heading-text-2: 'وديعة مرابحة'
+    offer-heading-text-3: 'مرحبا بكم في ميم المصرفية'
     offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
   - box-last-panel: false
@@ -28,7 +29,7 @@ how-to-apply-boxes:
     box-button-text: تعرف على كيفية التقديم
 apply-button:
   - button-text: 'قدم الآن!'
-    button-link: 'https://online.meem.sa/default.aspx'
+    button-link: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ar'
 product:
   - product-title: وديعة مرابحة
     product_description: وديعة المرابحة متوافقة مع أحكام الشريعة و توفر لك هامش ربح بنسب منافسة في السوق. الوديعة مرنة و تقدر تربطها على فترات مختلفة على حسب اللي يناسبك.
@@ -69,10 +70,16 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3">
+<div class="page_title5">
     <div class="container">
-        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em></h1>
-        <p class="termscond">{{ mast.offer-heading-terms }}</p>
+        <div class="one_half">
+            <h3>{{ mast.offer-heading-text-2 }}</h3>
+            <p>{{ mast.offer-heading-text-3 }}</p>
+            <p>{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
+        </div>
     </div>
 </div>
 {% endfor %}
