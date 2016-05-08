@@ -8047,17 +8047,29 @@ ul.footer_social_links5 {
 	margin-top:85px;
 	width:400px;
 }
+
+.page_title5 h1.titletxt {
+	display: none;
+
+}
 .page_title5 h3 {
 	color: #4A0F61;
-	font-size: 32px;
-	margin-top: 85px;
+	font-size: 36px;
+	margin-top: 90px;
+	padding-right: 200px;
+}
+.page_title5 p {
+	color: #4A0F61;
+	font-size: 24px;
+	font-weight: 300;
 	padding-right: 200px;
 }
 
-.page_title5 h3 em {
+.page_title5 p.terms {
 	color: #fff;
 	font-style: normal;
 	font-size: 18px;
+	margin-top: 30px;
 }
 
 /* sidebar widget */

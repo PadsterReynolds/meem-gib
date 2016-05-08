@@ -148,6 +148,51 @@
         margin-top: 30px;
     }
 
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_1170x450_Arabic_Visual.jpg) no-repeat center top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top:85px;
+        width:350px;
+    }
+
+    .page_title5 h1.titletxt {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 36px;
+        margin-top: 90px;
+        padding-right: 200px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 24px;
+        font-weight: 300;
+        padding-right: 200px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    /* end page title */
+
     .top_section2 .right .tinfo {
         width: 45%;
     }
@@ -670,6 +715,51 @@
         text-align: center;
         padding: 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_1000x400_Arabic_Visual.jpg) no-repeat center top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top:85px;
+        width:350px;
+    }
+
+    .page_title5 h1.titletxt {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 36px;
+        margin-top: 90px;
+        padding-right: 200px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 24px;
+        font-weight: 300;
+        padding-right: 200px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    /* end page title */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 970px) {
@@ -871,6 +961,51 @@
         padding: 0;
         margin: 30px 0 0 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_970x400_Arabic_Visual.jpg) no-repeat center bottom;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top:60px;
+        width:300px;
+    }
+
+    .page_title5 h1.titletxt {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 28px;
+        margin-top: 60px;
+        padding-right: 125px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 20px;
+        font-weight: 300;
+        padding-right: 125px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    /* end page title */
 
     .featured_section2 .one_fourth_less p {
         padding: 25px 20px 20px 20px;
@@ -1884,7 +2019,51 @@
 
     }
 
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_780x350_Arabic_Visual.jpg) no-repeat center bottom;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top:30px;
+        width:200px;
+    }
 
+    .page_title5 h1.titletxt {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 28px;
+        margin-top: 30px;
+        padding-right: 100px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 100px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 13px;
+        margin-top: 25px;
+        padding-right: 150px;
+    }
+
+    /* end page title */
 
     .featured_section2 .one_fourth_less p {
         padding: 20px 5px 20px 5px;
@@ -3241,6 +3420,52 @@
         font-size: 14px;
         margin: 85px 0 0 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 90px 0 0 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_RJ_640x300_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 35px 0 0 0;
+        line-height: 25px;
+        width:300px;
+    }
+    .one_half.last {
+        display: none;
+    }
+
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 0;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 13px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+
+    /* end page title */
 
     .featured_section3 span {
         margin-top: 0;
@@ -4633,6 +4858,52 @@
         font-size: 13px;
         margin: 80px 0 0 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 90px 0 0 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 35px 0 0 0;
+        line-height: 25px;
+        width:300px;
+    }
+    .one_half.last {
+        display: none;
+    }
+
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 0;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 13px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+
+    /* end page title */
 
     .sample_slider9 {
         margin-top: -130px;
