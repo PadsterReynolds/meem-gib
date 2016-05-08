@@ -146,6 +146,50 @@
         margin-top: 30px;
     }
 
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: left;
+        margin-top: 110px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_1170x450_English_Visual.jpg) no-repeat center bottom;
+    }
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+         display: none;
+
+     }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top:85px;
+        width:350px;
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 30px;
+        margin-top: 90px;
+        padding-left: 200px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 20px;
+        font-weight: 300;
+        padding-left: 200px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    /* end page title */
+
     .featured_section2 .one_fourth_less p {
         padding: 35px 30px 30px 30px;
     }
@@ -664,6 +708,50 @@
         text-align: center;
         padding: 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_1000x400_English_Visual.jpg) no-repeat center top;
+    }
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+        display: none;
+
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top:75px;
+        width:350px;
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 28px;
+        margin-top: 90px;
+        padding-left: 200px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 20px;
+        font-weight: 300;
+        padding-left: 200px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    /* end page title */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 969px) {
@@ -860,6 +948,49 @@
         padding: 0;
         margin: 30px 0 0 0;
     }
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_970x400_English_Visual.jpg) no-repeat center top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top:40px;
+        width:220px;
+    }
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin-top: 55px;
+        padding-left: 150px;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 150px;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    /* end page title */
 
     .featured_section2 .one_fourth_less p {
         padding: 25px 20px 20px 20px;
@@ -1865,6 +1996,51 @@
     .page_title4 .termscond {
 
     }
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_CJ_780x350_English_Visual.jpg) no-repeat center top;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+        margin-top: 5px;
+        width:220px;
+    }
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+        display: none;
+
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin-top: 20px;
+        padding-left: 100px;
+        text-align: right;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 110px;
+        text-align: right;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    /* end page title */
 
     .featured_section2 .one_fourth_less p {
         padding: 20px 5px 20px 5px;
@@ -3228,6 +3404,55 @@
         font-size: 14px;
         margin: 85px 0 0 0;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_LJ_640x300_English_Visual.jpg) no-repeat center top;
+    }
+    .one_half.last {
+        display: none;
+    }
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+        display: block;
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+        width:220px;
+        line-height: 25px;
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 0;
+        text-align: left;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0;
+        text-align: left;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /* end page title */
 
 
     .featured_section3 span {
@@ -4696,6 +4921,57 @@
     .page_title4 .line {
         display: none;
     }
+
+    .page_title5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 120px 0 90px 0;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_English_Visual.jpg) no-repeat center top;
+    }
+    .one_half.last {
+        display: none;
+    }
+
+    .page_title5 h3.titletxt, .page_title5 p.titletxt  {
+        display: block;
+
+    }
+    .page_title5 h1 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+        width:220px;
+        line-height: 25px;
+    }
+    .page_title5 h3 {
+        color: #4A0F61;
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 0;
+        text-align: left;
+    }
+    .page_title5 p {
+        color: #4A0F61;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0;
+        text-align: left;
+    }
+
+    .page_title5 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /* end page title */
     .sample_slider9 {
         margin-top: -130px;
     }

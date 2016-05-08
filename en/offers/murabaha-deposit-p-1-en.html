@@ -9,8 +9,10 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: The Murabaha Deposit with more flexibility
-    offer-heading-text-2: 'Withdraw up to 20% without penalty'
+  - offer-heading-text-1: Best profit rates for everyone, everyday
+    offer-heading-text-2: Murabaha Deposit
+    offer-heading-text-3: Welcome to meem banking
+    offer-heading-terms: 'Terms &amp; conditions apply'
 how-to-apply-boxes:
   - box-last-panel: false
     box-title: How to apply?
@@ -31,22 +33,6 @@ product:
       The meem Murabaha deposit is flexible and Shariah compliant. You can
       withdraw up to 20% of your balance without incurring any financial
       penalties and choose an investment period of between 7 to 720 days.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       The meem Murabaha Deposit is the first Shariah Compliant product with
       online placement and liquidation (fully and partially).
@@ -87,9 +73,19 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title3">
+<div class="page_title5">
     <div class="container">
-        <h1>{{ mast.offer-heading-text-1 }} <em>{{ mast.offer-heading-text-2 }}</em> <div class="line"></div></h1>
+        <div class="one_half">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
+            <h3 class="titletxt">{{ mast.offer-heading-text-2 }}</h3>
+            <p class="titletxt">{{ mast.offer-heading-text-3 }}</p>
+            <p class="terms titletxt">{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last">
+            <h3>{{ mast.offer-heading-text-2 }}</h3>
+            <p>{{ mast.offer-heading-text-3 }}</p>
+            <p class="terms">{{ mast.offer-heading-terms }}</p>
+        </div>
     </div>
 </div>
 {% endfor %}

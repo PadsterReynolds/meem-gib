@@ -166,11 +166,6 @@
         margin-top:85px;
         width:350px;
     }
-
-    .page_title5 h1.titletxt {
-        display: none;
-
-    }
     .page_title5 h3 {
         color: #4A0F61;
         font-size: 36px;
@@ -3444,6 +3439,10 @@
         display: none;
     }
 
+    .page_title5 h1.titletxt {
+        display: block;
+    }
+
     .page_title5 h3 {
         color: #4A0F61;
         font-size: 20px;
@@ -4880,6 +4879,11 @@
     }
     .one_half.last {
         display: none;
+    }
+
+    .page_title5 h1.titletxt {
+
+        display: block;
     }
 
     .page_title5 h3 {
