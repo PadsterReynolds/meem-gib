@@ -43,9 +43,9 @@ product-benefits:
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
 offer:
-  - offer-title: Offer
-    offer_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non viverra nisl, sed lacinia justo. Proin quis condimentum ex, at sodales turpis. Praesent in velit eu odio viverra commodo. Nam eu mauris pharetra, vestibulum lorem vel, aliquam libero. Praesent quis velit dolor. Nunc sit amet est vehicula, bibendum arcu eget, vestibulum velit. Suspendisse ac odio efficitur tellus consequat placerat sed nec dui. Suspendisse vel lorem arcu. Suspendisse leo lectus, ornare eget quam vitae, fermentum vehicula nulla. Pellentesque varius rutrum nibh, sit amet commodo mauris pellentesque nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-offer-conditions:
+  - offer_title: Best Profit Rates for everyone, everyday
+    offer_description: "Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi Arabia with the meem Murabaha Deposit.<br /><br />We will be checking the markets everyday to ensure we offer you the very best rates. Deposit a minimum amount of SAR 10,000 in the meem Murabaha deposit.<br /><br />Available for a limited time only."
+    offer-conditions:
   - conditions-text: "1.\tThis Murabaha Deposit Promotion shall be valid until 31 December 2016, unless notified otherwise by the Bank."
   - conditions-text: "2.\t“Best profit rates” means the highest profit rates for Murabaha Deposits of up to SAR 1,000,000 for specific tenures offered by the Bank when compared with profit rates for  Murabaha deposits of up to SAR 1,000,000 for the same tenures published by local retail banks incorporated in the Kingdom of Saudi Arabia on their internet banking websites up to 4.00 p.m. as of the previous banking day. The following shall not be considered for the purpose of comparison of Murabaha profit rates:\n\n(a)\tThe rates offered for conventional deposits; and\n(b)\tThe rates offered by foreign banks with branches in Saudi Arabia."
   - conditions-text: "3.\tCustomers must satisfy the minimum Murabaha Deposit requirement for the tenures that are offered."
@@ -125,8 +125,8 @@ sitemap:
 
         <div class="onecol_sixty last">
             {% for offer in page.offer %}
-            <h2 class="editable">Best Profit Rates for everyone, everyday</h2>
-            <p class="bigtfont editable">Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi Arabia with the meem Murabaha Deposit.<br /><br />We will be checking the markets everyday to ensure we offer you the very best rates. Deposit a minimum amount of SAR 10,000 in the meem Murabaha deposit.<br /><br />Available for a limited time only.<br />&nbsp;</p>
+            <h2>{{ offer.offer_title }}</h2>
+            <p class="bigtfont">{{ offer.offer_description }}</p>
             {% endfor %}
         </div>
     </div>

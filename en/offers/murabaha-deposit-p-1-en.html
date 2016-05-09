@@ -50,7 +50,7 @@ product-benefits:
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
 offer:
-  - offer-title: 'Best Profit Rates for everyone, everyday'
+  - offer_title: 'Best Profit Rates for everyone, everyday'
     offer_description: >-
       Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi
       Arabia with the meem Murabaha Deposit.
@@ -150,8 +150,8 @@ sitemap:
 
         <div class="onecol_sixty last">
             {% for offer in page.offer %}
-            <h2 class="editable"></h2>
-            <p class="bigtfont editable"></p>
+            <h2>{{ offer.offer_title }}</h2>
+            <p class="bigtfont">{{ offer.offer_description }}</p>
             {% endfor %}
         </div>
     </div>
