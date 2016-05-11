@@ -50,7 +50,7 @@ product-benefits:
     product-benefit-icon: icon-trophy
     product-benefit-delay: '300'
 offer:
-  - offer-title: 'Best Profit Rates for everyone, everyday'
+  - offer_title: 'Best Profit Rates for everyone, everyday'
     offer_description: >-
       Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi
       Arabia with the meem Murabaha Deposit.
@@ -150,8 +150,8 @@ sitemap:
 
         <div class="onecol_sixty last">
             {% for offer in page.offer %}
-            <h2 class="editable"></h2>
-            <p class="bigtfont editable"></p>
+            <h2>{{ offer.offer_title }}</h2>
+            <p class="bigtfont">{{ offer.offer_description }}</p>
             {% endfor %}
         </div>
     </div>
@@ -284,7 +284,6 @@ sitemap:
                     <li class="editable">Fill in the application form</li>
                     <li class="editable">Visit the nearest meem store to complete your account opening.&nbsp;</li>
                     <li class="editable">Once you have your account set up, you may follow the steps of how to apply for existing meemers.</li>
-                    <li class="editable"></li>
                 </ol>
             </div>
 
@@ -296,7 +295,6 @@ sitemap:
                     <li class="editable">Select Murabaha Deposit from the list</li>
                     <li class="editable">Press on "Add New Product"</li>
                     <li class="editable">Follow the application instruction and you will be able to place your Murabaha Deposit within 5 minutes!</li>
-                    <li class="editable"></li>
                 </ol>
             </div>
         </div>
