@@ -1258,6 +1258,9 @@
     .featured_section30 .one_half h5 {
         margin-top: 0;
     }
+    .featured_section31 h2 strong {
+        font-size: 26px;
+    }
 
     .featured_section36 .slidesec {
         margin-bottom: 0;
@@ -2341,6 +2344,10 @@
         margin-bottom: 0;
     }
 
+    .featured_section31 h2 strong {
+        font-size: 18px;
+    }
+
     .featured_section36 .one_half {
         width: 100%;
         margin-bottom: 40px;
@@ -3414,9 +3421,9 @@
         text-align: left;
         margin-top: 100px;
         padding: 120px 0 90px 0;
-        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_LJ_640x300_English_Visual.jpg) no-repeat center top;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_LJ_640x300_English_Visual.jpg) no-repeat left top;
     }
-    .one_half.last {
+    .hideMobile {
         display: none;
     }
     .page_title5 h3.titletxt, .page_title5 p.titletxt  {
@@ -4931,9 +4938,9 @@
         text-align: left;
         margin-top: 100px;
         padding: 120px 0 90px 0;
-        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_English_Visual.jpg) no-repeat center top;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_English_Visual.jpg) no-repeat left top;
     }
-    .one_half.last {
+    .hideMobile {
         display: none;
     }
 
@@ -5286,6 +5293,10 @@
 
     .featured_section25 .three_fourth {
         margin: 0;
+    }
+
+    .featured_section26 i {
+        margin: 0 0 0 10px;
     }
 
     .featured_section27 .onecol_thirtyfive.left {
@@ -5771,6 +5782,18 @@
 
     .featured_section119 .box strong {
         font-size: 14px;
+    }
+    .featured_section300 ul li, .featured_section300 p {
+        margin-left: 10%;
+        width: 300px;
+    }
+
+    .margin_top21 {
+        margin-top: 130px;
+    }
+
+    .margin_top10 {
+        margin-top: 40px;
     }
 
     .copyright_info .one_half {
