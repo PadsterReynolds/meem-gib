@@ -3777,6 +3777,7 @@
 
     .featured_section26 .cont {
         width: 86%;
+        margin-top: 20px;
     }
 
     .featured_section27 .one_fourth {
@@ -5236,6 +5237,10 @@
     .featured_section27 .onecol_thirtyfive.left {
         text-align: left;
         padding-top: 0;
+    }
+
+    .featured_section26 .cont {
+        margin-top: 20px;
     }
 
     .featured_section27 .onecol_thirtyfive.right {
