@@ -5295,6 +5295,10 @@
         margin: 0;
     }
 
+    .featured_section26 i {
+        margin: 0 0 0 10px;
+    }
+
     .featured_section27 .onecol_thirtyfive.left {
         text-align: left;
         padding-top: 0;
@@ -5779,8 +5783,9 @@
     .featured_section119 .box strong {
         font-size: 14px;
     }
-    .featured_section300 ul li {
+    .featured_section300 ul li, .featured_section300 p {
         margin-left: 10%;
+        width: 300px;
     }
 
     .margin_top21 {
