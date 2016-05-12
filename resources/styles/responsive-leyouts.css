@@ -3414,7 +3414,7 @@
         text-align: left;
         margin-top: 100px;
         padding: 120px 0 90px 0;
-        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_LJ_640x300_English_Visual.jpg) no-repeat center top;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_LJ_640x300_English_Visual.jpg) no-repeat left top;
     }
     .one_half.last {
         display: none;
@@ -4931,7 +4931,7 @@
         text-align: left;
         margin-top: 100px;
         padding: 120px 0 90px 0;
-        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_English_Visual.jpg) no-repeat center top;
+        background: #999 url(/resources/images/offers/B0076629_H1_MB_P1_No_Bleed_479x300_English_Visual.jpg) no-repeat left top;
     }
     .one_half.last {
         display: none;
