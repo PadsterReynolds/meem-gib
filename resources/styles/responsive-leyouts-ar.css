@@ -3435,7 +3435,7 @@
         line-height: 25px;
         width:300px;
     }
-    .one_half.last {
+    .hideMobile {
         display: none;
     }
 
@@ -4877,7 +4877,7 @@
         line-height: 25px;
         width:300px;
     }
-    .one_half.last {
+    .hideMobile {
         display: none;
     }
 
