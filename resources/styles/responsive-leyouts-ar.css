@@ -1269,6 +1269,10 @@
         margin-top: 0;
     }
 
+    .featured_section31 h2 strong {
+        font-size: 28px;
+    }
+
     .featured_section36 .slidesec {
         margin-bottom: 0;
     }
@@ -2349,6 +2353,10 @@
 
     .featured_section30 .one_half h5 {
         margin-top: 0;
+    }
+
+    .featured_section31 h2 strong {
+        font-size: 18px;
     }
 
     .featured_section36 .slidesec {
@@ -5708,6 +5716,17 @@
 
     .featured_section119 .box strong {
         font-size: 14px;
+    }
+    .featured_section300 ul li {
+        margin-right: 10%;
+    }
+
+    .margin_top21 {
+        margin-top: 130px;
+    }
+
+    .margin_top10 {
+        margin-top: 40px;
     }
 
     .copyright_info .one_half {
