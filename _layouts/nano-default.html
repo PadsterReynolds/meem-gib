@@ -1,58 +1,11 @@
----
-lang: ar-sa
-direction: rtl
-layout: default-ar
-title: 404 لم يتم العثور على الملف | File Not Found
-description: 404 File Not Found
+{% include a-global-page-head-offer.html %}
 
-permalink: "/404.html"
+{% include en-top-bar.html %}
 
-sitemap:
-  exclude: yes
----
-<div class="page_title1 stybb">
-    <div class="container">
-        <h1 class="editable">تواصل معانا<em>"م"</em></h1>
-    </div>
-</div>
+{% include en-main-header-and-menu.html %}
 
-<div class="clearfix"></div>
+{{ content }}
 
-<div class="content_fullwidth">
+{% include en-footer-block.html %}
 
-<div class="container">
-
-    <div class="error_pagenotfound">
-
-        <strong>404</strong>
-        <br />
-
-        <div class="one_half">
-            <b class="editable">عفوا ... الصفحة غير موجودة !</b>
-
-            <em class="editable">آسف على الصفحة لا يمكن العثور هنا .</em>
-
-            <p class="editable">حاول استخدام الزر أدناه للانتقال إلى الصفحة الرئيسية للموقع</p>
-
-        </div>
-
-        <div class="one_half last">
-            <b class="editable" style="direction: ltr;">Oops... Page Not Found!</b>
-
-            <em class="editable" style="direction: ltr;">Sorry the page could not be found here.</em>
-
-            <p class="editable" style="direction: ltr;">Try using the button below to go to main page of the site</p>
-
-        </div>
-
-        <div class="clearfix margin_top3"></div>
-
-        <a href="/index.html" class="but_medium1 editable"><i class="fa fa-arrow-circle-left fa-lg"></i>&nbsp; العودة إلى الصفحة السابقة</a>
-
-    </div><!-- /end error page not found -->
-
-</div>
-
-</div>
-
-<div class="clearfix"></div>
+{% include a-index-footer-script-offer.html %}
