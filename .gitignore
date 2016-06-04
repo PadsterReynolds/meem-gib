@@ -12,3 +12,9 @@ en/test-layout.html
 .htaccessXXXX
 pagespeed.conf
 _drafts
+/resources/media
+_includes/components/preset-layouts/ar/
+_includes/components/row-layouts/ar/
+_posts/
+_sass/
+resources/media/
