@@ -1689,7 +1689,7 @@
 }
 .featured_section18 .isboxs span {
 	font-size: 30px;
-	color: #999;
+	color: #8052A4;
 	border: 1px solid #eee;
 	padding: 14px;
 	float: right;
@@ -2131,7 +2131,7 @@
 }
 .featured_section28 .isboxs span {
 	font-size: 30px;
-	color: #999;
+	color: #8052A4;
 	border: 1px solid #eee;
 	padding: 8px;
 	float: right;
@@ -5912,7 +5912,7 @@
 	border-radius: 100%;
 	vertical-align: middle;
 	line-height: 72px;
-	background-color: #393939;
+	background-color: #8052A4;
 	margin-left: 30px;
 	transition: all 0.3s ease;
 }
@@ -5946,7 +5946,7 @@
 	border-radius: 100%;
 	vertical-align: middle;
 	line-height: 72px;
-	background-color: #393939;
+	background-color: #8052A4;
 	margin-right: 30px;
 	transition: all 0.3s ease;
 }
@@ -5954,7 +5954,7 @@
 .parallax_section3 .left li:hover i,
 .parallax_section3 .right li:hover i {
 	color: #fff;
-	background-color: #50c9d4;
+	background-color: #999;
 }
 
 
@@ -7482,7 +7482,7 @@ ul.footer_social_links5 {
 	margin: 14px auto 0 auto;
 	width: 90px;
 	height: 2px;
-	background: #50c9d4;
+	background: #8052A4;
 }
 .title25 .line.white {
 	background: #fff;
@@ -7862,21 +7862,23 @@ ul.footer_social_links5 {
 	position: relative;
 	float: left;
 	width: 100%;
-	color: #fff;
+	/*color: #fff;*/
 	text-align: left;
 	margin-top: 30px;
 	padding: 200px 0 20px 0;
 	background: #999 url(../images/banners/meem-contact-us.jpg) no-repeat center top;
 }
 .page_title1 h1 {
-	color: #fff;
+	/*color: #fff;*/
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
     text-align: right;
+	color:#824BB0;
+	text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .page_title1 h1 em {
-	color: #fff;
+	/*color: #fff; */
 	font-weight: 500;
 	display: block;
 	font-size: 21px;
@@ -7900,7 +7902,7 @@ ul.footer_social_links5 {
 	background: #999 url(../images/banners/meem-currencies-card.jpg) no-repeat center top;
 }
 .page_title1.sty7 {
-	background: #999 url(../images/banners/meem-murabaha-deposit.jpg) no-repeat center top;
+	background: #999 url(../images/banners/meem-murabaha-deposit.jpg) no-repeat center left;
 }
 .page_title1.sty8 {
 	background: #999 url(../images/banners/meem-credit-card.jpg) no-repeat center top;
