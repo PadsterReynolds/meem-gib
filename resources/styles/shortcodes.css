@@ -527,6 +527,13 @@
 	background: rgba(255, 255, 255, 0.3);
 }
 
+/* meem text links */
+
+a.meem-link {
+	color: #7F58A2;
+	text-decoration: underline;
+}
+
 /* lists */
 .list_divlines {
 	padding: 0;
@@ -4324,7 +4331,6 @@ ul.list9 {
 	margin: 20px auto 0 auto;
 }
 
-
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 
 .flips1 {
@@ -4369,7 +4375,6 @@ ul.list9 {
 
 	
 }
-
 
 @media only screen and (min-width: 768px) and (max-width: 999px){
 
@@ -4471,7 +4476,6 @@ ul.list9 {
 
 
 }
-
 
 @media only screen and (min-width: 640px) and (max-width: 767px){
 
@@ -4591,7 +4595,6 @@ ul.list9 {
 
 
 }
-
 
 @media only screen and (min-width: 480px) and (max-width: 639px){
 	
