@@ -719,3 +719,7 @@ height: 0;
 .rimg {
 	width: 100%;
 }
+.card {
+	text-align:center;
+	padding-top:10%;
+}
