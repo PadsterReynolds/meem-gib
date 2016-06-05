@@ -13,7 +13,7 @@
     #logo4 {
         margin-top: 30px;
         min-height: 100px;
-        background: url(../images/logos/meem_logo_75.png) no-repeat right top;
+        background: url(../images/logos/meem_logo_120.png) no-repeat right top;
     }
 
     #logo5 {
@@ -184,6 +184,43 @@
         font-style: normal;
         font-size: 18px;
         margin-top: 30px;
+    }
+
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 40px 200px 90px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_1170x450_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top:70px;
+        width:400px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 28px;
+        margin-top: 90px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 5px;
     }
 
     /* end page title */
@@ -647,6 +684,12 @@
         width: 950px;
     }
 
+    #logo4 {
+        margin-top: 30px;
+        min-height: 100px;
+        background: url(../images/logos/meem_logo_120.png) no-repeat right top;
+    }
+
     .page_title3 {
         position: relative;
         float: left;
@@ -752,6 +795,43 @@
         font-style: normal;
         font-size: 18px;
         margin-top: 25px;
+    }
+
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 40px 200px 90px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_1000x400_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top:70px;
+        width:400px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 28px;
+        margin-top: 90px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 5px;
     }
 
     /* end page title */
@@ -998,6 +1078,43 @@
         font-style: normal;
         font-size: 18px;
         margin-top: 25px;
+    }
+
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 40px 140px 90px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_970x400_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top:70px;
+        width:400px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 28px;
+        margin-top: 80px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 14px;
+        margin-top: 5px;
     }
 
     /* end page title */
@@ -2060,6 +2177,43 @@
         font-size: 13px;
         margin-top: 25px;
         padding-right: 150px;
+    }
+
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 40px 140px 90px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_780x350_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+        margin-top:55px;
+        width:400px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 28px;
+        margin-top: 80px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 5px;
     }
 
     /* end page title */
@@ -3470,6 +3624,43 @@
         font-size: 13px;
         margin-top: 20px;
         padding-right: 0;
+    }
+
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 5px 90px 50px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_640x300_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top:5px;
+        width:240px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 5px;
     }
 
     /* end page title */
@@ -4916,6 +5107,42 @@
         padding-right: 0;
     }
 
+    .page_title6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 120px;
+        padding: 65px 40px 50px 0;
+        background: #999 url(/resources/images/banners/ramadan2016/B0076659_meem_Ramadan_P5_479x300_Arabic_Visual.jpg) no-repeat right top;
+    }
+    .page_title6 h1 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top:5px;
+        width:240px;
+    }
+
+    .page_title6 h3 {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .page_title6 p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .page_title6 p.terms {
+        color: #fff;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 0;
+    }
     /* end page title */
 
     .sample_slider9 {
