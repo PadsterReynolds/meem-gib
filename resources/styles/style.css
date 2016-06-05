@@ -8836,14 +8836,16 @@ ul.footer_social_links5 {
 }
 
 .page_title1 h1 {
-    color: #42145F;
+    /*color: #42145F;*/
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    color:#824BB0;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .page_title1 h1 em {
-    color: #42145F;
+    /*color: #42145F;*/
     font-weight: 500;
     display: block;
     font-size: 21px;
@@ -8872,7 +8874,7 @@ ul.footer_social_links5 {
 }
 
 .page_title1.sty7 {
-    background: #999 url(../images/banners/meem-murabaha-deposit.jpg) no-repeat center top;
+    background: #999 url(../images/banners/meem-murabaha-deposit.jpg) no-repeat center left;
 }
 
 .page_title1.sty8 {
