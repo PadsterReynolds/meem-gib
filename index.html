@@ -2,13 +2,19 @@
 lang: ar-sa
 direction: rtl
 layout: homepage-ar
+#
+#
 title: 'م من بنك الخليج الدولي | خدمات مصرفية ذاتية'
 description: م من بنك الخليج الدولي هو بنك للخدمة الذاتية ومجموعة خدمات مصرفية مقدمة من بنك الخليج الدولي في المملكة العربية السعودية
+#
+#
 social-audio: ''
 social-video: ''
 social-media:
   - tw-summary: ميم من قبل بنك الخليج الدولي هو بنك خدم الذاتي من قبل بنك الخليج الدولي
     tw-title: الخدمات المصرفية الشخصية ميم
+#
+#
 homepage-banner-ar:
   - Slide1: ''
     ar-banner-image_path: /resources/images/banners/meem_exit_terminal-banner.jpg
@@ -24,6 +30,14 @@ homepage-banner-ar:
     ar-banner-button-03-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
     ar-banner-button-03-target: _self
     ar-banner-button-03-text: أبغى أفتح حساب
+#
+#
+banners-video:
+  - banner-video-mp4: "https://youtu.be/lC2tbDpAams"
+    banner-video-webm: "https://youtu.be/lC2tbDpAams"
+    banner-video-ogg: "https://youtu.be/lC2tbDpAams"
+#
+#
 usp-block1:
   - feature-block1: ''
     feature-class: ''
@@ -50,12 +64,14 @@ usp-block2:
     feature-class: ''
     feature-title: ''
     feature-text: ''
+#
+#
 permalink: /index.html
 alt_url: /en/index.html
-
+#
 sitemap:
   exclude: no
-
+#
 ---
 {%comment %} Slider======================================= {% endcomment %}
 
@@ -66,8 +82,9 @@ sitemap:
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
+            {% include /components/media/homepage-video-banner.html %}
             {% for slider in page.homepage-banner-ar %}
-            <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" />
+            <!--<img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" /> -->
 
             <h3 class="ms-layer text1 center" style="right: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
 
