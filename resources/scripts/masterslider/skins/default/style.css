@@ -163,8 +163,8 @@
 	color: #ffffff;
 	font-size: 59px;
 	line-height: 50px;
-	font-family: 'Raleway', sans-serif;
-	/*font-family: 'newjuneboldregular', sans-serif;*/
+	/*font-family: 'Raleway', sans-serif;
+	font-family: 'newjuneboldregular', sans-serif;*/
 	font-weight: 300;
 }
 .ms-layer.text1.center {
@@ -659,7 +659,7 @@
 	color: #fff;
 	font-size: 16px;
 	line-height: 27px;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	font-weight: 500;
 	background: #824BB0;
 	padding: 13px 30px;

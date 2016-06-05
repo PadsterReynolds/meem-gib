@@ -1,5 +1,34 @@
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
+
+@font-face {
+	font-family: 'frutigerarabic-light';
+	src: url('../webfonts/ar/FrutigerLTArabic-45Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'frutigerarabic-bold';
+	src: url('../webfonts/ar/FrutigerLTArabic-65Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'frutigerarabic-black';
+	src: url('../webfonts/ar/FrutigerLTArabic-75Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'frutigerarabic-roman';
+	src: url('../webfonts/ar/FrutigerLTArabic-55Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -315,7 +344,7 @@ h6.roboto.lbtcolor {
 
 /* Text elements */
 p {
-	font: 14px 'Open Sans', sans-serif;
+	font: 14px 'frutigerarabic-roman', sans-serif;
 	font-weight: normal;
 	line-height: 23px;
 }
@@ -386,20 +415,20 @@ blockquote {
 	font-size: 16px;
 	border-left: 5px solid #e54c4c;
 	padding: 5px 20px 5px 20px;
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'frutigerarabic-roman', sans-serif !important;
 	font-weight: normal;
 	color: #454545;
 }
 pre {
 	background: #f4f4f4;
-	font: 13px 'Open Sans', sans-serif;
+	font: 13px 'frutigerarabic-roman', sans-serif;
 	line-height: 1.5;
 	margin-bottom: 40px;
 	overflow: auto;
 	padding: 0.75em 20px;
 }
 code, kbd {
-	font: 13px 'Open Sans', sans-serif;
+	font: 13px 'frutigerarabic-roman', sans-serif;
 }
 abbr, acronym, dfn {
 	border-bottom: 1px dotted #666;
@@ -718,4 +747,8 @@ height: 0;
 /* responsive image */
 .rimg {
 	width: 100%;
+}
+.card {
+	text-align:center;
+	padding-top:10%;
 }
