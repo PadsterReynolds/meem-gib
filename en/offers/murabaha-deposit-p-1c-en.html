@@ -130,6 +130,28 @@ sitemap:
 </div>
 {% endfor %}
 <div class="content_fullwidth">
+<!--
+<div class="featured_section80" id="offers">
+    <div class="container">
+        {% for block in page.how-to-apply-boxes %}
+        {% if block.box-last-panel == true %}
+        <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            {% else %}
+        <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+        {% endif %}
+    	    <span>
+        	    <h3 class="caps">{{ block.box-title }}</h3>
+                <p class="bigtfont">{{ block.box-description }}</p>
+                <br /><br />
+        	    <a href="{{ block.box-link }}" class="button twentyone">{{ block.box-button-text }}</a>
+            </span>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div> -->
 
 <div class="featured_section18">
     <div class="container">
