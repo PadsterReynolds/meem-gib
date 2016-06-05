@@ -14,7 +14,7 @@ $(document).ready(function() {
 		//$(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true});
 	//});
 
-	
+/*
 	$("#owl-demo").owlCarousel({
 	autoPlay: 3000,
 	items : 4,
@@ -344,7 +344,7 @@ $(document).ready(function() {
 	$("#colosebut4").click(function(){
 	$("#div4").fadeOut("slow");
 	});
-		
+		*/
 });	
 	
 })(jQuery);
