@@ -17,21 +17,11 @@ defaults:
       author: ""
 
 collections:
-  - banners-ar
-  - banners-en
-  - banners-video
   - stores
-  - ar
-  - ar/offers
-  - ar/partners
-  - en
-  - en/offers
-  - en/partners
 
 # Site URL's
 prod_url: http://www.meem.com
 uat_url: http://indigo-eland.cloudvent.net/
-dev_url: http://green-monkey.cloudvent.net/
 
 social-sitename-en: Meem Personal Banking
 social-sitename-ar: الخدمات المصرفية الشخصية ميم
