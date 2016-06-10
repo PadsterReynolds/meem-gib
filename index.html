@@ -2,27 +2,21 @@
 lang: ar-sa
 direction: rtl
 layout: homepage-ar
-#
-#
 title: 'م من بنك الخليج الدولي | خدمات مصرفية ذاتية'
 description: م من بنك الخليج الدولي هو بنك للخدمة الذاتية ومجموعة خدمات مصرفية مقدمة من بنك الخليج الدولي في المملكة العربية السعودية
-#
-#
-social-audio: ''
-social-video: ''
+social-audio:
+social-video:
 social-media:
   - tw-summary: ميم من قبل بنك الخليج الدولي هو بنك خدم الذاتي من قبل بنك الخليج الدولي
     tw-title: الخدمات المصرفية الشخصية ميم
-#
-#
 homepage-banner-ar:
-  - Slide1: ''
+  - Slide1:
     ar-banner-image_path: /resources/images/banners/meem_exit_terminal-banner.jpg
     ar-banner-alt-text: 'م | الخدمات المصرفية الر'
     ar-banner-main-title: '<strong> حياك الله في موقع م </strong>'
-    ar-banner-subtitle: ''
+    ar-banner-subtitle: البنك الرقمي الأول من نوعه في المنقطه
     ar-banner-button-01-url: 'http://www.meem.com/ar/meem-products-services-ar.html'
-    ar-banner-button-01-target: ''
+    ar-banner-button-01-target:
     ar-banner-button-01-text: أبغى تفاصيل أكثر
     ar-banner-button-02-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
     ar-banner-button-02-target: _self
@@ -30,48 +24,40 @@ homepage-banner-ar:
     ar-banner-button-03-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
     ar-banner-button-03-target: _self
     ar-banner-button-03-text: أبغى أفتح حساب
-#
-#
 banners-video:
-  - banner-video-mp4: "https://youtu.be/lC2tbDpAams"
-    banner-video-webm: "https://youtu.be/lC2tbDpAams"
-    banner-video-ogg: "https://youtu.be/lC2tbDpAams"
-#
-#
+  - banner-video-mp4: 'https://youtu.be/lC2tbDpAams'
+    banner-video-webm: 'https://youtu.be/lC2tbDpAams'
+    banner-video-ogg: 'https://youtu.be/lC2tbDpAams'
 usp-block1:
-  - feature-block1: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
-  - feature-block2: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
-  - feature-block3: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
+  - feature-block1:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block2:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block3:
+    feature-class:
+    feature-title:
+    feature-text:
 usp-block2:
-  - feature-block4: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
-  - feature-block5: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
-  - feature-block6: ''
-    feature-class: ''
-    feature-title: ''
-    feature-text: ''
-#
-#
+  - feature-block4:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block5:
+    feature-class:
+    feature-title:
+    feature-text:
+  - feature-block6:
+    feature-class:
+    feature-title:
+    feature-text:
 permalink: /index.html
 alt_url: /en/index.html
-#
 sitemap:
-  exclude: no
-#
+  exclude:
 ---
 {%comment %} Slider======================================= {% endcomment %}
 
@@ -82,11 +68,11 @@ sitemap:
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% include /components/media/homepage-youtube-background.html %}
-            {% for slider in page.homepage-banner-ar %}
-            <!--<img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" /> -->
+            <!--{% include /components/media/homepage-youtube-background.html %}
+            {% for slider in page.homepage-banner-ar %} -->
+            <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" />
 
-            <h3 class="ms-layer text1 center" style="right:0;top:300px;color:#824BB0;text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
+            <h3 class="ms-layer text1 center" style="right:0;top:300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
 
             <h4 class="ms-layer text2 center" style="right:0;top:355px;color:#824BB0;text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;" data-type="text" data-effect="top(45)" data-duration="1200" data-delay="1500" data-ease="easeOutExpo">{{ slider.ar-banner-subtitle }}</h4>
 
@@ -106,7 +92,7 @@ sitemap:
 <!-- Why choose block -->
 <div class="featured_section31">
     <div class="container">
-        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">ليش "م"؟</h2>
+        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">ليش م ؟</h2>
     </div>
 </div><!-- /end why choose block -->
 
@@ -286,11 +272,7 @@ sitemap:
 
         <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="100" style="float:right">
 
-            <div class="cont editable">
-                <h3>كلمنا على 920026336</h3>
-                <h5>تبي نتكلم عن خدماتنا ومنتجاتنا؟</h5>
-                <p class="margin_top1">فريق رعاية العملاء في م موجود وحاضر وتحت الخدمة 24 ساعة طوال أيام الأسبوع.ع</p>
-            </div>
+            <div class="cont editable"><h3>كلمنا على 920026336</h3><h5>تبي نتكلم عن خدماتنا ومنتجاتنا؟</h5><p class="margin_top1">فريق رعاية العملاء في م موجود وحاضر وتحت الخدمة 24 ساعة طوال أيام الأسبوع.</p></div>
 
             <i class="fa fa-phone"></i>
 
@@ -304,7 +286,7 @@ sitemap:
 <!-- one pack title -->
 <div class="featured_section31">
     <div class="container">
-        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">حساب "م"</h2>
+        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">حساب م</h2>
     </div>
 </div><!-- /end pack title -->
 
@@ -321,16 +303,16 @@ sitemap:
         <div class="one_half textright">
 
             <div class="stcode_title5 ">
-                <h3 class="nmb textright editable"><strong>حساب «م</strong></h3>
+                <h3 class="nmb textright editable"><strong>حساب م</strong></h3>
             </div>
 
-            <p class="bigtfont editable">حساب «م» يشمل حسابك الجاري والتوفير تحت حساب واحد في نفس الوقت. و من مميزات الحساب:</p>
+            <p class="bigtfont editable">حساب م يشمل حسابك الجاري والتوفير تحت حساب واحد في نفس الوقت. و من مميزات الحساب:</p>
 
             <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
                 <span aria-hidden="true" class="fa fa-magic"></span>
 
-                <h5 class="editable">1-الحصالة/ تساعدك بتحديد أهدافك بخطة توفير عشان تحققه</h5>
+                <h5 class="editable">1- الحصالة: تساعدك بتحديد أهدافك بخطة توفير عشان تحققه</h5>
 
             </div><!-- end section -->
 
@@ -338,7 +320,7 @@ sitemap:
 
                 <span aria-hidden="true" class="fa fa-database"></span>
 
-                <h5 class="editable">2- الميزانية/ تخليك تضبط  مصاريفك و تتابعها علشان تعرف وين فلوسك تروح</h5>
+                <h5 class="editable">2- الميزانية: تخليك تضبط مصاريفك و تتابعها علشان تعرف وين فلوسك تروح</h5>
 
             </div><!-- end section -->
 
@@ -346,13 +328,13 @@ sitemap:
 
                 <span aria-hidden="true" class="fa fa-pie-chart"></span>
 
-                <h5 class="editable">3- التحويل الآلي/ تقدر فيه تنقل فلوسك ما بين حسابك الجاري والتوفير</h5>
+                <h5 class="editable">3- التحويل الآلي: تقدر فيه تنقل فلوسك ما بين حسابك الجاري والتوفير</h5>
 
             </div><!-- end section -->
 
             <p class="margin_top2">
                 <a class="but_small4meem animate editable" data-anim-type="fadeInUp" data-anim-delay="700" style="margin-left: 20px;" href="http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae" target="_self">أبغى أفتح حسابي</a>
-                <a class="but_small4 animate editable" data-anim-type="fadeInUp" data-anim-delay="700" href="/ar/meem-one-pack-account-ar.html" target="_self">أبغى تفاصل أكثر</a>
+                <a class="but_small4 animate editable" data-anim-type="fadeInUp" data-anim-delay="700" href="/ar/meem-one-pack-account-ar.html" target="_self">أبغى تفاصيل أكثر</a>
             </p>
             <div class="clearfix marb12"></div>
 
@@ -377,8 +359,8 @@ sitemap:
 
             <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_loan.png" alt="التمويل الشخصي" /></div></div>
             <h3 class="white editable">التمويل الشخصي</h3>
-            <p class="white editable">يتم على مبدأ التورق الموافق للشريعة الإسلامية، ويتميز بسهولة الحصول عليه وسرعة إجراءاته.</p>
-            <p><a href="/ar/meem-personal-finance-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصل أكثر</a></p>
+            <p class="white editable">تمويل شخصي مبني على المرابحة متوافق مع أحكام الشريعة ويتميز بسهولة وسرعة إجراءاته</p>
+            <p><a href="/ar/meem-personal-finance-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصيل أكثر</a></p>
 
         </div><!-- end personal finance -->
 
@@ -386,8 +368,8 @@ sitemap:
 
             <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_creditcard.png" alt="بطاقة م الإئتمانية" /></div></div>
             <h3 class="white editable">بطاقة م الإئتمانية</h3>
-            <p class="white editable">يتم على مبدأ التورق الموافق للشريعة الإسلامية، ويتميز بسهولة الحصول عليه وسرعة إجراءاته.</p>
-            <p><a href="/ar/meem-visa-platinum-credit-card-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصل أكثر</a></p>
+            <p class="white editable">بطاقة فيزا البلاتنية الإئتمانية المتوافقة مع أحكام الشريعة &nbsp;ذات مزايا متعددة&nbsp;</p>
+            <p><a href="/ar/meem-visa-platinum-credit-card-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصيل أكثر</a></p>
 
         </div><!-- end credit card -->
 
@@ -395,8 +377,8 @@ sitemap:
 
             <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_murabaha.png" alt="وديعة المرابحة" /></div></div>
             <h3 class="white editable">وديعة المرابحة</h3>
-            <p class="white editable">يتم على مبدأ التورق الموافق للشريعة الإسلامية، ويتميز بسهولة الحصول عليه وسرعة إجراءاته.</p>
-            <p><a href="/ar/meem-murabaha-deposit-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصل أكثر</a></p>
+            <p class="white editable">إستثمار مبني على المضاربة متوافق مع أحكام الشريعة، يتميز بعوائده و قلة مخاطره</p>
+            <p><a href="/ar/meem-murabaha-deposit-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصيل أكثر</a></p>
 
         </div><!-- end murabaha -->
 
@@ -404,8 +386,8 @@ sitemap:
 
             <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_currency.png" alt="بطاقة العملات" /></div></div>
             <h3 class="white editable">بطاقة العملات</h3>
-            <p class="white editable">يتم على مبدأ التورق الموافق للشريعة الإسلامية، ويتميز بسهولة الحصول عليه وسرعة إجراءاته.</p>
-            <p><a href="/ar/meem-currency-card-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصل أكثر</a></p>
+            <p class="white editable">بطاقة صراف&nbsp; فيزا &nbsp;متوافقه مع أحكام الشريعة يمكنك ربطها&nbsp; بأربع حسابات عملات أجنبية مختلفة&nbsp;</p>
+            <p><a href="/ar/meem-currency-card-ar.html" class="but_small4 margin_top6 editable">أبغى تفاصيل أكثر</a></p>
 
         </div><!-- end currency -->
 

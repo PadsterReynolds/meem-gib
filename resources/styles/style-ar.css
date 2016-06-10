@@ -7796,26 +7796,6 @@ ul.footer_social_links5 {
 	color: #d2527f;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* page titles */
 /*.page_title {
 	position: relative;
@@ -7874,8 +7854,8 @@ ul.footer_social_links5 {
 	font-weight: 700;
 	text-transform: uppercase;
     text-align: right;
-	color:#824BB0;
-	text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	color:#42145F;
+	/*text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
 }
 .page_title1 h1 em {
 	/*color: #fff; */
