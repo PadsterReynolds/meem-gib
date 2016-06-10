@@ -1488,7 +1488,7 @@
     color: #156570;
     text-align: center;
 }
-.featured_section15 .one_third span {
+.featured_section15 .one_third span, .featured_section15 .one_half span {
 	font-size: 30px;
 	color: #5076bb;
 	float: right;
@@ -1496,10 +1496,10 @@
 	margin-bottom: 50px;
 	margin-top: 5px;
 }
-.featured_section15.colored .one_third span {
+.featured_section15.colored .one_third span, .featured_section15.colored .one_half span {
 	color: #8052A4;
 }
-.featured_section15.colored .one_third h4, .featured_section15.colored .one_third p {
+.featured_section15.colored .one_third h4, .featured_section15.colored .one_third p, .featured_section15.colored .one_half h4, .featured_section15.colored .one_half p {
     text-align: right;
 }
 .featured_section15.two {
