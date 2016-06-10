@@ -182,7 +182,7 @@
 	color: #ffffff;
 	font-size: 40px;
 	line-height: 50px;
-	font-family: 'newjuneboldregular', sans-serif;
+/*	font-family: 'newjuneboldregular', sans-serif;*/
 	font-weight: 300;
 }
 .ms-layer.text2.caps {
@@ -196,7 +196,7 @@
 	color: #8052A4;
 	font-size: 59px;
 	line-height: 67px;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;*/
 	font-weight: 800;
 }
 
@@ -207,7 +207,7 @@
 	color: #8052A4;
 	font-size: 35px;
 	line-height: 40px;
-	font-family: 'Roboto', sans-serif;
+/*	font-family: 'Roboto', sans-serif; */
 	font-weight: 300;
 }
 .ms-layer.text7meem.caps {
@@ -225,7 +225,7 @@
 	color: #8052A4;
 	font-size: 30px;
 	line-height: 40px;
-	font-family: 'Roboto', sans-serif;
+/*	font-family: 'Roboto', sans-serif; */
 	font-weight: 800;
 }
 .ms-layer.text8meem.caps {
@@ -257,7 +257,7 @@
 	color: #8052A4;
 	font-size: 59px;
 	line-height: 67px;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;*/
 	font-weight: 800;
 }
 .ms-layer.text3.center {
@@ -274,7 +274,7 @@
 	color: #fff;
 	font-size: 30px;
 	line-height: 35px;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;*/
 	font-weight: 300;
 }
 .ms-layer.text4.caps {
@@ -288,7 +288,7 @@
 	color: #fff;
 	font-size: 72px;
 	line-height: 72px;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif; */
 	font-weight: 800;
 }
 .ms-layer.text5.caps {
@@ -301,7 +301,7 @@
 	color: #c9c9c9;
 	font-size: 16px;
 	line-height: 25px;
-	font-family: 'Droid Serif', serif;
+/*	font-family: 'Droid Serif', serif; */
 	font-weight: 500;
 	font-style: italic;
 }
@@ -313,7 +313,7 @@
 	color: #fff;
 	font-size: 35px;
 	line-height: 40px;
-	font-family: 'Roboto', sans-serif;
+/*	font-family: 'Roboto', sans-serif; */
 	font-weight: 300;
 }
 .ms-layer.text7.caps {
@@ -330,7 +330,7 @@
 	color: #fff;
 	font-size: 50px;
 	line-height: 59px;
-	font-family: 'Roboto', sans-serif;
+/*	font-family: 'Roboto', sans-serif; */
 	font-weight: 800;
 }
 .ms-layer.text8.caps {
@@ -346,7 +346,7 @@
 	color: #fff;
 	font-size: 50px;
 	line-height: 55px;
-	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif; */
 	font-weight: 800;
 }
 .ms-layer.text9.caps {
