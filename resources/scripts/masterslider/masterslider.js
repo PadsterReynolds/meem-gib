@@ -5190,6 +5190,7 @@ MSViewEvents.CHANGE_END	     	= 'slideChangeEnd';
 		}
 		
 		this.$slideCont[0].style.left = -value + 'px';
+		this.$slideCont[0].style.right = -value + 'px';
 		
 	};
 
