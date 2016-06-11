@@ -1,0 +1,98 @@
+---
+lang: en-us
+layout: default-en
+title: Thank You
+description: Welcome onboard at Meem.
+social-audio:
+social-video:
+social-media:
+  - tw-summary:
+tw-title: 'meem |'
+intro_title: 'Thank you and welcome onboard!'
+list_title: WHAT TO DO NEXT?
+list_items:
+  - list_item: Visit the nearest meem store
+  - list_item: 'Bring your valid National ID for Saudi nationals. And Iqama & Passport for expats'
+  - list_item: Bring the mobile you registered
+  - list_item: 'Sign the T&Cs document'
+  - list_item: 'Fill & sign the FATCA form'
+  - list_item: 'Get your Visa Debit Card!'
+app_title: Get meem App
+app_description: "Don't forget to download the meem app on your mobile and tablet."
+apple_store_url: 'https://itunes.apple.com/app/id824700516'
+apple_store_alt_txt: Click here to download the Meem banking app from the Apple Store
+google_play_url: 'https://play.google.com/store/apps/details?id=com.veripark.GIB'
+google_play_alt_txt: Click here to download the Meem banking app from Google Play store
+permalink: /en/meem-thank-you-en.html
+alt_url: /ar/meem-thank-you-ar.html
+sitemap:
+  exclude:
+---
+<div class="clearfix margin_top21"></div>
+
+<div class="featured_section300">
+<div class="container">
+    <h2 class="margin_bottom8">{{ page.intro_title }}</h2>
+
+    <h1>{{ page.list_title | caps }}</h1>
+    <ul>
+        {% for item in page.list_items %}<li>{{ item.list_item }}</li>{% endfor %}
+    </ul>
+</div>
+</div>
+
+<div class="clearfix margin_top10"></div>
+
+<div class="featured_section26">
+    <div class="container">
+
+        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+            <i class="fa fa-phone"></i>
+
+            <div class="cont">
+                <h3 class="editable">Call Us On 9200 2 6336!</h3>
+                <h5 style="font-size:14px;" class="editable">Our customer care team is available to receive your calls 24 hours a day, 7 days a week.</h5>
+            </div>
+
+        </div>
+
+        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+            <i class="fa fa-map-marker"></i>
+
+            <div class="cont">
+                <a href="meem-locations-en.html"> <h3 class="editable">Find the nearest store</h3></a>
+                <h5 style="font-size:14px;" class="editable">We have 12 stores scattered around Riyadh, Jeddah, Dammam, Khobar and Dhahran.</h5>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="clearfix margin_top10"></div>
+
+<div class="featured_section3 two">
+    <div class="container">
+
+        <div class="onecol_forty"><img src="/resources/images/login/meem-login-iphone.gif" alt="Meem Login" class="rimg animate" data-anim-type="fadeInLeft" data-anim-delay="300" /></div>
+
+        <div class="onecol_sixty last animate" data-anim-type="fadeInRight" data-anim-delay="300">
+    	<span><b>{{ page.app_title | caps }}</b></span>
+
+            <p class="bigtfont margin_top4">{{ page.app_description }}</p>
+
+            <div class="margin_top8">
+                <div class="one_half download">
+                    <a id="apple-app-download-en" href="{{ page.apple_store_url }}" class="button app"><img src="/resources/images/buttons/apple_store_230x90.gif" alt="{{ page.apple_store_alt_txt }}" /></a>
+                </div>
+                <div class="one_half last download">
+                    <a id="google-app-download-en" href="{{ page.google_play_url }}" class="button app"><img src="/resources/images/buttons/google-play-badge_230x90.gif" alt="{{ page.google_play_alt_txt }}" /></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
