@@ -401,11 +401,21 @@ sitemap:
                 {% endfor %}
             </div>
 
-            <div class="onecol_forty last" style="border: 1px solid #66667f;padding: 10px;">
-                <h2>APPLY HERE</h2>
-                <iframe height="443" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/kwp0y721g0vjgk/"></iframe>
-                <h3 style="color: #824BB0;">Already a meemer?</h3>
-                <p>Please login to your account to apply for the Murabaha Deposit.</p>
+            <div class="onecol_forty last">
+
+                <div style="background-color: #0088A2">
+                <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br />from our Telesales Team</p>
+            </div>
+
+                <div class="cforms">
+
+                    <div id="form_status"></div>
+
+                    <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/z2sk6g10dw4xq/"><a href="https://meembygib.wufoo.com/forms/z2sk6g10dw4xq/">Call me back!</a></iframe>
+
+                </div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -476,6 +486,16 @@ sitemap:
     </div>
 </div>
 
+ <div class="clearfix margin_top4"></div>
+
+    <div class="featured_section32">
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_middle" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
 <div class="clearfix margin_top4"></div>
 
     <div class="featured_section69">
@@ -507,6 +527,16 @@ sitemap:
             </div>
         </div>
     </div>
+
+    <div class="clearfix margin_top4"></div>
+
+    <div class="featured_section32">
+    <div class="container">
+        {% for btn in page.apply-button %}
+        <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+        {% endfor %}
+    </div>
+</div>
 
     <div class="clearfix margin_top4"></div>
 

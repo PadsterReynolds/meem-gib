@@ -136,16 +136,19 @@ sitemap:
                     {% endfor %}
                 </div>
 
-                <div class="onecol_forty last" style="border: 1px solid #66667f;padding: 10px;">
+                <div class="onecol_forty last">
 
+                    <div style="background-color: #0088A2">
+                        <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">لأي إسفسارات سجل طلب إتصال علشان يتواصل معاك فريق المبيعات</p>
+                    </div>
 
-                    <h2 class="editable" style="color:#7F58A2;">قدم طلبك هنا</h2>
+                    <div class="cforms">
 
-                    <iframe height="442" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/z1o6n9ar1kxg0fb/"></iframe>
+                        <div id="form_status"></div>
 
-                    <h3 class="editable" style="color: #824BB0;">عندك حساب م؟</h3>
-                    <p class="editable">سجل دخول لحسابك علشان تقدر تقدم على وديعة المرابحة</p>
+                        <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/m1pu4njx1nye4i5/"><a href="https://meembygib.wufoo.com/forms/m1pu4njx1nye4i5/">!كلمن</a></iframe>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -220,6 +223,18 @@ sitemap:
 
     <div class="clearfix margin_top6"></div>
 
+    <div class="featured_section32">
+
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_top" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
     <div class="featured_section69">
         <a id="applynowlink"></a>
         <div class="container">
@@ -249,6 +264,18 @@ sitemap:
             </div>
         </div>
     </div>
+
+    <div class="featured_section32">
+        <a id="phonenowlink"></a>
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+    <a id="telesales"></a>
+    <div class="clearfix margin_top6"></div>
 
     <div class="clearfix margin_top2"></div>
 
