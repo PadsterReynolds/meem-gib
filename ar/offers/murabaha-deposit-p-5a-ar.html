@@ -87,29 +87,9 @@ sitemap:
 
 <div class="content_fullwidth">
 
-    <div class="featured_section80">
-        <div class="container">
-            {% for block in page.how-to-apply-boxes %}
-            {% if block.box-last-panel == true %}
-            <div class="box last animate" data-anim-type="fadeInRight" data-anim-delay="200">
-                {% else %}
-                <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
-                    {% endif %}
-    	    <span>
-        	    <h3 class="caps">{{ block.box-title }}</h3>
-                <p class="bigtfont">{{ block.box-description }}</p>
-                <br /><br />
-        	    <a href="{{ block.box-link }}" class="button twentyone">{{ block.box-button-text }}</a>
-            </span>
+    {% include /components/row-layouts/ar/4-anim-3xCTA-button-panel.html %}
 
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-
-    </div>
-
-    <div class="clearfix margin_top6"></div>
+    <div class="clearfix margin_top8"></div>
 
     <div class="featured_section18">
         <a id="phonenowlink"></a>
@@ -138,7 +118,7 @@ sitemap:
 
                 <div class="onecol_forty last">
 
-                    <div style="background-color: #0088A2">
+                    <div style="background-color: #0088A2;margin-bottom: 15px;">
                         <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">لأي إسفسارات سجل طلب إتصال علشان يتواصل معاك فريق المبيعات</p>
                     </div>
 
@@ -146,7 +126,7 @@ sitemap:
 
                         <div id="form_status"></div>
 
-                        <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/m1pu4njx1nye4i5/"><a href="https://meembygib.wufoo.com/forms/m1pu4njx1nye4i5/">!كلمن</a></iframe>
+                        <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none;height:500px;" src="https://meembygib.wufoo.com/embed/m1pu4njx1nye4i5/"><a href="https://meembygib.wufoo.com/forms/m1pu4njx1nye4i5/">!كلمن</a></iframe>
 
                     </div>
                 </div>
