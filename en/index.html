@@ -1,7 +1,7 @@
 ---
 lang: en-us
 layout: homepage-en
-title: 'meem | Self Service Digital Banking'
+title: 'Self Service Digital Banking'
 description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
 social-audio:
 social-video:
@@ -55,15 +55,15 @@ sitemap:
 ---
 
 {% comment %} Slider  ======================================= {% endcomment %}
-<!-- masterslider -->
 <div id="mslider" class="slidermar1">
     <div class="master-slider ms-skin-default" id="masterslider">
 
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% for item in page.homepage-banner-en %}
-            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
+            {% include /components/media/homepage-youtube-background.html %}
+            <!--{% for item in page.homepage-banner-en %}
+            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />-->
 
             <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
                 {{ item.en-banner-main-title }}
@@ -85,14 +85,14 @@ sitemap:
                 {{ item.en-banner-button-03-text }}
             </a>
             {% endfor %}
-        </div> <!-- end slide 1 -->
+        </div>
 
     </div>
-</div><!-- end of masterslider -->
+</div>
 
 <div class="clearfix"></div>
 <a id="learn_more"></a>
-<!-- Why choose block -->
+
 <div class="featured_section31">
     <div class="container">
         <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">Why choose Meem?</h2>
@@ -101,7 +101,7 @@ sitemap:
 
 <div class="clearfix"></div>
 
-<!-- USP block -->
+
 <div class="featured_section81 colored">
     <div class="container animate" data-anim-type="fadeIn" data-anim-delay="300">
         {% for item in page.usp-block1 %}
@@ -112,9 +112,8 @@ sitemap:
         <div class="box"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
         {% endfor %}
     </div>
-</div><!-- /end USP block -->
+</div>
 
-<!-- awesome banking -->
 <div class="featured_section27">
     <div class="container">
 
@@ -160,21 +159,19 @@ sitemap:
             <h4 class="editable">Beneficiary Management</h4>
             <p class="editable">Create beneficiaries online, group them, label them and even pull their own social media profile.</p>
 
-        </div><!-- end section -->
+        </div>
 
     </div>
-</div><!-- end featured section 27 -->
+</div>
 
 <div class="clearfix margin_top8"></div>
 
-<!-- Our Stores Title Block -->
 <div class="title33">
     <h1 class="white editable"><strong>Our Stores</strong></h1>
 </div>
 
 <div class="clearfix"></div>
 
-<!-- Our Stores grid -->
 <div class="works01">
 
     <div id="grid-container" class="cbp-l-grid-fullWidth">
@@ -194,14 +191,13 @@ sitemap:
                     </div>
                 </div>
             </a>
-        </div><!-- end item -->
+        </div>
         {% endfor %}
     </div>
 </div>
 
 <div class="clearfix margin_top10"></div>
 
-<!-- three block links -->
 <div class="featured_section26">
     <div class="container">
 
@@ -214,7 +210,7 @@ sitemap:
                 <h5 style="font-size:14px;" class="editable">Our customer care team is available to receive your calls 24 hours a day, 7 days a week.</h5>
             </div>
 
-        </div><!-- end section
+        </div><!--
 
         <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
 
@@ -239,27 +235,25 @@ sitemap:
         </div>
 
     </div>
-</div><!-- end featured section 26 -->
+</div>
 
 <div class="clearfix margin_top10"></div>
 
-<!-- one pack title -->
 <div class="featured_section31">
     <div class="container">
         <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">One Pack Account</h2>
     </div>
-</div><!-- end contact number block -->
+</div>
 
 <div class="clearfix margin_top5"></div>
 
-<!-- one pack information block -->
 <div class="featured_section28">
     <div class="container">
 
         <div class="one_half">
-            <!-- <iframe class="video" src="https://www.youtube.com/embed/e-19sbqGcOI" frameborder="0" allowfullscreen></iframe> -->
-            <div><a href="meem-one-pack-account-en.html" target="parent"><img src="/resources/images/media/meem_one_pack_player.jpg" alt="Meem - Our One Pack Account" class="rimg editable" /></a></div>
-        </div><!-- end section -->
+            <iframe width="100%" height="325" src="https://www.youtube.com/embed/C7wIFvSxMC8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+           <!-- <div><a href="meem-one-pack-account-en.html" target="parent"><img src="/resources/images/media/meem_one_pack_player.jpg" alt="Meem - Our One Pack Account" class="rimg editable" /></a></div>-->
+        </div>
 
         <div class="one_half last">
 
@@ -271,7 +265,7 @@ sitemap:
 
                 <h5 class="editable">Jam-Jars: this enables you to set a saving goal</h5>
 
-            </div><!-- end section -->
+            </div>
 
             <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="200">
 
@@ -279,7 +273,7 @@ sitemap:
 
                 <h5 class="editable">Budgeting-tool: budget and track your spending</h5>
 
-            </div><!-- end section -->
+            </div>
 
             <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="300">
 
@@ -287,7 +281,7 @@ sitemap:
 
                 <h5 class="editable">Auto-Sweep:  move funds between current and saving</h5>
 
-            </div><!-- end section -->
+            </div>
 
             <p class="margin_top2">
                 <a class="but_small4 animate editable" data-anim-type="fadeInUp" data-anim-delay="700" href="meem-one-pack-account-en.html" target="_parent">Tell me more</a>
@@ -296,14 +290,13 @@ sitemap:
             </p>
             <div class="clearfix marb12"></div>
 
-        </div><!-- end section -->
+        </div>
 
     </div>
-</div><!-- end featured section 28 -->
+</div>
 
 <div class="clearfix margin_top4"></div>
 
-<!-- Other products & services block -->
 <div class="parallax_section4">
     <div class="container">
 
@@ -316,7 +309,7 @@ sitemap:
             <p class="white editable">A&nbsp; Shariah compliant&nbsp; Visa Debit Card that can link up to 4 of your foregin currency accounts</p>
             <p><a href="meem-currency-card-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
-        </div><!-- end section -->
+        </div>
 
         <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
@@ -325,7 +318,7 @@ sitemap:
             <p class="white editable">A Shariah compliant Mudarabah investment product that is low risk yet rewarding</p>
             <p><a href="meem-murabaha-deposit-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
-        </div><!-- end section -->
+        </div>
 
         <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
@@ -334,7 +327,7 @@ sitemap:
             <p class="white editable">A Shariah compliant Platinum Visa Credit Card with a wide range of benefits</p>
             <p><a href="meem-visa-platinum-credit-card-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
-        </div><!-- end section -->
+        </div>
 
         <div class="one_fourth last animate" data-anim-type="fadeInDown" data-anim-delay="100">
 
@@ -343,9 +336,9 @@ sitemap:
             <p class="white editable">A Shariah compliant Murabaha based personal finance with easy and instant access</p>
             <p><a href="meem-personal-finance-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
-        </div><!-- end section -->
+        </div>
 
     </div>
-</div><!-- end parallax section 4 -->
+</div>
 
 <div class="clearfix margin_top4"></div>
