@@ -1,7 +1,7 @@
 ---
 lang: en-us
 layout: offers-page-en
-title: 'meem | Murabaha Deposit offer'
+title: Murabaha Deposit offer
 description: 'Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi Arabia with the meem Murabaha Deposit.We will be checking the markets everyday to ensure we offer you the very best rates. Deposit a minimum amount of SAR 10,000 in the meem Murabaha deposit.'
 social-audio:
 social-video:
@@ -9,8 +9,8 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: 'Receive the best<br/>Murabaha Deposit rates<br/>for you and your family<br/>this Ramadan'
-    offer-heading-text-2:
+  - offer-heading-text-1: 'Best profit rates for everyone, everyday'
+    offer-heading-text-2: Murabaha Deposit
     offer-heading-text-3: Welcome to digital banking
     offer-heading-terms: 'Terms &amp; conditions apply'
 how-to-apply-boxes:
@@ -68,7 +68,7 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title6">
+<div class="page_title5">
     <div class="container">
         <div class="one_half">
             <h1>{{ mast.offer-heading-text-1 }}</h1>
@@ -77,7 +77,9 @@ sitemap:
             <p class="terms titletxt">{{ mast.offer-heading-terms }}</p>
         </div>
         <div class="one_half last hideMobile">
-            &nbsp;
+            <h3>{{ mast.offer-heading-text-2 }}</h3>
+            <p>{{ mast.offer-heading-text-3 }}</p>
+            <p class="terms">{{ mast.offer-heading-terms }}</p>
         </div>
     </div>
 </div>

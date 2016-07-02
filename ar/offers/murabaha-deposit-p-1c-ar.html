@@ -10,9 +10,9 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: احصل على افضل نسبة ربح مع وديعة المرابحة لك ولعائلتك في رمضان
+  - offer-heading-text-1: افضل نسبة ربح للجميع كل يوم
     offer-heading-text-2: وديعة المرابحة
-    offer-heading-text-3: 'حياك الله في مصرفية "م"'
+    offer-heading-text-3: حياك الله في المصرفية الرقمية
     offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
   - box-last-panel: false
@@ -65,16 +65,16 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title6">
+<div class="page_title5">
     <div class="container">
         <div class="one_half">
-            &nbsp;
-        </div>
-        <div class="one_half last">
             <h1 class="titletxt">{{ mast.offer-heading-text-1 }}</h1>
             <h3>{{ mast.offer-heading-text-2 }}</h3>
             <p>{{ mast.offer-heading-text-3 }}</p>
             <p class="terms">{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
         </div>
     </div>
 </div>
@@ -87,12 +87,12 @@ sitemap:
 
             <div class="onecol_sixty ">
                 {% for offer in page.offer %}
-                <h2>{{ offer.offer_title }}</h2>
+                <h2 style="color: #824BB0;">{{ offer.offer_title }}</h2>
                 <p class="bigtfont">{{ offer.offer_description }}</p>
                 {% endfor %}
                 <br /><br />
                 {% for product in page.product %}
-                <h2>{{ product.product-title }}</h2>
+                <h2 style="color: #824BB0;">{{ product.product-title }}</h2>
                 <p class="bigtfont">{{ product.product_description }}</p>
                 {% endfor %}
                 {% for benf in page.product-benefits %}
@@ -121,6 +121,15 @@ sitemap:
     </div>
 
     <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69 colored" style="padding:20px 0;">
+        <div class="container">
+            <h2 class="editable">الشروط والأحكام</h2>
+            <p class="editable">عرض أفضل نسب ربح لوديعة المرابحة متوفر لفترة محدودة. و يحق للبنك تعديل أو إلغاء عرض وديعة المرابحة في أي وقت.<span dir="LTR"></span></p>
+            <p class="editable"><a class="meem-link" href="http://www.meem.com/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf">إضغط هنا لمعرفة كافة الشروط والأحكام</a></p>
+
+        </div>
+    </div>
 
     <div class="featured_section15 colored">
             <div class="container">
@@ -187,18 +196,5 @@ sitemap:
 
             </div>
         </div>
-
-    <div class="clearfix margin_top6"></div>
-
-    <div class="featured_section69">
-        <div class="container">
-            <h2 class="editable">الشروط والأحكام</h2>
-            <p class="editable">عرض أفضل نسب ربح لوديعة المرابحة متوفر لفترة محدودة. و يحق للبنك تعديل أو إلغاء عرض وديعة المرابحة في أي وقت.<span dir="LTR"></span></p>
-            <p class="editable"><a class="meem-link" href="http://www.meem.com/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf">إضغط هنا لمعرفة كافة الشروط والأحكام</a></p>
-
-        </div>
-    </div>
-
-    <div class="clearfix margin_top6"></div>
 
 </div>

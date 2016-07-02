@@ -10,8 +10,8 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: احصل على افضل نسبة ربح مع وديعة المرابحة لك ولعائلتك في رمضان
-    offer-heading-text-2:
+  - offer-heading-text-1: افضل نسبة ربح للجميع كل يوم
+    offer-heading-text-2: وديعة المرابحة
     offer-heading-text-3: حياك الله في المصرفية الرقمية
     offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
@@ -70,16 +70,16 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title6">
+<div class="page_title5">
     <div class="container">
         <div class="one_half">
-            &nbsp;
-        </div>
-        <div class="one_half last">
             <h1 class="titletxt">{{ mast.offer-heading-text-1 }}</h1>
             <h3>{{ mast.offer-heading-text-2 }}</h3>
             <p>{{ mast.offer-heading-text-3 }}</p>
             <p class="terms">{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
         </div>
     </div>
 </div>
@@ -223,18 +223,6 @@ sitemap:
 
     <div class="clearfix margin_top6"></div>
 
-    <div class="featured_section32">
-
-        <div class="container">
-            {% for btn in page.apply-button %}
-            <a id="apply_now_button_offer_top" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
-            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
-            {% endfor %}
-        </div>
-    </div>
-
-    <div class="clearfix margin_top6"></div>
-
     <div class="featured_section69">
         <a id="applynowlink"></a>
         <div class="container">
@@ -262,18 +250,23 @@ sitemap:
                     <li class="editable">عند إستكمال إجراءات فتح الحساب تقدر تتبع خطوات العملاء الحاليين للتقديم على وديعة المرابحة</li>
                 </ol>
             </div>
+
+            <div class="row">
+            <div class="one_half">
+                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx?startpage=onboarding&amp;culture=ar" class="button twentyone editable">تعرف على كيفية التقديم</a>
+                </span>
+            </div>
+            <div class="one_half last">
+               <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx" class="button twentyone editable">سجل دخول &nbsp;وقدم</a>
+                </span>
+            </div>
+        </div>
+
         </div>
     </div>
 
-    <div class="featured_section32">
-        <a id="phonenowlink"></a>
-        <div class="container">
-            {% for btn in page.apply-button %}
-            <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
-            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
-            {% endfor %}
-        </div>
-    </div>
     <a id="telesales"></a>
     <div class="clearfix margin_top6"></div>
 

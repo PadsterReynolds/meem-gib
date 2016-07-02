@@ -10,9 +10,9 @@ social-media:
   - tw-summary:
     tw-title:
 offer-banner:
-  - offer-heading-text-1: احصل على افضل نسبة ربح مع وديعة المرابحة لك ولعائلتك في رمضان
-    offer-heading-text-2:
-    offer-heading-text-3: أهلا وسهلا بك إلى الخدمات المصرفية الرقمية
+  - offer-heading-text-1: افضل نسبة ربح للجميع كل يوم
+    offer-heading-text-2: وديعة المرابحة
+    offer-heading-text-3: حياك الله في المصرفية الرقمية
     offer-heading-terms: تطبق الشروط والأحكام
 how-to-apply-boxes:
   - box-last-panel: false
@@ -70,16 +70,16 @@ sitemap:
   exclude:
 ---
 {% for mast in page.offer-banner %}
-<div class="page_title6">
+<div class="page_title5">
     <div class="container">
         <div class="one_half">
-            &nbsp;
-        </div>
-        <div class="one_half last">
             <h1 class="titletxt">{{ mast.offer-heading-text-1 }}</h1>
             <h3>{{ mast.offer-heading-text-2 }}</h3>
             <p>{{ mast.offer-heading-text-3 }}</p>
             <p class="terms">{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
         </div>
     </div>
 </div>
@@ -90,26 +90,14 @@ sitemap:
     <div class="featured_section18">
         <div class="container">
 
-            <div class="onecol_forty" style="border: 1px solid #66667f;padding: 10px;">
-
-
-                <h2 class="editable" style="color:#7F58A2;">قدم طلبك هنا&nbsp;</h2>
-
-                <iframe height="442" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/z1o6n9ar1kxg0fb/"></iframe>
-
-                <h3 class="editable" style="color: #824BB0;">عندك حساب م؟</h3>
-                <p class="editable">سجل دخول لحسابك علشان تقدر تقدم على وديعة المرابحة.</p>
-
-            </div>
-
-            <div class="onecol_sixty last">
+            <div class="onecol_sixty">
                 {% for offer in page.offer %}
-                <h3>{{ offer.offer_title }}</h3>
+                <h3 style="color: #824BB0;">{{ offer.offer_title }}</h3>
                 <p class="bigtfont">{{ offer.offer_description }}</p>
                 {% endfor %}
                 <br /><br />
                 {% for product in page.product %}
-                <h2>{{ product.product-title }}</h2>
+                <h2 style="color: #824BB0;">{{ product.product-title }}</h2>
                 <p class="bigtfont">{{ product.product_description }}</p>
                 {% endfor %}
                 {% for benf in page.product-benefits %}
@@ -122,10 +110,36 @@ sitemap:
                 </div>
                 {% endfor %}
             </div>
+
+            <div class="onecol_forty last">
+
+            <div style="background-color: #0088A2">
+                <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">لأي إسفسارات سجل طلب إتصال علشان يتواصل معاك فريق المبيعات</p>
+            </div>
+
+            <div class="cforms">
+
+                <div id="form_status"></div>
+
+                <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/m1pu4njx1nye4i5/"><a href="https://meembygib.wufoo.com/forms/m1pu4njx1nye4i5/">!كلمن</a></iframe>
+
+            </div>
+        </div>
         </div>
     </div>
 
     <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69 colored" style="padding:20px 0;">
+        <div class="container">
+            <h2 class="editable">الشروط والأحكام</h2>
+            <p class="editable">عرض أفضل نسب ربح لوديعة المرابحة متوفر لفترة محدودة. و يحق للبنك تعديل أو إلغاء عرض وديعة المرابحة في أي وقت.<span dir="LTR"></span></p>
+            <p class="editable"><a class="meem-link" href="/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf" target="_blank">
+                إضغط هنا لمعرفة كافة الشروط والأحكام
+            </a></p>
+
+        </div>
+    </div>
 
     <div class="featured_section15 colored">
             <div class="container">
@@ -193,17 +207,45 @@ sitemap:
             </div>
         </div>
 
-    <a id="telesales"></a>
-    <div class="clearfix margin_top6"></div>
-
     <div class="featured_section69">
-        <div class="container">
-                <h2 class="editable">الشروط والأحكام</h2>
-                <p class="editable">عرض أفضل نسب ربح لوديعة المرابحة متوفر لفترة محدودة. و يحق للبنك تعديل أو إلغاء عرض وديعة المرابحة في أي وقت.<span dir="LTR"></span></p>
-                <p class="editable"><a class="meem-link" href="/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf" target="_blank">
-                    إضغط هنا لمعرفة كافة الشروط والأحكام
-                </a></p>
 
+        <div class="container">
+
+            <h2 class="title23 editable">كيفية التقديم؟</h2>
+
+            <div class="one_half">
+                <h3 class="editable">عميل حالي</h3>
+                <ol>
+                    <li class="editable">سجل دخول في حسابك </li>
+                    <li class="editable">إضغط على أيقونة (المنتجات)</li>
+                    <li class="editable">ثم إختر (وديعة مرابحة) من قائمة المنتجات</li>
+                    <li class="editable">إضغط على زر (إضافة منتج جديد)</li>
+                    <li class="editable">إتبع خطوات التقديم على وديعة مرابحة و راح تكون أكملت طلبك في خلال 5 دقائق!</li>
+                </ol>
+            </div>
+
+            <div class="one_half last">
+                <h3 class="editable">عميل جديد</h3>
+                <p class="editable">للتقديم على منتجات و خدمات م لازم يكون عندك حساب م فعال. خطوات فتح حساب م بسيطة بإتباع التالي:<br><span dir="LTR"></span></p>
+                <ol>
+                    <li class="editable">إضغط على زر (قدم الآن) في الأسفل</li>
+                    <li class="editable">عبي نموذج فتح الحساب</li>
+                    <li class="editable">بعد الإنتهاء من تعبئة نموذج فتح الحساب تقدرتزور أقرب مركز م لإستكمال إجراءات فتح الحساب</li>
+                    <li class="editable">عند إستكمال إجراءات فتح الحساب تقدر تتبع خطوات العملاء الحاليين للتقديم على وديعة المرابحة</li>
+                </ol>
+            </div>
+            <div class="row">
+                <div class="one_half">
+                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx?startpage=onboarding&amp;culture=ar" class="button twentyone editable">تعرف على كيفية التقديم</a>
+                </span>
+                </div>
+                <div class="one_half last">
+                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx" class="button twentyone editable">سجل دخول &nbsp;وقدم</a>
+                </span>
+                </div>
+            </div>
         </div>
     </div>
 
