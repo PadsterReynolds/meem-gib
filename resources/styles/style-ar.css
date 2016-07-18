@@ -8093,6 +8093,29 @@ ul.footer_social_links5 {
 	margin-top: 5px;
 }
 
+.page_titleR1 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 500px;
+	color: #fff;
+	text-align: right;
+	margin-top: 100px;
+	padding: 70px 200px 90px 0;
+	background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1920x500_Arabic.jpg) no-repeat right top;
+}
+.page_titleR2 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 500px;
+	color: #fff;
+	text-align: right;
+	margin-top: 110px;
+	padding: 70px 200px 90px 0;
+	background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1920x500_Arabic.jpg) no-repeat right top;
+}
+
 /* sidebar widget */
 .sidebar_widget {
 	float: left;

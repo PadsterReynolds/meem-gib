@@ -222,6 +222,28 @@
         font-size: 14px;
         margin-top: 5px;
     }
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1170x450_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 110px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1170x450_Arabic.jpg) no-repeat right top;
+    }
 
     /* end page title */
 
@@ -833,6 +855,28 @@
         font-size: 14px;
         margin-top: 5px;
     }
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1000x400_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1000x400_Arabic.jpg) no-repeat right top;
+    }
 
     /* end page title */
 }
@@ -1115,6 +1159,28 @@
         font-style: normal;
         font-size: 14px;
         margin-top: 5px;
+    }
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_970x400_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_970x400_Arabic.jpg) no-repeat right top;
     }
 
     /* end page title */
@@ -2214,6 +2280,28 @@
         font-style: normal;
         font-size: 12px;
         margin-top: 5px;
+    }
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_780x350_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_780x350_Arabic.jpg) no-repeat right top;
     }
 
     /* end page title */
@@ -3661,6 +3749,28 @@
         font-style: normal;
         font-size: 12px;
         margin-top: 5px;
+    }
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 110px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_640x300_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 320px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_L&RJ_640x300_Arabic.jpg) no-repeat right bottom;
     }
 
     /* end page title */
@@ -5142,6 +5252,29 @@
         font-style: normal;
         font-size: 12px;
         margin-top: 0;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_No_Bleed_479x300_Arabic.jpg) no-repeat right top;
+    }
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_No_Bleed_479x300_Arabic.jpg) no-repeat right top;
     }
     /* end page title */
 
