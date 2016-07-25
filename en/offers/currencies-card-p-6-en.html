@@ -1,0 +1,274 @@
+---
+lang: en-us
+layout: offers-page-en
+title: 'meem | Murabaha Deposit Offer'
+description: 'Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi Arabia with the meem Murabaha Deposit. We will be checking the markets everyday to ensure we offer you the very best rates..'
+social-audio:
+social-video:
+social-media:
+  - tw-summary:
+    tw-title:
+offer-banner:
+  - offer-heading-text-1: 'Receive the best<br/>Murabaha Deposit rates<br/>for you and your family<br/>this Ramadan'
+    offer-heading-text-2:
+    offer-heading-text-3: Welcome to digital banking
+    offer-heading-terms: 'Terms &amp; conditions apply'
+how-to-apply-boxes:
+  - box-last-panel: false
+    box-title: How to apply?
+    box-description: "Click the button below to learn how to apply whether you're a new or an existing customer."
+    box-link: '#applynowlink'
+    box-button-text: Find How to Apply
+  - box-last-panel: true
+    box-title: Request a phone call
+    box-description: Click the button below to request our Telesales team to call you in your preferred time.
+    box-link: '#phonenowlink'
+    box-button-text: Go to Call Request
+apply-button:
+  - button-text: 'Apply Now!'
+    button-link: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=us'
+product:
+  - product-title: Murabaha Deposit
+    product_description: >-
+      The meem Murabaha deposit is flexible and Shariah compliant. You can
+      withdraw up to 20% of your balance without incurring any financial
+      penalties and choose an investment period of between 30 to 720 days.
+
+      The meem Murabaha Deposit is the first Shariah Compliant product with
+      online placement and liquidation (fully and partially).
+product-benefits:
+  - product-benefit-title: Low risk investment option
+    product-benefit_description:
+    product-benefit-icon: icon-energy
+    product-benefit-delay: '100'
+  - product-benefit-title: Wide choice of deposit tenures
+    product-benefit_description:
+    product-benefit-icon: icon-magic-wand
+    product-benefit-delay: '200'
+  - product-benefit-title: Variety of choice for deposit currencies
+    product-benefit_description:
+    product-benefit-icon: icon-trophy
+    product-benefit-delay: '300'
+offer:
+  - offer_title: 'Best Profit Rates for everyone, everyday'
+    offer_description: >-
+      Everyone, everyday can enjoy the best profit rates in the Kingdom of Saudi Arabia with the meem Murabaha Deposit. We will be checking the markets everyday to ensure we offer you the very best rates. Deposit a minimum amount of SAR 1,000 in the meem Murabaha deposit.  Available for a limited time only.
+form-contact-label-name-text: Name
+form-contact-label-email-text: Email
+form-contact-label-phone-text: Phone
+form-contact-label-calltime-text: Preferred Time for Calling
+form-contact-label-button-text: Submit Request
+newsletter:
+  - subscribe-text: "Never miss meem's offers and promotions. Subscribe to our mailing list."
+    form-action_link: '#'
+    form-subscribe-button-text: Subscribe
+    form-input-field-comment: Enter your email...
+permalink: /en/offers/currencies-card-p-6-en.html
+alt_url: /ar/offers/currencies-card-p-6-ar.html
+sitemap:
+  exclude:
+---
+{% for mast in page.offer-banner %}
+<div class="page_title6">
+    <div class="container">
+        <div class="one_half">
+            <h1>{{ mast.offer-heading-text-1 }}</h1>
+            <h3 class="titletxt">{{ mast.offer-heading-text-2 }}</h3>
+            <p class="titletxt">{{ mast.offer-heading-text-3 }}</p>
+            <p class="terms titletxt">{{ mast.offer-heading-terms }}</p>
+        </div>
+        <div class="one_half last hideMobile">
+            &nbsp;
+        </div>
+    </div>
+</div>
+{% endfor %}
+<div class="content_fullwidth">
+
+<div class="featured_section80" id="offers">
+
+    <div class="container">
+        {% for block in page.how-to-apply-boxes %}
+        {% if block.box-last-panel == true %}
+        <div class="box last animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+            {% else %}
+        <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+        {% endif %}
+    	    <span>
+        	    <h3 class="caps">{{ block.box-title }}</h3>
+                <p class="bigtfont">{{ block.box-description }}</p>
+                <br /><br />
+        	    <a href="{{ block.box-link }}" class="button twentyone">{{ block.box-button-text }}</a>
+            </span>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section18">
+    <a id="phonenowlink"></a>
+        <div class="container">
+            <div class="onecol_sixty">
+                {% for offer in page.offer %}
+                <h3 style="color: #824BB0;">{{ offer.offer_title }}</h3>
+                <p class="bigtfont">{{ offer.offer_description }}</p>
+                {% endfor %}
+                <br /><br />
+                {% for product in page.product %}
+                <h2>{{ product.product-title }}</h2>
+                <p class="bigtfont">{{ product.product_description }}</p>
+                {% endfor %}
+                {% for benf in page.product-benefits %}
+                <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                    <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                    <h5>{{ benf.product-benefit-title }}</h5>
+                    <p>{{ benf.product-benefit_description }}</p>
+
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="onecol_forty last">
+
+                <div style="background-color: #0088A2">
+                <p class="editable" style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;">For more info request a call<br />from our Telesales Team</p>
+            </div>
+
+                <div class="cforms">
+
+                    <div id="form_status"></div>
+
+                    <iframe height="523" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/z2sk6g10dw4xq/"><a href="https://meembygib.wufoo.com/forms/z2sk6g10dw4xq/">Call me back!</a></iframe>
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+<div class="clearfix margin_top6"></div>
+
+<div class="featured_section15 colored">
+    <div class="container">
+
+        <h3 class="margin_bottom6 editable">Additional Murahaba Deposit Benefits</h3>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+            <span aria-hidden="true" class="icon-rocket"></span>
+
+            <h4 class="editable">Multi-currency</h4>
+            <p class="editable">Choice of placing deposit in SAR, USD, GBP, and other GCC currencies</p>
+
+        </div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+            <span aria-hidden="true" class="icon-badge"></span>
+
+            <h4 class="editable">Tenure Options</h4>
+            <p class="editable">Tenure option (Days): 30, 90, 180, 360, 720</p>
+
+        </div>
+
+        <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+            <span aria-hidden="true" class="icon-settings"></span>
+
+            <h4 class="editable">Up Front Profit Checking</h4>
+            <p class="editable">Profit calculation done upfront at the time of placing the deposit</p>
+
+        </div>
+
+        <div class="clearfix margin_top6"></div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+            <span aria-hidden="true" class="icon-basket-loaded"></span>
+
+            <h4 class="editable">Withdrawals</h4>
+            <p class="editable">Depositor can withdraw up to 20% of deposit value without breaking the deposit</p>
+
+        </div>
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="500">
+
+            <span aria-hidden="true" class="icon-social-dropbox"></span>
+
+            <h4 class="editable">Commodities</h4>
+            <p class="editable">Cement is the offered commodity with the delivery option</p>
+
+        </div>
+
+        <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="600">
+
+            <span aria-hidden="true" class="icon-trophy"></span>
+
+            <h4 class="editable">Fast Process</h4>
+            <p class="editable">Straight Through Process enables you to get your investment online within few minutes</p>
+
+        </div>
+
+    </div>
+</div>
+
+ <div class="clearfix margin_top4"></div>
+
+    <div class="featured_section32">
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_middle" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+<div class="clearfix margin_top4"></div>
+
+    <div class="featured_section69">
+        <a id="applynowlink"></a>
+        <div class="container">
+
+            <h2 class="title23 editable">How To Apply?</h2>
+
+            <div class="one_half">
+                <h3 class="editable">New Customers</h3>
+                <p class="editable">First you will need to open a meem <a class="offer-links" href="/en/meem-one-pack-account-en.html">One Pack Account</a> to be able to apply for meem's products. Opening the One Pack Account can be done simply by following these steps:<br />&nbsp;</p>
+                <ol>
+                    <li class="editable">Click on the "Apply Now!" button below</li>
+                    <li class="editable">Fill in the application form</li>
+                    <li class="editable">Visit the nearest meem store to complete your account opening.&nbsp;</li>
+                    <li class="editable">Once you have your account set up, you may follow the steps of how to apply for existing meemers.</li>
+                </ol>
+            </div>
+
+            <div class="one_half last">
+                <h3 class="editable">Existing Customers</h3>
+                <ol>
+                    <li class="editable">Login to your account</li>
+                    <li class="editable">Click on the products icon</li>
+                    <li class="editable">Select Murabaha Deposit from the list</li>
+                    <li class="editable">Press on "Add New Product"</li>
+                    <li class="editable">Follow the application instruction and you will be able to place your Murabaha Deposit within 5 minutes!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix margin_top4"></div>
+
+    <div class="featured_section32">
+    <div class="container">
+        {% for btn in page.apply-button %}
+        <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+    <div class="clearfix margin_top6"></div>
+</div>
