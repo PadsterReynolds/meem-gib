@@ -314,7 +314,6 @@
 }
 .top_nav ul.topsocial {
 	float: left;
-	padding: 0;
 	margin: 0 10px 0 10px;
 	padding: 7px 0;
 }
@@ -386,7 +385,6 @@
 }
 .top_nav2 ul.topsocial {
 	float: right;
-	padding: 0;
 	margin: 0 0 0 0;
 	padding: 7px 0;
 }
@@ -668,7 +666,7 @@
 	float: right;
 	width: 16%;
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0.3px;
+/*	letter-spacing: 0px; */
 	font-weight: 300;
 }
 .menu_rlinks .mrbut {
@@ -2233,7 +2231,6 @@
 	display: block;
 	line-height: normal;
 }
-
 
 /* featured section 31 */
 .featured_section31 {
@@ -3945,6 +3942,42 @@
 	text-align: right;
 }
 
+/* featured section 80A */
+.featured_section80A {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.featured_section80A .onecol_sixty {
+	margin: 0 2% 0 0;
+}
+.featured_section80A .onecol_forty {
+	margin: 0 0 0 2%;
+	text-align: right;
+}
+.featured_section80A .one_half {
+	width:46%;
+	margin-right: 4%;
+	text-align: right;
+}
+.featured_section80A .box {
+	float: left;
+	/*width: 50%;*/
+	text-align: left;
+/*	border: 1px solid #ececec;*/
+}
+.featured_section80A .box.last {
+/*	border-left: 1px solid #fff;*/
+}
+.featured_section80A .box img {
+	float: left;
+	width: 100%;
+}
+.featured_section80A .box span {
+	float: right;
+	padding: 45px 40px 55px 40px;
+	text-align: right;
+}
 
 /* featured section 81 */
 .featured_section81 {
@@ -7903,7 +7936,7 @@ ul.footer_social_links5 {
 	width: 100%;
 	padding: 40px 0;
 	margin-top: 100px;
-	background: #f3f3f3 url(../images/footer-graph3.png) no-repeat center bottom;
+/*	background: #f3f3f3 url(../images/footer-graph3.png) no-repeat center bottom; */
 }
 .page_title2 h1 {
 	float: left;
@@ -8538,7 +8571,7 @@ ul.post_meta_links_small {
 	padding-top: 7px;
 	color: #fff;
 	text-decoration: none;
-	background: url(../images/skin01/but_post_readmore.jpg) no-repeat left top;
+/*	background: url(../images/skin01/but_post_readmore.jpg) no-repeat left top; */
 }
 .post_readmore:hover {
 	float: right;
@@ -8548,7 +8581,7 @@ ul.post_meta_links_small {
 	padding-top: 7px;
 	color: #fff;
 	text-decoration: none;
-	background: url(../images/skin01/but_post_readmore_hover.jpg) no-repeat left top;
+/*	background: url(../images/skin01/but_post_readmore_hover.jpg) no-repeat left top; */
 }
 .sharepost {
 	float: left;

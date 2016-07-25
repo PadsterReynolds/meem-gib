@@ -1,0 +1,204 @@
+---
+lang: ar-sa
+direction: rtl
+layout: offers-page-min-ar
+title: 'م | عرض وديعة المرابحة'
+description: 'بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تسجل دخولك على حساب "م" اون لاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض متاح لفترة محدودة فقط.'
+social-audio:
+social-video:
+social-media:
+  - tw-summary:
+    tw-title:
+offer-banner:
+  - offer-heading-text-1: احصل على افضل نسبة ربح مع وديعة المرابحة لك ولعائلتك في رمضان
+    offer-heading-text-2: وديعة المرابحة
+    offer-heading-text-3: 'حياك الله في مصرفية "م"'
+    offer-heading-terms: تطبق الشروط والأحكام
+how-to-apply-boxes:
+  - box-last-panel: false
+    box-image-alt-text:
+    box-title: طلب إتصال هاتفي
+    box-description: إضغط على الزر بالأسفل علشان تطلب إتصال هاتفي من فريق المبيعات.
+    box-link: '#phonenowlink'
+    box-button-text: إطلب إتصال هاتفي
+  - box-last-panel: true
+    box-image-alt-text:
+    box-title: كيفية التقديم؟
+    box-description: إضغط على الزر بالأسفل علشان تعرف كيفية التقديم على وديعة المرابحة.
+    box-link: '#applynowlink'
+    box-button-text: تعرف على كيفية التقديم
+apply-button:
+  - button-text: 'قدم الآن!'
+    button-link: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ar'
+product:
+  - product-title: وديعة مرابحة
+    product_description: وديعة المرابحة متوافقة مع أحكام الشريعة و توفر لك أفضل نسبة منافسة في السوق. الوديعة مرنة و تقدر تربطها على فترات مختلفة على حسب اللي يناسبك.
+product-benefits:
+  - product-benefit-title: إستثمار مريح
+    product-benefit_description:
+    product-benefit-icon: icon-energy
+    product-benefit-delay: '100'
+  - product-benefit-title: فترات مرنة تناسب الجميع
+    product-benefit_description:
+    product-benefit-icon: icon-magic-wand
+    product-benefit-delay: '200'
+  - product-benefit-title: خيارات متعددة لعملة الوديعة
+    product-benefit_description:
+    product-benefit-icon: icon-trophy
+    product-benefit-delay: '300'
+offer:
+  - offer_title: افضل نسبة ربح، وديعة المرابحة للجميع
+    offer_description: 'بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تسجل دخولك على حساب "م" اون لاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض متاح لفترة محدودة فقط.'
+form-contact-label-name-text: الإسم
+form-contact-label-email-text: البريد الإلكتروني
+form-contact-label-phone-text: رقم الهاتف
+form-contact-label-calltime-text: الوقت المفضل لإجراء المكالمة
+form-contact-label-button-text: إرسل الطلب
+newsletter:
+  - subscribe-text: إشترك في قائمة بريد م الإلكترونية علشان توصلك عروضنا الحصرية أول بأول
+    form-action_link: '#'
+    form-subscribe-button-text: إشترك
+    form-input-field-comment: أدخل بريدك الإلكتروني
+permalink: /ar/offers/murabaha-deposit-p-5c-ar.html
+alt_url: /en/offers/murabaha-deposit-p-5c-en.html
+sitemap:
+  exclude:
+---
+{% for mast in page.offer-banner %}
+<div class="page_title6">
+    <div class="container">
+        <div class="one_half">
+            &nbsp;
+        </div>
+        <div class="one_half last">
+            <h1 class="titletxt">{{ mast.offer-heading-text-1 }}</h1>
+            <h3>{{ mast.offer-heading-text-2 }}</h3>
+            <p>{{ mast.offer-heading-text-3 }}</p>
+            <p class="terms">{{ mast.offer-heading-terms }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<div class="content_fullwidth">
+
+    <div class="featured_section18">
+        <div class="container">
+
+            <div class="onecol_sixty ">
+                {% for offer in page.offer %}
+                <h2>{{ offer.offer_title }}</h2>
+                <p class="bigtfont">{{ offer.offer_description }}</p>
+                {% endfor %}
+                <br /><br />
+                {% for product in page.product %}
+                <h2>{{ product.product-title }}</h2>
+                <p class="bigtfont">{{ product.product_description }}</p>
+                {% endfor %}
+                {% for benf in page.product-benefits %}
+                <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                    <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                    <h5>{{ benf.product-benefit-title }}</h5>
+                    <p>{{ benf.product-benefit_description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="onecol_forty last" style="border: 1px solid #66667f;padding: 10px;">
+
+
+                <h2 class="editable" style="color:#7F58A2;">قدم طلبك هنا&nbsp;</h2>
+
+                <iframe height="260" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/z12x8e1u0spg69l/"></iframe>
+
+                <h3 class="editable" style="color: #824BB0;">عندك حساب م؟</h3>
+                <p class="editable">سجل دخول لحسابك علشان تقدر تقدم على وديعة المرابحة.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section15 colored">
+            <div class="container">
+
+                <h3 class="margin_bottom6 editable">المزايا الإضافية لوديعة المرابحة</h3>
+
+                <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+                    <span aria-hidden="true" class="icon-rocket"></span>
+
+                    <h4 class="editable">عملات متعددة</h4>
+                    <p class="editable">إمكانية الإستثمار بالريال السعودي، الدولار الأمريكي، الجنيه الإسترليني و عملات دول مجلس التعاون الخليجي&nbsp;</p>
+
+                </div>
+
+                <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+                    <span aria-hidden="true" class="icon-badge"></span>
+
+                    <h4 class="editable">خيارات مدة الوديعة</h4>
+                    <p class="editable">خيارات المدة (بالأيام): 30، 90، 180، 360، 720. كل ما زادت المدة تزيد نسبة الربح</p>
+
+                </div>
+
+                <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+                    <span aria-hidden="true" class="icon-settings"></span>
+
+                    <h4 class="editable">حساب نسبة الربح</h4>
+                    <p class="editable">تقدر تطلع على نسبة الربح لمبلغ الوديعة قبل ما تودع المبلغ</p>
+
+                </div>
+
+
+                <div class="clearfix margin_top6"></div>
+
+
+                <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                    <span aria-hidden="true" class="icon-basket-loaded"></span>
+
+                    <h4 class="editable">سحب الطوارئ</h4>
+                    <p class="editable">تقدر تسحب إلى 20% من إجمالي المبلغ المودع بدون ما تكسر الوديعة وتروح عليك الأرباح اللي كسبتها</p>
+
+                </div>
+
+                <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="500">
+
+                    <span aria-hidden="true" class="icon-social-dropbox"></span>
+
+                    <h4 class="editable">السلع</h4>
+                    <p class="editable">السلع المتوفرة للوديعة هي الإسمنت، مع خيار توصيل السلعة</p>
+
+                </div>
+
+                <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="600">
+
+                    <span aria-hidden="true" class="icon-trophy"></span>
+
+                    <h4 class="editable">إجراءات سريعة</h4>
+                    <p class="editable">إجراءات التقديم على وديعة المرابحة مميزة عن غيرها لأنها تتم أونلاين والقبول فوري في حال توفر مبلغ الوديعة. الطلب ما ياخذ منك اكثر من 5 دقائق</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69">
+        <div class="container">
+            <h2 class="editable">الشروط والأحكام</h2>
+            <p class="editable">عرض أفضل نسب ربح لوديعة المرابحة متوفر لفترة محدودة. و يحق للبنك تعديل أو إلغاء عرض وديعة المرابحة في أي وقت.<span dir="LTR"></span></p>
+            <p class="editable"><a class="meem-link" href="http://www.meem.com/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf">إضغط هنا لمعرفة كافة الشروط والأحكام</a></p>
+
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+</div>
