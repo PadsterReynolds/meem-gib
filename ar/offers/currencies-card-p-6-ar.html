@@ -1,0 +1,252 @@
+---
+lang: ar-sa
+direction: rtl
+layout: offers-page-ar
+title: 'م | خدمات مصرفية ذاتية'
+description: 'بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تسجل دخولك على حساب "م" اون لاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض متاح لفترة محدودة فقط.'
+social-audio:
+social-video:
+social-media:
+  - tw-summary:
+    tw-title:
+offer-banner:
+  - offer-heading-text-1: احصل على افضل نسبة ربح مع وديعة المرابحة لك ولعائلتك في رمضان
+    offer-heading-text-2:
+    offer-heading-text-3: حياك الله في المصرفية الرقمية
+    offer-heading-terms: تطبق الشروط والأحكام
+how-to-apply-boxes:
+  - box-last-panel: false
+    box-image-alt-text:
+    box-title: طلب إتصال هاتفي
+    box-description: إضغط على الزر بالأسفل علشان تطلب إتصال هاتفي من فريق المبيعات.
+    box-link: '#phonenowlink'
+    box-button-text: إطلب إتصال هاتفي
+  - box-last-panel: true
+    box-image-alt-text:
+    box-title: كيفية التقديم؟
+    box-description: إضغط على الزر بالأسفل علشان تعرف كيفية التقديم على وديعة المرابحة.
+    box-link: '#applynowlink'
+    box-button-text: تعرف على كيفية التقديم
+apply-button:
+  - button-text: 'قدم الآن!'
+    button-link: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ar'
+product:
+  - product-title: بطاقة العملات
+    product_description: لا تترك الديرة من غير بطاقة العملات للسفر! بطاقة صراف فيزا تصدر بالمجان و بدون رسوم إشتراك سنوية. تقدر تربط البطاقة بأربع عملات من إختيارك. وفر مصاريف تحويل العملات و سافر بكل راحة و أمان.
+product-benefits:
+  - product-benefit-title: إصدار مجاني!
+    product-benefit_description: البطاقة تصدر بالمجان و بدون رسوم إشتراك سنوي
+    product-benefit-icon: icon-energy
+    product-benefit-delay: '100'
+  - product-benefit-title: بدون رسوم
+    product-benefit_description: مافي اي رسوم مشتريات دولية لما تستخدم البطاقة في اي نقطة بيع دوليا
+    product-benefit-icon: icon-magic-wand
+    product-benefit-delay: '200'
+  - product-benefit-title: تحكم كامل
+    product-benefit_description: تقدر تربط الحسابات الأجنبية اللي تحتاجها و تغير بينهم بكل سهولة في أي وقت وأي مكان من خلال تطبيق "م" أو الأونلاين
+    product-benefit-icon: icon-trophy
+    product-benefit-delay: '300'
+offer:
+  - offer_title: افضل نسبة فائدة، وديعة المرابحة للجميع
+    offer_description: 'بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تسجل دخولك على حساب "م" اون لاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض متاح لفترة محدودة فقط.'
+form-contact-label-name-text: الإسم
+form-contact-label-email-text: البريد الإلكتروني
+form-contact-label-phone-text: رقم الهاتف
+form-contact-label-calltime-text: الوقت المفضل لإجراء المكالمة
+form-contact-label-button-text: إرسل الطلب
+newsletter:
+  - subscribe-text: إشترك في قائمة بريد م الإلكترونية علشان توصلك عروضنا الحصرية أول بأول
+    form-action_link: '#'
+    form-subscribe-button-text: إشترك
+    form-input-field-comment: أدخل بريدك الإلكتروني
+permalink: /ar/offers/currencies-card-p-6-ar.html
+alt_url: /en/offers/currencies-card-p-6-en.html
+sitemap:
+  exclude:
+---
+{% for mast in page.offer-banner %}
+<div class="page_titleP6">
+    <div class="container">
+        <div class="one_half">
+            &nbsp;
+        </div>
+        <div class="one_half last">
+
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<div class="content_fullwidth">
+
+    <div class="featured_section80">
+        <div class="container">
+            {% for block in page.how-to-apply-boxes %}
+            {% if block.box-last-panel == true %}
+            <div class="box last animate" data-anim-type="fadeInRight" data-anim-delay="200">
+                {% else %}
+                <div class="box animate" data-anim-type="fadeInLeft" data-anim-delay="200">
+                    {% endif %}
+    	    <span>
+        	    <h3 class="caps">{{ block.box-title }}</h3>
+                <p class="bigtfont">{{ block.box-description }}</p>
+                <br /><br />
+        	    <a href="{{ block.box-link }}" class="button twentyone">{{ block.box-button-text }}</a>
+            </span>
+
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section18">
+        <a id="phonenowlink"></a>
+            <div class="container">
+
+                <div class="onecol_sixty">
+                    {% for offer in page.offer %}
+                    <h3>{{ offer.offer_title }}</h3>
+                    <p class="bigtfont">{{ offer.offer_description }}</p>
+                    {% endfor %}
+                    <br /><br />
+                    {% for product in page.product %}
+                    <h2>{{ product.product-title }}</h2>
+                    <p class="bigtfont">{{ product.product_description }}</p>
+                    {% endfor %}
+                    {% for benf in page.product-benefits %}
+                    <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
+
+                        <span aria-hidden="true" class="{{ benf.product-benefit-icon }}"></span>
+
+                        <h5>{{ benf.product-benefit-title }}</h5>
+                        <p>{{ benf.product-benefit_description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="onecol_forty last">
+
+                    <div style="background-color: #0088A2">
+                        <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">لأي إسفسارات سجل طلب إتصال علشان يتواصل معاك فريق المبيعات</p>
+                    </div>
+
+                    <div class="cforms">
+
+                        <div id="form_status"></div>
+
+                        <iframe height="600" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/forms/z1ojbmoh0nwavyt/"><a href="https://meembygib.wufoo.com/forms/z1ojbmoh0nwavyt/">!كلمن</a></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section15 colored">
+        <div class="container">
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+                <span aria-hidden="true" class="icon-rocket"></span>
+
+                <h4 class="editable">إصدار فوري</h4>
+                <p class="editable">أي ميمر عنده حساب "م" يقدر يطلب بطاقة العملات و يستلمها فوريا من مركز "م" أو تطلب توصيلها عن طريق البريد في خلال 3 أيام عمل</p>
+
+            </div>
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+                <span aria-hidden="true" class="icon-badge"></span>
+
+                <h4 class="editable">رسوم رمزية</h4>
+                <p class="editable">2.25% رسوم على عمليات السحب الآلي و بدون مفاجآت</p>
+
+            </div>
+
+            <div class="one_third last animate" data-anim-type="fadeIn" data-anim-delay="300">
+
+                <span aria-hidden="true" class="icon-settings"></span>
+
+                <h4 class="editable">خيارات العملات أجنبية متعددة</h4>
+                <p class="editable">خيار واسع من 8 عملات مختلفة &nbsp;تقدر تربطها بالبطاقة: عملات مجلس التعاون الخليجي، اليورو، الجنيه الإسترليني، والدولار الأمريكي</p>
+
+            </div><
+
+
+            <div class="clearfix margin_top6"></div>
+
+
+            <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+                <span aria-hidden="true" class="icon-basket-loaded"></span>
+
+                <h4 class="editable">خيار العملة الأساسية</h4>
+                <p class="editable">إذا عملة البلد اللي انت بتسافر لها مو من ضمن العملات اللي نوفرها لا تشيل هم، تقدر تستخدم بطاقة العملات بإختيارك لعملة أساسية &nbsp;يتم السحب منها.</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section32">
+
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_top" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+    <div class="featured_section69">
+        <a id="applynowlink"></a>
+        <div class="container">
+
+            <h2 class="title23 editable">كيفية التقديم؟</h2>
+
+            <div class="one_half">
+                <h3 class="editable">عميل حالي</h3>
+                <ol>
+                    <li class="editable">سجل دخول في حسابك </li>
+                    <li class="editable">إضغط على أيقونة (المنتجات)</li>
+                    <li class="editable">ثم إختر (وديعة مرابحة) من قائمة المنتجات</li>
+                    <li class="editable">إضغط على زر (إضافة منتج جديد)</li>
+                    <li class="editable">إتبع خطوات التقديم على وديعة مرابحة و راح تكون أكملت طلبك في خلال 5 دقائق!</li>
+                </ol>
+            </div>
+
+            <div class="one_half last">
+                <h3 class="editable">عميل جديد</h3>
+                <p class="editable">للتقديم على منتجات و خدمات م لازم يكون عندك حساب م فعال. خطوات فتح حساب م بسيطة بإتباع التالي:<br /><span dir="LTR"></span></p>
+                <ol>
+                    <li class="editable">إضغط على زر (قدم الآن) في الأسفل</li>
+                    <li class="editable">عبي نموذج فتح الحساب</li>
+                    <li class="editable">بعد الإنتهاء من تعبئة نموذج فتح الحساب تقدرتزور أقرب مركز م لإستكمال إجراءات فتح الحساب</li>
+                    <li class="editable">عند إستكمال إجراءات فتح الحساب تقدر تتبع خطوات العملاء الحاليين للتقديم على وديعة المرابحة</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured_section32">
+        <a id="phonenowlink"></a>
+        <div class="container">
+            {% for btn in page.apply-button %}
+            <a id="apply_now_button_offer_bottom" href="{{ btn.button-link }}" class="button eight editable">{{ btn.button-text }}</a>
+            <p class="editable" style="padding-top: 20px;">تطبق الشروط والأحكام</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="clearfix margin_top6"></div>
+
+</div>

@@ -226,6 +226,42 @@
         margin-top: 5px;
     }
 
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: left;
+        margin-top: 120px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_1170x450_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1170x450_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: left;
+        margin-top: 130px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1170x450_English.jpg) no-repeat left top;
+    }
+
     /* end page title */
 
     .featured_section2 .one_fourth_less p {
@@ -828,6 +864,42 @@
         margin-top: 5px;
     }
 
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 110px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_1000x400_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1000x400_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1000x400_English.jpg) no-repeat left top;
+    }
+
     /* end page title */
 }
 
@@ -1104,6 +1176,42 @@
         font-style: normal;
         font-size: 14px;
         margin-top: 5px;
+    }
+
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_970x400_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_970x400_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 130px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_970x400_English.jpg) no-repeat left top;
     }
 
     /* end page title */
@@ -2198,6 +2306,42 @@
         margin-top: 5px;
     }
 
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_780x350_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_780x350_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: left;
+        margin-top: 130px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_780x350_English.jpg) no-repeat left top;
+    }
+
     /* end page title */
 
     .featured_section2 .one_fourth_less p {
@@ -2790,47 +2934,6 @@
 
     .featured_section80 .box span {
         padding: 35px 30px 45px 30px;
-    }
-    /* featured section 80A */
-    .featured_section80A {
-        float: left;
-        width: 100%;
-        text-align: center;
-    }
-    .featured_section80A .onecol_sixty {
-        margin: 0 1% 0 0;
-        width:65%;
-    }
-    .featured_section80A .onecol_forty {
-        margin: 0;
-        text-align: left;
-        width:32%;
-    }
-    .featured_section80A .one_half {
-        width:46%;
-        margin-right: 4%;
-        text-align: left;
-    }
-    .featured_section80A .box {
-        float: left;
-        width: 100%;
-        text-align: left;
-        /*    border: 1px solid #ececec;*/
-    }
-    .featured_section80A .box.last {
-        /*   border-left: 1px solid #fff; */
-    }
-    .featured_section80A .box img {
-        float: left;
-        /*    width: 100%;*/
-    }
-    .featured_section80A .box span {
-        float: left;
-        padding: 20px 15px 20px 15px;
-    }
-
-    .featured_section80A .box p {
-        font-size:14px;
     }
 
     .featured_section81 .box {
@@ -3695,6 +3798,42 @@
         margin-top: 5px;
     }
 
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_640x300_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_640x300_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 130px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_L&RJ_640x300_English.jpg) no-repeat left top;
+    }
+
     /* end page title */
 
 
@@ -3815,10 +3954,6 @@
     .featured_section16 .box {
         margin-left: 0;
         margin-top: 55px;
-    }
-
-    .featured_section80A {
-        display:none;
     }
 
     .hexagon {
@@ -5258,6 +5393,42 @@
         margin-top: 5px;
     }
 
+    .page_titleP6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_No_Bleed_479x300_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_No_Bleed_479x300_English.jpg) no-repeat left top;
+    }
+
+    .page_titleR2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 130px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_No_Bleed_479x300_English.jpg) no-repeat left top;
+    }
+
     /* end page title */
     .sample_slider9 {
         margin-top: -130px;
@@ -5869,10 +6040,6 @@
 
     .featured_section80 .box.last {
         border: 1px solid #ececec;
-    }
-
-    .featured_section80A {
-        display:none;
     }
 
     .featured_section81 .box {
