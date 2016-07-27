@@ -109,12 +109,12 @@ sitemap:
 
                 <div class="onecol_sixty">
                     {% for offer in page.offer %}
-                    <h3>{{ offer.offer_title }}</h3>
-                    <p class="bigtfont">{{ offer.offer_description }}</p>
+                    <h3 style="color: #824BB0;">{{ offer.offer_title }}</h3>
+                    <p class="bigfont">{{ offer.offer_description }}</p>
                     {% endfor %}
                     <br /><br />
                     {% for product in page.product %}
-                    <h2>{{ product.product-title }}</h2>
+                    <h2 style="color: #824BB0;">{{ product.product-title }}</h2>
                     <p class="bigtfont">{{ product.product_description }}</p>
                     {% endfor %}
                     {% for benf in page.product-benefits %}
@@ -154,7 +154,7 @@ sitemap:
 
                 <span aria-hidden="true" class="icon-rocket"></span>
 
-                <h4 class="editable">إصدار فوري</h4>
+                <h4 class="editable" style="color: #824BB0;">إصدار فوري</h4>
                 <p class="editable">أي ميمر عنده حساب "م" يقدر يطلب بطاقة العملات و يستلمها فوريا من مركز "م" أو تطلب توصيلها عن طريق البريد في خلال 3 أيام عمل</p>
 
             </div>
@@ -222,6 +222,20 @@ sitemap:
                     <li class="editable">عند إستكمال إجراءات فتح الحساب تقدر تتبع خطوات العملاء الحاليين للتقديم على وديعة المرابحة</li>
                 </ol>
             </div>
+
+            <div class="row">
+                <div class="one_half">
+                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx" class="button twentyone editable">سجل دخول وقدم</a>
+                </span>
+                </div>
+                <div class="one_half last">
+               <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200" style="margin-left: 2%">
+        	        <a href="http://online.meem.sa/default.aspx?startpage=onboarding&amp;culture=ar" class="button twentyone editable">قدم طلبك هنا</a>
+                </span>
+                </div>
+            </div>
+
         </div>
     </div>
 
