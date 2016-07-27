@@ -120,7 +120,14 @@ sitemap:
     </url>
 
     <url>
-        <loc>http://www.meem.com/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions</loc>
+        <loc>http://www.meem.com/Murabaha-Deposits-Promotion-Campaign_Terms-and-Conditions.pdf</loc>
+        <lastmod>2016-6-05T20:36:42+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>http://www.meem.com/Murabaha-Deposits-Best-Rate-Terms-and-Conditions.pdf</loc>
         <lastmod>2016-6-05T20:36:42+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
