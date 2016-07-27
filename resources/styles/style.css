@@ -2730,7 +2730,6 @@
     line-height: normal;
 }
 
-
 /* featured section 31 */
 .featured_section31 {
     float: left;
@@ -4613,74 +4612,32 @@
 }
 
 /* featured section 80 */
-.featured_section80, .featured_section80B {
+.featured_section80 {
     float: left;
     width: 100%;
     text-align: center;
 }
 
-.featured_section80 .box, .featured_section80B .box {
+.featured_section80 .box {
     float: left;
     width: 50%;
     text-align: left;
     border: 1px solid #ececec;
 }
 
-.featured_section80B .box {
-    width:100%;
-}
-
-
-.featured_section80 .box.last, .featured_section80B .box.last {
+.featured_section80 .box.last {
     border-left: 1px solid #fff;
 }
 
-.featured_section80 .box img, .featured_section80B .box img {
+.featured_section80 .box img {
     float: left;
     width: 100%;
 }
 
-.featured_section80 .box span, .featured_section80B .box span {
+.featured_section80 .box span {
     float: left;
     padding: 45px 40px 55px 40px;
 }
-
-/* featured section 80A */
-.featured_section80A {
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-.featured_section80A .onecol_sixty {
-    margin: 0 2% 0 0;
-}
-.featured_section80A .onecol_forty {
-    margin: 0 0 0 2%;
-    text-align: left;
-}
-.featured_section80A .one_half {
-    width:46%;
-    margin-right: 4%;
-    text-align: left;
-}
-.featured_section80A .box {
-    float: left;
-    width: 100%;
-    text-align: left;
-/*    border: 1px solid #ececec;*/
-}
-.featured_section80A .box.last {
- /*   border-left: 1px solid #fff; */
-}
-.featured_section80A .box img {
-    float: left;
-/*    width: 100%;*/
-}
-.featured_section80A .box span {
-    float: left;
-    padding: 35px 30px 40px 30px;
-}
-
 
 /* featured section 81 */
 .featured_section81 {
@@ -9129,6 +9086,42 @@ ul.footer_social_links5 {
     font-style: normal;
     font-size: 14px;
     margin-top: 5px;
+}
+
+.page_titleP6 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    padding: 75px 0 90px 200px;
+    background: #999 url(/resources/images/offers/p-6-offer/B0076692.002_meem_Foreign_Currency_Card_P6_LJ&RJ_1920x500_English.jpg) no-repeat left top;
+}
+
+.page_titleR1 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    padding: 75px 0 90px 200px;
+    background: #999 url(/resources/images/offers/r-offers/r-1/B0076694_MD_Best_Rate_R1_LJ&RJ_1920x500_English.jpg) no-repeat left top;
+}
+
+.page_titleR2 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+    margin-top: 130px;
+    padding: 75px 0 90px 200px;
+    background: #999 url(/resources/images/offers/r-offers/r-2/B0076694_MD_Best_Rate_R2_LJ&RJ_1920x500_English.jpg) no-repeat left top;
 }
 
 /* sidebar widget */
