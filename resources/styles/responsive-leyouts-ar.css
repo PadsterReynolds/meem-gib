@@ -2455,6 +2455,10 @@
         margin-top: 55px;
     }
 
+    .hideBlock {
+        display: none;
+    }
+
     .hexagon {
         width: 140px;
         height: 100px;
@@ -5473,10 +5477,22 @@
         border-right: none;
     }
 
+    .featured_section15 {
+        padding-right:20px;
+    }
+
     .featured_section16 .box {
         float: left;
         margin-left: 18%;
         margin-bottom: -100px;
+    }
+
+    .featured_section18 h2, .featured_section18 h3, .featured_section18 p  {
+        margin-right: 20px;
+    }
+
+    .featured_section69 {
+        padding-right: 20px;
     }
 
     .hexagon {

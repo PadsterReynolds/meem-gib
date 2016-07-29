@@ -2452,6 +2452,9 @@
         margin-top: 55px;
     }
 
+    .hideBlock {
+        display: none;
+    }
     .hexagon {
         width: 140px;
         height: 100px;
