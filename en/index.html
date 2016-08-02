@@ -16,7 +16,7 @@ homepage-banner-en:
     en-banner-button-01-url: 'http://www.meem.com/en/meem-products-services-en.html'
     en-banner-button-01-target: _self
     en-banner-button-01-text: Learn More
-    en-banner-button-02-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=us'
+    en-banner-button-02-url: 'http://online.meem.sa/default.aspx'
     en-banner-button-02-target: _self
     en-banner-button-02-text: Login
     en-banner-button-03-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=us'
@@ -61,9 +61,9 @@ sitemap:
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% include /components/media/homepage-youtube-background.html %}
-            <!--{% for item in page.homepage-banner-en %}
-            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />-->
+            <!--{% include /components/media/homepage-youtube-background.html %}-->
+            {% for item in page.homepage-banner-en %}
+            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
 
             <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
                 {{ item.en-banner-main-title }}
