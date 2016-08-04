@@ -13,6 +13,7 @@ en/test-layout.html
 pagespeed.conf
 _drafts
 /resources/media
+/resources/offers/r-2-/legacy/*
 _posts/
 _sass/
 resources/media/
