@@ -16,14 +16,14 @@ homepage-banner-ar:
     ar-banner-main-title: '<strong> حياك الله في موقع م </strong>'
     ar-banner-subtitle: البنك الرقمي الأول من نوعه في المنطقه
     ar-banner-button-01-url: 'http://www.meem.com/ar/meem-products-services-ar.html'
-    ar-banner-button-01-target:
-    ar-banner-button-01-text: أبغى تفاصيل أكثر
-    ar-banner-button-02-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
+    ar-banner-button-01-target: _self
+    ar-banner-button-01-text: تفاصيل أكثر
+    ar-banner-button-02-url: 'https://online.meem.sa/default.aspx?culture=ae'
     ar-banner-button-02-target: _self
     ar-banner-button-02-text: سجل دخول لحسابك
-    ar-banner-button-03-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
+    ar-banner-button-03-url: 'https://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
     ar-banner-button-03-target: _self
-    ar-banner-button-03-text: أبغى أفتح حساب
+    ar-banner-button-03-text: افتح حساب
 banners-video:
   - banner-video-mp4: 'https://youtu.be/lC2tbDpAams'
     banner-video-webm: 'https://youtu.be/lC2tbDpAams'
@@ -67,9 +67,9 @@ sitemap:
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            {% include /components/media/homepage-youtube-background.html %}
-            <!--{% for slider in page.homepage-banner-ar %}
-            <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" /> -->
+            <!--{% include /components/media/homepage-youtube-background.html %} -->
+            {% for slider in page.homepage-banner-ar %}
+            <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" />
 
             <h3 class="ms-layer text1 center" style="right:0;top:300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
 
