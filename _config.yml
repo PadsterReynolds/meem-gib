@@ -35,8 +35,8 @@ uat_google_tag_manager_id: GTM-NCWW46
 uat_heap_analytics_id: 1475982962
 
 prod_google_analytics_id: UA-72224806-1
-#prod_google_tag_manager_id: GTM-5XXDXR
-prod_google_tag_manager_id: GTM-NCWW46
+prod_google_tag_manager_id: GTM-5XXDXR
+#prod_google_tag_manager_id: GTM-NCWW46
 prod_heap_analytics_id: 2909756379
 
 # Google Custom Site Search
