@@ -1,0 +1,107 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="{{ page.lang }}" class="isie ie7 oldie no-js" dir="{{ page.direction }}"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="{{ page.lang }}" class="isie ie8 oldie no-js" dir="{{ page.direction }}"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="{{ page.lang }}" class="isie ie9 no-js" dir="{{ page.direction }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{{ page.lang }}" class="no-js" dir="{{ page.direction }}"> <!--<![endif]-->
+{% if page.lang == 'ar-sa' %}<html lang="ar" dir="rtl">{% elsif page.lang == 'en-us' %}<html lang="en">{% endif %}
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <!-- Google Analytics Content Experiment code -->
+    <script>function utmx_section(){}function utmx(){}(function(){var
+            k='114532354-3',d=document,l=d.location,c=d.cookie;
+        if(l.search.indexOf('utm_expid='+k)>0)return;
+        function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+        indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+                length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+                '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+                        '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+                '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+                valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+                '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+    </script><script>utmx('url','A/B');</script>
+    <!-- End of Google Analytics Content Experiment code -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {% comment %} Viewport meta tag for mobile/tablet browsers {% endcomment %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>{% if page.lang == 'ar-sa' %}{{ page.title }}
+        {% elsif page.lang == 'en-us' %}meem | {{ page.title }}{% else %}
+        meem | Digital Banking{% endif %}</title>
+    <meta name="description" content="{{ page.description }}" />
+    {% comment %} Alternative Language Content {% endcomment %}
+    <link rel="alternate" href="{{ site.prod_url }}{{ page.alt_url }}" hreflang="{{ page.lang}}" />
+
+    {% comment %} Open Graph meta data {% endcomment %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:image" content="{% if page.lang == 'ar-sa' %}{{ site.social-image-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-image-en }}{% endif %}"/>
+    <meta property="og:site_name" content="{% if page.lang == 'ar-sa' %}{{ site.social-sitename-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-sitename-en }}{% endif %}"/>
+    <meta property="og:description" content="{{ page.meta-description}}"/>
+
+    <meta property="og:type" content="finance"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:audio" content="{{ page.social-audio }}"/>
+    <meta property="og:locale" content="{% if page.lang == 'ar-sa' %}ar_SA{% elsif page.lang == 'en-us' %}en_US{% endif %}"/>
+
+    <meta property="og:locale:alternate" content="{% if page.lang == 'ar-sa' %}en_US{% elsif page.lang == 'en-us' %}ar_SA{% endif %}"/>
+    <meta property="og:video" content="{{ page.social-video }}"/>
+    <meta property="xpm-enabled" content="false"/>
+    {% for item in page.social-media %}
+    <meta name="twitter:card" content="{{ page.tw-summary }}" />
+    <meta name="twitter:title" content="{{ page.tw-title }}" />
+    <meta name="twitter:description" content="{{ page.meta-description}}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:image" content="{% if page.lang == 'ar-sa' %}{{ site.social-image-ar }}{% elsif page.lang == 'en-us' %}{{ site.social-image-en }}{% endif %}" />
+    {% endfor %}
+    {% comment %} Favicon {% endcomment %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="/resources/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/touch-icon-144.png">
+
+    {% comment %} fonts {% endcomment %}
+    {% if page.lang == 'ar-sa' %}{% include ar-fonts.html %}{% elsif page.lang == 'en-us' %}{% include en-fonts.html %}{% endif %}
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% comment %} ######### CSS STYLES ######### {% endcomment %}
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/styles/reset-ar.css" />
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/styles/reset.css" />{% endif %}
+    {% comment %} main site stylesheet {% endcomment %}
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/styles/style-ar.css" />
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/styles/style.css" />{% endif %}
+    {% comment %} font awesome icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/font-awesome/css/font-awesome.min.css">
+    {% comment %} simple line icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/simpleline-icons/simple-line-icons.min.css" media="screen" />
+    {% comment %} et linefont icons {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/et-linefont/etlinefont.min.css">
+    {% comment %} animations {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/animations/css/animations.min.css" media="all" />
+    {% comment %} responsive devices styles {% endcomment %}
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/styles/responsive-leyouts-ar.css" media="screen" />
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/styles/responsive-leyouts.css" media="screen" />{% endif %}
+    {% comment %} shortcodes {% endcomment %}
+    <link rel="stylesheet" href="/resources/styles/shortcodes.css" media="screen"  />
+    {% comment %} mega menu {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/mainmenu/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/scripts/mainmenu/demo.css">
+    {% if page.lang == 'ar-sa' %}<link rel="stylesheet" href="/resources/scripts/mainmenu/menu-ar.css">
+    {% elsif page.lang == 'en-us' %}<link rel="stylesheet" href="/resources/scripts/mainmenu/menu4.css">{% endif %}
+    {% comment %} MasterSlider {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/masterslider/style/masterslider.css" />
+    <link rel="stylesheet" href="/resources/scripts/masterslider/skins/default/style.css" />
+    {% comment %} cubeportfolio {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/cubeportfolio/cubeportfolio.css">
+    {% comment %} owl carousel {% endcomment %}
+    <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.transitions.css">
+    <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.carousel.css">
+    {% comment %} accordion {% endcomment %}
+    <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
+</head>
+
+<body class="bg-cover compact">
+<script>
+    dataLayer = [];
+</script>
+{% include components/google/tag_manager/google_tag_manager.html %}
+<div class="site_wrapper">
