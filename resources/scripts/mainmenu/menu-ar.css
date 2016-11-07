@@ -548,7 +548,7 @@ body {
 }
 
 .compact .header #logo4 {
-    background-size: 20%;
+    background-size: 29%;
     background-position: right 7px;
     min-height: 80px;
     margin-top: -15px;
@@ -607,10 +607,10 @@ body {
     }
 
     .compact .header #logo4 {
-        background-size: 15% auto;
+        background-size: 25% auto;
         background-position: right 19px;
         min-height: 80px;
-        margin-top: -15px;
+        margin-top: -10px;
     }
 
     .compact .header .menu_main {
@@ -690,7 +690,7 @@ body {
     }
 
     .compact .header #logo4 {
-        background-size: 50%;
+        background-size: 60%;
         background-position: center center;
     }
 
@@ -733,8 +733,8 @@ body {
     }
 
     .compact .header #logo4 {
-        background-size: 70% auto;
-        background-position: right 10px;
+        background-size: 80% auto;
+        background-position: right 12px;
     }
 
     .menu_main .col-md-3 {

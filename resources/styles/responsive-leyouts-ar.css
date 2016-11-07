@@ -13,7 +13,7 @@
     #logo4 {
         margin-top: 30px;
         min-height: 100px;
-        background: url(../images/logos/meem_logo_120.png) no-repeat right top;
+        background: url(../images/logos/meem_logo_120x120.png) no-repeat right top;
     }
 
     #logo5 {
@@ -721,7 +721,7 @@
     #logo4 {
         margin-top: 30px;
         min-height: 100px;
-        background: url(../images/logos/meem_logo_120.png) no-repeat right top;
+        background: url(../images/logos/meem_logo_120x120.png) no-repeat right top;
     }
 
     .page_title3 {
@@ -917,7 +917,7 @@
     #logo4 {
         margin-top: 30px;
         min-height: 80px;
-        background: url(../images/logos/meem_logo_75.png) no-repeat right top;
+        background: url(../images/logos/meem_logo_76x76.png) no-repeat right top;
     }
 
     .menu_main {
@@ -2022,7 +2022,7 @@
     #logo4 {
         margin-top: 30px;
         min-height: 80px;
-        background: url(../images/logos/meem_logo_75.png) no-repeat right top;
+        background: url(../images/logos/meem_logo_76x76.png) no-repeat right top;
     }
 
     .menu_main {
@@ -3508,7 +3508,7 @@
     #logo4 {
         min-height: 80px;
         margin: 15px 0 0 15px;
-        background: #fff url("../images/logos/meem_logo_75.png") no-repeat right top;
+        background: #fff url(../images/logos/meem_logo_76x76.png) no-repeat right top;
     }
 
     #logo5 {
@@ -4949,7 +4949,7 @@
     }
 
     .logo {
-        margin-top: 20px;
+        margin-top: 8px;
         padding-left: 5px;
     }
 
@@ -6586,7 +6586,7 @@
     }
 
     .logo {
-        margin-top: 20px;
+        margin-top: 8px;
         padding-left: 5px;
     }
 
