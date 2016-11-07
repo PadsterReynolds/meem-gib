@@ -17,7 +17,8 @@
                 '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
                 valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                 '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-    </script><script>utmx('url','A/B');</script>
+    </script>
+    <script>utmx('url','A/B');</script>
     <!-- End of Google Analytics Content Experiment code -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -97,11 +98,8 @@
     <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.carousel.css">
     {% comment %} accordion {% endcomment %}
     <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
+    {% include /components/google/analytics/google-analytics.html %}
 </head>
 
 <body class="bg-cover compact">
-<script>
-    dataLayer = [];
-</script>
-{% include components/google/tag_manager/google_tag_manager.html %}
 <div class="site_wrapper">
