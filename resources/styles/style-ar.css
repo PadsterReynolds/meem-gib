@@ -5624,6 +5624,14 @@
 	list-style-type: disc;
 }
 
+.featured_section300 ul li ul {
+	margin: 10px 0;
+}
+
+.featured_section300 ul li ul li {
+	margin-right: 7%;
+}
+
 .featured_section300 p {
 	padding-right: 25%;
 }

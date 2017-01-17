@@ -6456,6 +6456,14 @@
     list-style-type: disc;
 }
 
+.featured_section300 ul li ul {
+    margin: 10px 0;
+}
+
+.featured_section300 ul li ul li {
+    margin-left: 7%;
+}
+
 .featured_section300 p {
     margin-left: 28%;
 }
