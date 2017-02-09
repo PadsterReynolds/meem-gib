@@ -64,18 +64,12 @@ newsletter:
     form-action_link: '#'
     form-subscribe-button-text: إشترك
     form-input-field-comment: أدخل بريدك الإلكتروني
-permalink: /ar/offers/murabaha-deposit-p-4-ar.html
-alt_url: /en/offers/murabaha-deposit-p-4-en.html
+permalink: /ar/offers/murabaha-deposit-p-4c-ar.html
+alt_url: /en/offers/murabaha-deposit-p-4c-en.html
 sitemap:
   exclude:
 ---
-{% for mast in page.offer-banner %}
-<div class="page_titleP4">
-    <div class="container"></div>
-</div>
-{% endfor %}
-
-<div class="content_fullwidth">
+<div class="content_fullwidth" style="margin-top:120px;">
 
     <div class="featured_section80">
         <div class="container">
@@ -105,16 +99,7 @@ sitemap:
         <a id="phonenowlink"></a>
             <div class="container">
 
-                <div class="onecol_sixty">
-                    {% for offer in page.offer %}
-                    <h2 style="color: #824BB0;">{{ offer.offer_title }}</h2>
-                    <p class="bigtfont editable">بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تفتح حساب ميم وتسجل دخولك على الحساب عن طريق التطبيق أو الاونلاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض سينتهي بتاريخ 30 أبريل 2017.</p>
-                    {% endfor %}
-                    <br /><br />
-                    {% for product in page.product %}
-                    <h2 style="color: #824BB0;">{{ product.product-title }}</h2>
-                    <p class="bigtfont">{{ product.product_description }}</p>
-                    {% endfor %}
+                <div class="one_half">
                     {% for benf in page.product-benefits %}
                     <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="{{ benf.product-benefit-delay }}">
 
@@ -126,19 +111,16 @@ sitemap:
                     {% endfor %}
                 </div>
 
-                <div class="onecol_forty last">
-
-                    <div style="background-color: #0088A2">
-                        <p style="color: #fff; padding: 10px; font-size: 1.2em; text-align: center;" class="editable">لأي إسفسارات سجل طلب إتصال علشان يتواصل معاك فريق المبيعات</p>
-                    </div>
-
-                    <div class="cforms">
-
-                        <div id="form_status"></div>
-
-                        <iframe height="560" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://meembygib.wufoo.com/embed/m1pu4njx1nye4i5/"><a href="https://meembygib.wufoo.com/forms/m1pu4njx1nye4i5/">!كلمن</a></iframe>
-
-                    </div>
+                <div class="one_half last">
+                    {% for offer in page.offer %}
+                    <h2 style="color: #824BB0;">{{ offer.offer_title }}</h2>
+                    <p class="bigtfont editable">بشكل يومي راح نراقب نسب السوق المصرفي علشان نضمن لك أفضل نسبة ربح. كل اللي عليك تسويه هو إنك تفتح حساب ميم وتسجل دخولك على الحساب عن طريق التطبيق أو الاونلاين وتودع مبلغ مايقل عن 1,000 ريال سعودي في وديعة المرابحة، مع العلم إن هذا العرض سينتهي بتاريخ 30 أبريل 2017.</p>
+                    {% endfor %}
+                    <br /><br />
+                    {% for product in page.product %}
+                    <h2 style="color: #824BB0;">{{ product.product-title }}</h2>
+                    <p class="bigtfont">{{ product.product_description }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -211,32 +193,16 @@ sitemap:
             </div>
         </div>
 
-    <div class="clearfix margin_top6"></div>
-
     <div class="featured_section69">
         <a id="applynowlink"></a>
         <div class="container">
 
-            <h2 class="title23 editable">كيفية التقديم؟</h2>
+            <h2 class="editable" style="color:#824BB0;">كيفية التقديم؟</h2>
 
-            <div class="one_half">
-                <h3 class="editable">عميل حالي</h3>
-                <ol>
-                    <li class="editable">سجل دخول في حسابك </li>
-                    <li class="editable">إضغط على أيقونة (المنتجات)</li>
-                    <li class="editable">ثم إختر (وديعة مرابحة) من قائمة المنتجات</li>
-                    <li class="editable">إضغط على زر (إضافة منتج جديد)</li>
-                    <li class="editable">إتبع خطوات التقديم على وديعة مرابحة و راح تكون أكملت طلبك في خلال 5 دقائق!</li>
-                </ol>
-                <div class="hidden-lg hidden-md hidden-sm">
-                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="margin-left: 2%">
-        	        <a id="R.2-AR-Login" href="http://online.meem.sa/default.aspx" class="button twentyone editable">سجل دخول وقدم</a>
-                </span>
-                </div>
+            <div class="one_half">&nbsp;
             </div>
 
             <div class="one_half last">
-                <h3 class="editable">عميل جديد</h3>
                 <p class="editable">للتقديم على منتجات و خدمات م لازم يكون عندك حساب م فعال. خطوات فتح حساب م بسيطة بإتباع التالي:<br /><span dir="LTR"></span></p>
                 <ol>
                     <li class="editable">إضغط على زر (قدم الآن) في الأسفل</li>
@@ -252,11 +218,7 @@ sitemap:
             </div>
 
             <div class="row hideMobile hideBlock">
-            <div class="one_half">
-                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="margin-left: 2%">
-        	        <a id="R.2-AR-Login" href="http://online.meem.sa/default.aspx?culture=ae" class="button twentyone editable">سجل دخول وقدم</a>
-                </span>
-            </div>
+                <div class="one_half">&nbsp;</div>
             <div class="one_half last">
                <span class="btn animate fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200" style="margin-left: 2%">
         	        <a id="R.2-AR-Apply" href="http://online.meem.sa/default.aspx?startpage=onboarding&amp;culture=ae" class="button twentyone editable">قدم طلبك هنا</a>
