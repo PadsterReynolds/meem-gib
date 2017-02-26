@@ -2,3 +2,10 @@ Sitemap: http://www.meem.com/sitemap.xml
 
 User-agent: *
 Disallow:
+http://www.meem.com/en/meem-thank-you-en.html
+http://www.meem.com/en/meem-thank-you-alt2-en.html
+http://www.meem.com/en/meem-thank-you-alt-en.html
+http://www.meem.com/ar/meem-thank-you-alt2-ar.html
+http://www.meem.com/ar/meem-thank-you-alt-ar.html
+http://www.meem.com/ar/meem-thank-you-ar.html
+*.pdf  # Block pdf files
