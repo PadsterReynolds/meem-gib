@@ -83,6 +83,10 @@
     <link rel="stylesheet" href="/resources/scripts/carouselowl/owl.carousel.css">
     {% comment %} accordion {% endcomment %}
     <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/scripts/modalwindow/jquery.modal.css" />
+    {% comment %}  {% endcomment%}
+    {% if page.lang == 'ar-sa' %} {% include components/scripts/redirect-ar.html %}
+    {% elsif page.lang == 'en-us' %}{% include components/scripts/redirect-en.html %}{% endif %}
 </head>
 
 <body class="bg-cover compact">
