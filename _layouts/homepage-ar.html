@@ -6,7 +6,9 @@
 
 {{ content }}
 
+{% if page.show_contact_bar == 'yes' %}
 {% include ar-contact-bar.html %}
+{% endif %}
 
 {% include ar-footer-block.html %}
 
