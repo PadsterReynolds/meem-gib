@@ -279,6 +279,10 @@
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_lj&rj_1170x450_arabic.jpg) no-repeat right top;
     }
 
+    .page_titleLoc {
+        background: #999 url(/resources/images/banners/meem-management_1170x400.jpg) no-repeat center top;
+    }
+
     /* end page title */
 
     .top_section2 .right .tinfo {
@@ -945,6 +949,10 @@
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_lj&rj_1000x400_arabic.jpg) no-repeat right top;
     }
 
+    .page_titleLoc {
+        background: #999 url(/resources/images/banners/meem-management_1000x400.jpg) no-repeat center top;
+    }
+
     /* end page title */
 }
 
@@ -1281,6 +1289,10 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_lj&rj_970x400_arabic.jpg) no-repeat right top;
+    }
+
+    .page_titleLoc {
+        background: #999 url(/resources/images/banners/meem-management_970x400.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -2435,6 +2447,11 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_lj&rj_780x350_arabic.jpg) no-repeat right top;
+    }
+
+    .page_titleLoc {
+        height: 350px;
+        background: #999 url(/resources/images/banners/meem-management_780x350.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -3941,6 +3958,11 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_l&rj_640x300_arabic.jpg) no-repeat right bottom;
+    }
+
+    .page_titleLoc {
+        height: 300px;
+        background: #999 url(/resources/images/banners/meem-management_640x300.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -5481,6 +5503,11 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_no_bleed_479x300_arabic.jpg) no-repeat right top;
+    }
+
+    .page_titleLoc {
+        height: 300px;
+        background: #999 url(/resources/images/banners/meem-management_479x300.jpg) no-repeat center top;
     }
     /* end page title */
 
@@ -7142,6 +7169,11 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_no_bleed_479x300_arabic.jpg) no-repeat right top;
+    }
+
+    .page_titleLoc {
+        height: 220px;
+        background: #999 url(/resources/images/banners/meem-management_420x220.jpg) no-repeat center top;
     }
     /* end page title */
 
