@@ -64,35 +64,3 @@ sitemap:
 </div>
 
 <div class="clearfix margin_top8"></div>
-
-<div class="container">
-    <h2 style="color:#156570;">Press Releases</h2>
-</div>
-
-<div class="clearfix"></div>
-
-<div class="container">
-    {% for post in page.press-articles %}
-    <div class="blog_post">
-        <div class="blog_postcontent">
-            <h3>{{ post.release-title }}</h3>
-            <ul class="post_meta_links">
-                <li>{{ post.release-date }}</li>
-            </ul>
-            <div class="clearfix"></div>
-            <div class="margin_top1"></div>
-            {% for para in post.paragraph-blocks %}
-            <p class="margin_bottom2">{{ para.paragraph-item }}</p>
-            {% endfor %}
-            <p><strong>{{ post.contact-strip }}:</strong>
-                <ul>
-                    <li>{{ post.release-dept }}</li>
-                    <li>{{ post.release-org }}</li>
-                    <li><a href="mailto:{{ post.release-email }}">{{ post.release-email }}</a></li>
-                    <li>{{ post.release-phone }}</li>
-                </ul>
-            </p>
-        </div>
-    </div>
-    {% endfor %}
-</div>
