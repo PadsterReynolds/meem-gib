@@ -1,0 +1,98 @@
+---
+lang: en-us
+layout: default-en
+title: About Us
+description: 'Learn more about the story of meem, our shareholders, our values and what people say about us.'
+social-audio:
+social-video:
+social-media:
+  - tw-summary: 'Learn more about the story of meem, our shareholders, our values and what people say about us.'
+    tw-title: 'meem | About Us'
+show_contact_bar: 'yes'
+permalink: /en/meem-about-us-en.html
+alt_url: /ar/meem-about-us-ar.html
+press-articles:
+  - press-release:
+    show-release: 'yes'
+    release-title: GIB is Granted Approval to Become A Local Bank in Saudi Arabia
+    release-date: 10 May 2017
+    paragraph-blocks:
+      - paragraph-item: 'Gulf International Bank (GIB or the Bank) expresses its gratitude and appreciation to the Custodian of the Two Holy Mosques, King Salman bin Abdulaziz Al Saud, His Royal Highness Crown Prince, His Royal Highness the Deputy Crown Prince, and to the Government of Saudi Arabia for entrusting the Ministry of Finance to issue the necessary license for GIB – according to the Banking Control Law.'
+      - paragraph-item: 'On this occasion, the Chairman of the Bank, His Excellency Mr. Jammaz bin Abdullah Al-Suhaimi, expressed the bank’s gratitude and appreciation for the confidence demonstrated by the Saudi authorities in light of this announcement. His Excellency Mr. Al-Suhaimi underlined that the Bank continues to further strengthen its operations in the Kingdom of Saudi Arabia as well as across the GCC region with the aim of becoming expediently near to its client base and more capable to provide better service to its clients.'
+      - paragraph-item: The license is considered to be a significant turning point for GIB as it will reinforce its presence in the Kingdom through the offering of its services to its clients through providing innovative banking services and sustainable technology-oriented solutions. The Bank is also delighted to receive this announcement coinciding with the Kingdom’s strategic transition period witnessed under 2030 vision.
+      - paragraph-item: 'Currently, GIB operates its banking activities in the Kingdom of Saudi Arabia through its regional branches in Riyadh, Dhahran and Jeddah. These branches are regulated by the Saudi Arabian Monetary Authority which enabled the Bank to launch the world’s first retail banking Shariah-compliant digital banking service ‘Meem’ in KSA, in which it has widely been accepted. “Meem” provides the best profit rate for Murabaha deposits across the Kingdom. For more than 40 years, Gulf International Bank has been trusted by its clients in the Kingdom to finance projects and investment services. The Gulf International Bank (B.S.C.) – “The Group”, has asset base of SR 89.8 Billion of which Saudi Arabia branches account for SR 29.9 Billion as at the quarter ended 31st March 2017. The investment arm of the Bank, ‘GIB Capital LLC’, is also considered to be one of the first companies licensed and supervised by the Capital Market Authority (CMA).'
+      - paragraph-item: 'Gulf International Bank (B.S.C.) is licensed by the Central Bank of Bahrain head quartered in the Kingdom of Bahrain and owned by the governments of the six Gulf Cooperation Council countries, with KSA Public Investment Fund being the principal shareholder of 97.2%. In addition to the activities of the Gulf International Bank in the GCC, the Bank has branches in the United States and the United Kingdom.'
+    contact-strip: For more information, please contact
+    release-dept: Corporate Communications Department
+    release-org: Gulf International Bank
+    release-email: pressenquiry@gib.com
+    release-phone: 'Telephone : +973 17 534 000'
+#
+sitemap:
+  exclude:
+---
+<div class="page_title1 stybb">
+    <div class="container">
+        <h1><br /><br /><br /><br /></h1>
+    </div>
+</div>
+
+<div class="clearfix margin_top8"></div>
+
+<div class="container">
+    <h1 class="editable">About meem</h1>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="container">
+
+    <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="400">
+
+        <h3 class="title24 editable"><div class="topline">&nbsp;</div>Who We Are?</h3>
+        <p class="bigtfont editable">'meem by GIB' is the retail banking arm of Gulf International Bank (GIB).<br /><br />Combining online and mobile banking with state-of-the-art physical locations, meem caters to the Kingdom of Saudi Arabia's increasingly sophisticated retail banking segment, offering convenience, freedom of choice, and exceptional value for money.<br /><br />meem offers Shariah-compliant banking services, and subsequently has invested heavily in proprietary IT systems, including complex back-end systems, which increase efficiency and reduces the need to visit traditional branches.</p>
+
+    </div>
+
+    <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="500">
+
+        <h3 class="title24 editable"><div class="topline">&nbsp;</div>What We Do?</h3>
+        <p class="bigtfont editable">meem services are supported by three retail stores and nine &lsquo;nano-stores&rsquo;, which together create a unique retail experience for its clientele.&nbsp;<br /><br />These futuristic customer stores are all touch-screen with virtually no paper work required, unless otherwise required by regulation. It is a complete departure from the traditional banking branch. By eliminating the costs associated with large physical branch networks, meem generates significant savings, which are passed on to customers via higher rates of return for deposits and lower service charges.</p>
+
+    </div>
+
+</div>
+
+<div class="clearfix margin_top8"></div>
+
+<div class="container">
+    <h2 style="color:#156570;">Press Releases</h2>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="container">
+    {% for post in page.press-articles %}
+    <div class="blog_post">
+        <div class="blog_postcontent">
+            <h3>{{ post.release-title }}</h3>
+            <ul class="post_meta_links">
+                <li>{{ post.release-date }}</li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="margin_top1"></div>
+            {% for para in post.paragraph-blocks %}
+            <p class="margin_bottom2">{{ para.paragraph-item }}</p>
+            {% endfor %}
+            <p><strong>{{ post.contact-strip }}:</strong>
+                <ul>
+                    <li>{{ post.release-dept }}</li>
+                    <li>{{ post.release-org }}</li>
+                    <li><a href="mailto:{{ post.release-email }}">{{ post.release-email }}</a></li>
+                    <li>{{ post.release-phone }}</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
