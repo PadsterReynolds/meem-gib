@@ -3006,6 +3006,10 @@
         margin-bottom: 0;
     }
 
+    .featured_section69 #centre-box {
+        width: 90%
+    }
+
     .featured_section71 h5 {
         margin: 0 0 0 0;
     }
@@ -4504,6 +4508,10 @@
         margin-bottom: 30px;
     }
 
+    .featured_section69 #centre-box {
+        width: 90%
+    }
+
     .featured_section70 li {
         width: 50%;
         padding: 0 7px 0 0;
@@ -5654,6 +5662,10 @@
 
     .featured_section69 {
         padding-right: 20px;
+    }
+
+    .featured_section69 #centre-box {
+        width: 90%
     }
 
     .hexagon {
@@ -7320,6 +7332,10 @@
 
     .featured_section69 {
         padding-right: 20px;
+    }
+
+    .featured_section69 #centre-box {
+        width: 90%
     }
 
     .hexagon {
