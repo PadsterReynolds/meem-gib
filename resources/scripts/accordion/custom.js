@@ -6,20 +6,21 @@ $(function() {
 	$('#st-accordion').accordion();
 	
 	$('#st-accordion-two').accordion({
-				oneOpenedItem	: true
+				oneOpenedItem	: false,
+		open: 0
 			});
 	
 	$('#st-accordion-three').accordion({
-				oneOpenedItem	: true,
-				open			: 0,
+				oneOpenedItem	: false,
+				open			: 0
 			});
 	
 	$('#st-accordion-four').accordion({
-				oneOpenedItem	: true,
-				open			: 0,
-			});
+        oneOpenedItem	: true
+        });
+
 	$('#st-accordion-five').accordion({
-				open			: 0,
+				open			: 0
 			});
 		
 });
