@@ -29,7 +29,7 @@
 	color: #824BB0;
 }
 .st-accordion-four ul li > a span{
-	background: transparent url("plus-color.png") no-repeat center center;
+	background: transparent url("plus-circle.png") no-repeat center center;
 	text-indent:-9000px;
 	width: 26px;
 	height: 16px;
@@ -57,7 +57,7 @@
     color: #824BB0;
 }
 .st-accordion-four ul li.st-open > a span{
-	background: transparent url("minus-color.png") no-repeat center center;
+	background: transparent url("minus-circle.png") no-repeat center center;
 	right:0;
 	opacity:1;
 	margin-top: -7px;
