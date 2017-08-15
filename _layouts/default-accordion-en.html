@@ -1,0 +1,15 @@
+{% include a-global-page-head-offer.html %}
+
+{% include en-top-bar.html %}
+
+{% include en-main-header-and-menu.html %}
+
+{{ content }}
+
+{% if page.show_contact_bar == 'yes' %}
+{% include en-contact-bar.html %}
+{% endif %}
+
+{% include en-footer-block.html %}
+
+{% include a-index-footer-script-offer.html %}
