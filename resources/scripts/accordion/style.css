@@ -26,6 +26,7 @@
 }
 .st-accordion-four ul li > a h2{
 	line-height:70px;
+	color: #824BB0;
 }
 .st-accordion-four ul li > a span{
 	background: transparent url("plus-color.png") no-repeat center center;
@@ -42,6 +43,9 @@
 	-o-transition:  all 0.2s ease-in-out;
 	-ms-transition:  all 0.2s ease-in-out;
 	transition:  all 0.2s ease-in-out;
+}
+.st-accordion-four ul li > a span.ar {
+	right:0;
 }
 .st-accordion-four ul li > a:hover{
     color: #00859E;
