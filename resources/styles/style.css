@@ -9166,6 +9166,18 @@ ul.footer_social_links5 {
     background: #999 url(/resources/images/offers/r-offers/r-2/b0076694_md_best_rate_r2_lj&rj_1920x500_english.jpg) no-repeat left top;
 }
 
+.page_titleSM {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    padding: 75px 0 90px 200px;
+    background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_1920x500.jpg) no-repeat center top;
+}
+
 .page_titleLoc {
     position: relative;
     float: left;

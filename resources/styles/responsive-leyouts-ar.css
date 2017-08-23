@@ -283,6 +283,18 @@
         background: #999 url(/resources/images/banners/meem-interactive_1170x400.jpg) no-repeat center top;
     }
 
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_1170x450.jpg) no-repeat center top;
+    }
+
     /* end page title */
 
     .top_section2 .right .tinfo {
@@ -952,6 +964,17 @@
     .page_titleLoc {
         background: #999 url(/resources/images/banners/meem-interactive_1000x400.jpg) no-repeat center top;
     }
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_1000x400.jpg) no-repeat center top;
+    }
 
     /* end page title */
 }
@@ -1293,6 +1316,17 @@
 
     .page_titleLoc {
         background: #999 url(/resources/images/banners/meem-interactive_970x400.jpg) no-repeat center top;
+    }
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_970x400.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -2452,6 +2486,17 @@
     .page_titleLoc {
         height: 350px;
         background: #999 url(/resources/images/banners/meem-interactive_780x350.jpg) no-repeat center top;
+    }
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_780x350.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -3967,6 +4012,17 @@
     .page_titleLoc {
         height: 300px;
         background: #999 url(/resources/images/banners/meem-interactive_640x300.jpg) no-repeat center top;
+    }
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: right;
+        margin-top: 110px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_640x300.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -5516,6 +5572,18 @@
     .page_titleLoc {
         height: 300px;
         background: #999 url(/resources/images/banners/meem-interactive_479x300.jpg) no-repeat center top;
+    }
+
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 262px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_479x300.jpg) no-repeat center top;
     }
     /* end page title */
 
@@ -7186,6 +7254,18 @@
     .page_titleLoc {
         height: 220px;
         background: #999 url(/resources/images/banners/meem-interactive_420x220.jpg) no-repeat center top;
+    }
+
+    .page_titleSM {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 220px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/shatiemall/j00233-meem-shatie-mall_420x220.jpg) no-repeat center top;
     }
     /* end page title */
 
