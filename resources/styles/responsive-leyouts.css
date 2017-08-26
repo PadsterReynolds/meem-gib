@@ -301,6 +301,18 @@
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_1170x450.jpg) no-repeat center top;
     }
 
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 450px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_1170x450-03.jpg) no-repeat center top;
+    }
+
     /* end page title */
 
     .featured_section2 .one_fourth_less p {
@@ -979,6 +991,18 @@
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_1000x400.jpg) no-repeat center top;
     }
 
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_1000x400-03.jpg) no-repeat center top;
+    }
+
     /* end page title */
 }
 
@@ -1330,6 +1354,17 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_970x400.jpg) no-repeat center top;
+    }
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 400px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_970x400-03.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -2498,6 +2533,17 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_780x350.jpg) no-repeat center top;
+    }
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 350px;
+        color: #fff;
+        text-align: right;
+        margin-top: 100px;
+        padding: 70px 200px 90px 0;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_780x350-03.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -4038,6 +4084,18 @@
         margin-top: 100px;
         padding: 75px 0 90px 200px;
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_640x300.jpg) no-repeat center top;
+    }
+
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_640x300-03.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -5678,6 +5736,18 @@
         margin-top: 100px;
         padding: 75px 0 90px 200px;
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_479x300.jpg) no-repeat center top;
+    }
+
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 262px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_479x300-03.jpg) no-repeat center top;
     }
 
     /* end page title */
@@ -7431,6 +7501,18 @@
         margin-top: 100px;
         padding: 75px 0 90px 200px;
         background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_420x220.jpg) no-repeat center top;
+    }
+
+    .page_titlePF {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 219px;
+        color: #fff;
+        text-align: left;
+        margin-top: 100px;
+        padding: 75px 0 90px 200px;
+        background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_420x220-03.jpg) no-repeat center top;
     }
 
     /* end page title */

@@ -9178,6 +9178,18 @@ ul.footer_social_links5 {
     background: #999 url(/resources/images/banners/shatiemall/j00233b-meem-shatie-mall_1920x500.jpg) no-repeat center top;
 }
 
+.page_titlePF {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+    margin-top: 100px;
+    padding: 75px 0 90px 200px;
+    background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_1920x500-03.jpg) no-repeat center top;
+}
+
 .page_titleLoc {
     position: relative;
     float: left;
