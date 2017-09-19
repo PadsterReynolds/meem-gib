@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 .st-accordion-four ul li{
-    overflow: hidden;
+   /* overflow: hidden; */
 }
 .st-accordion-four ul li:first-child{
     border-top:none;
