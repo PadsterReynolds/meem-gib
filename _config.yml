@@ -20,8 +20,8 @@ collections:
   - stores
 
 # Site URL's
-prod_url: http://www.meem.com
-uat_url: http://indigo-eland.cloudvent.net/
+prod_url: http://bh.meem.com
+uat_url: http://easy-pipe.cloudvent.net/
 
 social-sitename-en: Meem Personal Banking
 social-sitename-ar: الخدمات المصرفية الشخصية ميم
@@ -30,19 +30,19 @@ social-image-ar: /resources/images/twitter/seo_twitter_cover/slide2.png
 
 
 # Analytics ID's
-uat_google_analytics_id: UA-72224806-2
-uat_google_tag_manager_id: GTM-NCWW46
-uat_heap_analytics_id: 1475982962
+uat_google_analytics_id:
+uat_google_tag_manager_id:
+uat_heap_analytics_id:
 
-prod_google_analytics_id: UA-72224806-1
-prod_google_tag_manager_id: GTM-5XXDXR
-#prod_google_tag_manager_id: GTM-NCWW46
-prod_heap_analytics_id: 2909756379
+prod_google_analytics_id:
+prod_google_tag_manager_id:
+#prod_google_tag_manager_id:
+prod_heap_analytics_id:
 
 # Google Custom Site Search
-cloudcannon_google_cse_cx: 012444785599460374865:fwvovuvqnki
-cloudcannon_dev_google_cse_cx: 012444785599460374865:mwf0rds5p1a
-prod_google_cse_cx: 012444785599460374865:yxkkdvhfn9u
+cloudcannon_google_cse_cx:
+cloudcannon_dev_google_cse_cx:
+prod_google_cse_cx:
 
 bing_id: CC60B461E8EA9A7B8D2C2DD9132730E9
 
