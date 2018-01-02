@@ -26,25 +26,28 @@ usp-block1:
   - feature-block1:
     feature-class: fa-hand-o-right
     feature-title: Self Service
-    feature-text: Through our self-service terminals you can withdraw up to SAR 50K and make unlimited deposits
+    feature-text: Easy & Fast steps to open an account
   - feature-block3:
-    feature-class: fa-dollar
-    feature-title: Currencies Card
-    feature-text: A dynamic Visa debit card which carries up to four foreign currencies with 8 currencies to choose from
+    feature-class: fa-money
+    feature-title: All done online
+    feature-text: No need to drive all the way to a branch anymore, all services are done completely online
   - feature-block2:
     feature-class: fa-briefcase
     feature-title: Applying for Products
-    feature-text: Through our innovative app and web banking applying for products is only few clicks away
+    feature-text: Through our innovative app and web banking, applying for products is only few clicks away
 usp-block2:
   - feature-block4:
+    feature-box: box
     feature-class: fa-clock-o
     feature-title: Open at Night
-    feature-text: 'For your convenience, our nano stores are open 7 days a week'
+    feature-text: For your convenience, we are open 7 days a week
   - feature-block5:
-    feature-class: fa-money
-    feature-title: 'Personal Finance &amp; Credit Cards'
-    feature-text: Apply and we will guarantee you getting a response without visiting the store
+    feature-box: box
+    feature-class:
+    feature-title:
+    feature-text:
   - feature-block6:
+    feature-box: box
     feature-class: fa-globe
     feature-title: Digital Banking
     feature-text: meem by Gulf International Bank is the first Sharia compliant digital bank in the world
@@ -110,7 +113,7 @@ sitemap:
         {% endfor %}
         <div class="clearfix"></div>
         {% for item in page.usp-block2 %}
-        <div class="box"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
+        <div class="{{ item.feature-box }}"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
         {% endfor %}
     </div>
 </div>
