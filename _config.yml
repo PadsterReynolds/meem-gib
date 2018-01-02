@@ -34,7 +34,7 @@ uat_google_analytics_id:
 uat_google_tag_manager_id:
 uat_heap_analytics_id:
 
-prod_google_analytics_id:
+prod_google_analytics_id: UA-72224806-3
 prod_google_tag_manager_id:
 #prod_google_tag_manager_id:
 prod_heap_analytics_id:
