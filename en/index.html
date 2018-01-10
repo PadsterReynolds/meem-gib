@@ -22,35 +22,6 @@ homepage-banner-en:
     en-banner-button-03-url: 'http://online.meem.sa/default.aspx?startpage=onboarding&culture=us'
     en-banner-button-03-target: _self
     en-banner-button-03-text: Apply Now
-usp-block1:
-  - feature-block1:
-    feature-class: fa-hand-o-right
-    feature-title: Self Service
-    feature-text: Easy & Fast steps to open an account
-  - feature-block3:
-    feature-class: fa-money
-    feature-title: All done online
-    feature-text: No need to drive all the way to a branch anymore, all services are done completely online
-  - feature-block2:
-    feature-class: fa-briefcase
-    feature-title: Applying for Products
-    feature-text: Through our innovative app and web banking, applying for products is only few clicks away
-usp-block2:
-  - feature-block4:
-    feature-box: box
-    feature-class: fa-clock-o
-    feature-title: Open at Night
-    feature-text: For your convenience, we are open 7 days a week
-  - feature-block5:
-    feature-box: 
-    feature-class:
-    feature-title:
-    feature-text:
-  - feature-block6:
-    feature-box: box
-    feature-class: fa-globe
-    feature-title: Digital Banking
-    feature-text: meem by Gulf International Bank is the first Sharia compliant digital bank in the world
 show_contact_bar: 'yes'
 permalink: /en/index.html
 alt_url: /ar/index.html
@@ -108,13 +79,17 @@ sitemap:
 
 <div class="featured_section81 colored">
     <div class="container animate" data-anim-type="fadeIn" data-anim-delay="300">
-        {% for item in page.usp-block1 %}
-        <div class="box"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
-        {% endfor %}
+
+        <div class="box"><p><span aria-hidden="true" class="fa fa-hand-o-right"></span></p><h4>Self Service</h4><p>Easy & Fast steps to open an account</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-money"></span></p><h4>All done online</h4><p>No need to drive all the way to a branch anymore, all services are done completely online</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-briefcase"></span></p><h4>Applying for Products</h4><p>{Through our innovative app and web banking, applying for products is only few clicks away</p></div>
+
         <div class="clearfix"></div>
-        {% for item in page.usp-block2 %}
-        <div class="{{ item.feature-box }}"><p><span aria-hidden="true" class="fa {{ item.feature-class }}"></span></p><h4>{{ item.feature-title }}</h4><p>{{ item.feature-text }}</p></div>
-        {% endfor %}
+
+        <div class="box center-aline"><p><span aria-hidden="true" class="fa fa-clock-o"></span></p><h4>Open at Night</h4><p>For your convenience, we are open 7 days a week</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-globe"></span></p><h4>Digital Banking</h4><p>meem by Gulf International Bank is the first Sharia compliant digital bank in the world</p></div>
+
+
     </div>
 </div>
 

@@ -4663,6 +4663,10 @@
     transition: all 0.3s ease;
 }
 
+.featured_section81 .center-aline {
+    margin-left: 17%;
+}
+
 .featured_section81 .box span {
     color: #824BB0;
     font-size: 45px;
