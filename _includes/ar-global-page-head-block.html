@@ -84,6 +84,27 @@
     <link rel="stylesheet" type="text/css" href="/resources/scripts/accordion/style.css" />
 </head>
 
+<script>
+    jQuery.ajax( {
+        url: '//freegeoip.net/json/',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(location) {
+            // If the visitor is browsing from Canada.
+            if (location.country_code === 'US') {
+                // Tell him about the Canadian store.
+                jQuery.fancybox.open(jQuery('#message'));
+            }
+        }
+    } );
+</script>
+<div style="display:none;">
+    <div id="message" style="padding:30px;">
+        <h1>Hello!</h1>
+        <p>You are in Canada, and we have a Canadian website <a href="https://dylanjh.com">here</a>.</p>
+    </div>
+</div>
+
 <body>
 <script>
     dataLayer = [];
