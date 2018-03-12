@@ -92,7 +92,7 @@
         dataType: 'jsonp',
         success: function(location) {
             // If the visitor is browsing from Canada.
-            if (location.country_code === 'EU') {
+            if (location.country_code === 'US') {
                 // Tell him about the Canadian store.
                 jQuery.fancybox.open(jQuery('#message'));
             }
