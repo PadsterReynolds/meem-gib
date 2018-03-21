@@ -6,6 +6,19 @@
 <script type="text/javascript" src="/resources/scripts/mainmenu/bootstrap.min.js"></script>
 <script type="text/javascript" src="/resources/scripts/mainmenu/customeUI.js"></script>
 <script type="text/javascript" src="/resources/scripts/masterslider/jquery.easing.min.js"></script>
+<script>
+    jQuery.ajax( {
+        url: '//freegeoip.net/json/',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(location) {
+            if (location.country_code == 'KSA') {
+                window.top.location.href = 'http://indigo-eland.cloudvent.net/';
+            }
+        }
+    } );
+</script>
+
 <script type="text/javascript" src="/resources/scripts/masterslider/masterslider.min.js"></script>
 <script type="text/javascript">
     (function($) {
