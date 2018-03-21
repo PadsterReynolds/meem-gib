@@ -1,0 +1,51 @@
+{% comment %} ######### JS FILES ######### {% endcomment %}
+<!-- get jQuery used for the theme -->
+<script type="text/javascript" src="/resources/scripts/universal/jquery.js"></script>
+<script type="text/javascript" src="/resources/scripts/animations/js/animations.min.js"></script>
+
+<script type="text/javascript" src="/resources/scripts/mainmenu/bootstrap.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/customeUI.js"></script>
+<script type="text/javascript" src="/resources/scripts/masterslider/jquery.easing.min.js"></script>
+<script>
+    jQuery.ajax( {
+        url: '//freegeoip.net/json/',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(location) {
+            if (location.country_code == 'KSA') {
+                window.top.location.href = 'http://www.meem.com/';
+            }
+        }
+    } );
+</script>
+<script type="text/javascript" src="/resources/scripts/masterslider/masterslider.min.js"></script>
+<script type="text/javascript">
+    (function($) {
+        "use strict";
+        var slider = new MasterSlider();
+        // adds Arrows navigation control to the slider.
+        slider.control('arrows');
+        slider.control('bullets');
+
+        slider.setup('masterslider' , {
+            width:1400,    // slider standard width
+            height:900,   // slider standard height
+            space:0,
+            speed:27,
+            layout:'fullwidth',
+            loop:true,
+            preload:0,
+            autoplay:true,
+            view:"wave"
+        });
+    })(jQuery);
+</script>
+<script type="text/javascript" src="/resources/scripts/scrolltotop/totop.js"></script>
+<script type="text/javascript" src="/resources/scripts/mainmenu/modernizr.custom.75180.js"></script>
+<script type="text/javascript" src="/resources/scripts/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/cubeportfolio/main3.js"></script>
+<script type="text/javascript" src="/resources/scripts/accordion/custom.js"></script>
+<script type="text/javascript" src="/resources/scripts/universal/custom.js"></script>
+
+</body>
+</html>
