@@ -1,29 +1,28 @@
 ---
-lang: ar-sa
-direction: rtl
-layout: homepage-ar
-title: 'ميم من بنك الخليج الدولي | مصرفية رقمية'
-description: ميم من بنك الخليج الدولي يقدم خدمات مصرفية رقمية الأولى من نوعها في المملكة العربية السعودية
+lang: en-us
+layout: homepage-en
+title: Self Service Digital Banking
+description: Meem by GIB is a self served personal bank offered by Gulf International Bank in Saudi Arabia.
 social-audio:
 social-video:
 social-media:
-  - tw-summary: ميم من قبل بنك الخليج الدولي هو بنك خدم الذاتي من قبل بنك الخليج الدولي
-    tw-title: الخدمات المصرفية الشخصية ميم
-homepage-banner-ar:
+  - tw-summary: Meem by GIB is a self served bank by Gulf International Bank
+    tw-title: meem digital personal banking
+homepage-banner-en:
   - Slide1:
-    ar-banner-image_path: /resources/images/banners/meem_exit_terminal-banner.jpg
-    ar-banner-alt-text: 'م | الخدمات المصرفية الر'
-    ar-banner-main-title: '<strong> اهلا بك في المصرفية الرقمية </strong>'
-    ar-banner-subtitle: أول بنك رقمي في البحرين
-    ar-banner-button-01-url: 'http://www.meem.com/ar/meem-products-services-ar.html'
-    ar-banner-button-01-target: _self
-    ar-banner-button-01-text: تفاصيل أكثر
-    ar-banner-button-02-url: 'https://online.meem.sa/default.aspx?culture=ae'
-    ar-banner-button-02-target: _self
-    ar-banner-button-02-text: سجل دخول لحسابك
-    ar-banner-button-03-url: 'https://online.meem.sa/default.aspx?startpage=onboarding&culture=ae'
-    ar-banner-button-03-target: _self
-    ar-banner-button-03-text: افتح حساب
+    en-banner-image_path: /resources/images/banners/meem_exit_terminal-banner.jpg
+    en-banner-alt-text: 'meem | Digital Personal Banking'
+    en-banner-main-title: '<strong>Welcome to meem by GIB</strong>'
+    en-banner-subtitle: "Bahrain's first digital bank"
+    en-banner-button-01-url: 'http://www.meem.com/en/meem-products-services-en.html'
+    en-banner-button-01-target: _self
+    en-banner-button-01-text: Learn More
+    en-banner-button-02-url: 'https://online.meem.bh?navigateTo=frmLogin'
+    en-banner-button-02-target: _self
+    en-banner-button-02-text: Login
+    en-banner-button-03-url: 'https://online.meem.bh?navigateTo=frmGetStarted'
+    en-banner-button-03-target: _self
+    en-banner-button-03-text: Apply Now
 banners-video:
   - banner-video-mp4: 'https://youtu.be/lC2tbDpAams'
     banner-video-webm: 'https://youtu.be/lC2tbDpAams'
@@ -32,98 +31,69 @@ show_contact_bar: 'yes'
 permalink: /index.html
 alt_url: /en/index.html
 sitemap:
-  exclude:
+exclude:
 ---
 {%comment %} Slider======================================= {% endcomment %}
 
-<div class="slidermar1" dir="ltr">
+<div id="mslider" class="slidermar1">
     <div class="master-slider ms-skin-default" id="masterslider">
 
         <div class="ms-slide slide-1" data-delay="9">
 
             <div class="slide-pattern"></div>
-            <!--{% include /components/media/homepage-youtube-background.html %} -->
-            {% for slider in page.homepage-banner-ar %}
-            <img src="{{ slider.ar-banner-image_path }}" data-src="{{ slider.ar-banner-image_path }}" alt="{{ slider.ar-banner-alt-text }}" />
+            <!--{% include /components/media/homepage-youtube-background.html %}-->
+            {% for item in page.homepage-banner-en %}
+            <img src="{{ item.en-banner-image_path }}" data-src="{{ item.en-banner-image_path }}" alt="{{ item.en-banner-alt-text }}" class="editable" />
 
-            <h3 class="ms-layer text1 center" style="right:0;top:300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">{{ slider.ar-banner-main-title }}</h3>
+            <h3 class="ms-layer text1 center editable" style="left: 0; top: 300px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="500" data-ease="easeOutExpo">
+                {{ item.en-banner-main-title }}
+            </h3>
 
-            <h4 class="ms-layer text2 center" style="right:0;top:355px;color:#fff;" data-type="text" data-effect="top(45)" data-duration="1200" data-delay="1500" data-ease="easeOutExpo">{{ slider.ar-banner-subtitle }}</h4>
+            <h4 class="ms-layer text2 center" style="left: 0; top: 355px;" data-type="text" data-effect="top(45)" data-duration="2000" data-delay="1000" data-ease="easeOutExpo">
+                {{ item.en-banner-subtitle }}
+            </h4>
 
-            <a class="ms-layer sbut2" style="right: 450px; top: 500px;" data-type="text" href="{{ slider.ar-banner-button-01-url }}" target="{{ slider.ar-banner-button-01-target }}" id="learn_more_button_ar_home" data-effect="bottom(45)" data-duration="2000" data-delay="1500" data-ease="easeOutExpo">{{ slider.ar-banner-button-01-text }}</a>
+            <a class="ms-layer sbut2" href="{{ item.en-banner-button-01-url }}" target="{{ item.en-banner-button-01-target }}" style="left: 450px; top: 500px;" id="learn_more_button" data-type="text" data-delay="400" data-ease="easeOutExpo" data-duration="1200" data-effect="scale(1.5,1.6)">
+                {{ item.en-banner-button-01-text }}
+            </a>
 
-            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-02-url }}" target="{{ slider.ar-banner-button-02-target }}" style="right: 622px; top: 500px;" id="login_button_ar_home" data-type="text" data-effect="bottom(45)" data-duration="1200" data-delay="1200" data-ease="easeOutExpo">{{ slider.ar-banner-button-02-text }}</a>
+            <a class="ms-layer sbut2" href="{{ item.en-banner-button-02-url }}" target="{{ item.en-banner-button-02-target }}" style="left: 650px; top: 500px;" id="login_button" data-type="text" data-delay="800" data-ease="easeOutExpo" data-duration="1200" data-effect="scale(1.5,1.6)">
+                {{ item.en-banner-button-02-text }}
+            </a>
 
-            <a class="ms-layer sbut2" href="{{ slider.ar-banner-button-03-url }}" target="{{ slider.ar-banner-button-03-target }}" style="right: 850px; top: 500px;" id="apply_now_button_ar_home" data-type="text" data-effect="bottom(45)" data-duration="1200" data-delay="800" data-ease="easeOutExpo">{{ slider.ar-banner-button-03-text }}</a>
+            <a class="ms-layer sbut2" href="{{ item.en-banner-button-03-url }}" target="{{ item.en-banner-button-03-target }}" style="left: 800px; top: 500px;" id="apply_now_button" data-type="text" data-delay="1200" data-ease="easeOutExpo" data-duration="1200" data-effect="scale(1.5,1.6)">
+                {{ item.en-banner-button-03-text }}
+            </a>
             {% endfor %}
-        </div>{% comment %} end slide 1 {% endcomment %}
+        </div>
 
     </div>
-</div>{% comment %} end of masterslider {% endcomment %}
+</div>
 
 <div class="clearfix"></div>
 <a id="learn_more"></a>
 
 <div class="featured_section31">
     <div class="container">
-        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">ليش ميم ؟</h2>
+        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">Why choose Meem?</h2>
     </div>
 </div>
 
 <div class="clearfix"></div>
 
+
 <div class="featured_section81 colored">
     <div class="container animate" data-anim-type="fadeIn" data-anim-delay="300">
 
-        <!--<div class="box">
-
-            <span aria-hidden="true" class="fa fa-dollar"></span>
-            <h4 class="editable">بطاقة العملات</h4>
-            <p class="editable">بطاقة صراف من فيزا تربطها بأربع عملات أجنبية و لك 8 عملات تختار منها اللي يناسب سفرتك</p>
-
-        </div>-->
-
-        <div class="box">
-
-            <span aria-hidden="true" class="fa fa-briefcase"></span>
-            <h4 class="editable">التقديم على المنتجات</h4>
-            <p class="editable">التقديم على المنتجات عن طريق التطبيق او الأونلاين بدون ما تعبي أي ورقة!</p>
-
-        </div>
-
-        <div class="box">
-
-            <span aria-hidden="true" class="fa fa-hand-o-right"></span>
-            <h4 class="editable">خدمة ذاتية</h4>
-            <p class="editable">من خلال جهاز الخدمة الذاتية تقدر تسحب إلى حد 50 ألف ريال و تودع مبالغ قد ما تبغى</p>
-
-        </div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-hand-o-right"></span></p><h4>Self Service</h4><p>Easy & Fast steps to open an account</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-money"></span></p><h4>All done online</h4><p>No need to drive all the way to a branch anymore, all services are done completely online</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-briefcase"></span></p><h4>Applying for Products</h4><p>Through our innovative app and web banking, applying for products is only few clicks away</p></div>
 
         <div class="clearfix"></div>
 
-        <div class="box">
+        <div class="box center-aline"><p><span aria-hidden="true" class="fa fa-clock-o"></span></p><h4>Open at Night</h4><p>For your convenience, we are open 7 days a week</p></div>
+        <div class="box"><p><span aria-hidden="true" class="fa fa-globe"></span></p><h4>Digital Banking</h4><p>meem by Gulf International Bank is the first Sharia compliant digital bank in the world</p></div>
 
-            <span aria-hidden="true" class="fa fa-globe"></span>
-            <h4 class="editable">مصرفية رقمية</h4>
-            <p class="editable">ميم من بنك الخليج الدولي هو أول مصرف رقمي متوافق مع أحكام الشريعة في العالم!</p>
-
-        </div>
-
-        <div class="box">
-
-            <span aria-hidden="true" class="fa fa-money"></span>
-            <h4 class="editable">التمويل الشخصي والبطاقات الإئتمانية</h4>
-            <p class="editable">نضمن لك رد على طلبك في خلال 5 دقايق من التقديم طوال أيام الأسبوع بدون ما تحتاج لزيارة مراكزنا</p>
-
-        </div>
-
-        <div class="box">
-
-            <span aria-hidden="true" class="fa fa-clock-o"></span>
-            <h4 class="editable">فاتحين حتى بالليل</h4>
-            <p class="editable">تقدر تزور منافذ الخدمة طول أيام الأسبوعً</p>
-
-        </div>
 
     </div>
 </div>
@@ -131,57 +101,57 @@ sitemap:
 <!--<div class="featured_section27">
     <div class="container">
 
-        <h2 class="title21 editable">متى ما بغيت، ومن وين ما كنت<em> استمتع بمصرفية ميم</em></h2>
+        <h2 class="title21 editable">Enjoy Awesome Banking! <em> Anytime, Anywhere</em></h2>
 
         <div class="onecol_thirtyfive left animate" data-anim-type="fadeInLeft" data-anim-delay="300">
 
-            <i class="fa fa-calculator"></i>
-            <h4 class="editable">حاسبة صرف العملات</h4>
-            <p class="editable">من خلال هذه الآلة الحاسبة راح تقدر تحسب قيمة المبالغ بالعملة الأجنبية اللي تبغاها قبل ما تنفذ أي عملية تحويل. كذا قراراتك في تحويل العملات تكون مدروسة.</p>
-
-            <div class="clearfix margin_top4"></div>
-
-            <i class="fa fa-money"></i>
-            <h4 class="editable">سداد</h4>
-            <p class="editable">من خلال خدمة سداد، تقدر تضيف فواتيرك، وتراجعها، وتدفعها، وتضبط آليا رسائل تذكيرية تجيك بالوقت اللي يناسبك.</p>
-
-            <div class="clearfix margin_top4"></div>
-
-            <i class="fa fa-user-plus"></i>
-            <h4 class="editable">إدارة المستفيدين</h4>
-            <p class="editable">بكل سهولة تقدر تضيف المستفيدين من خلال الأون لاين أو تطبيق ميم و تفعلهم من خلال &nbsp;رسالة نصية.</p>
-
-        </div>
-
-        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300"><img src="/resources/images/site-img25a.jpg" alt="صورة التطبيق المصرفي ميم على اي فون" class="rimg" /></div>
-
-        <div class="onecol_thirtyfive last right animate" data-anim-type="fadeInRight" data-anim-delay="300">
-
             <i class="fa fa-line-chart"></i>
-            <h4 class="editable">الميزانية</h4>
-            <p class="editable">هذه الأداة تمكنك من ضبط ميزانيتك وتتبع مصاريفك وإنشاء رسوم بيانية تبين لك نمط مصاريفك. وبذلك راح تقدر إنك تتخذ قرارات إدخارية بثقة أعلى.</p>
+            <h4 class="editable">Budgeting</h4>
+            <p class="editable">You can set your budget and intelligently keeps track of your spending with interactive charts.</p>
 
             <div class="clearfix margin_top4"></div>
 
             <i class="fa fa-refresh"></i>
-            <h4 class="editable">الإدخار التلقائي</h4>
-            <p class="editable">هذه الميزة تمكنك من تحديد سقف نقدي لحسابك الجاري، وبشكل آلي راح يتحوَّل الفائض على حساب التوفير بطريقة سلسلة ومن غير ما تشوف أي نقصان للمبالغ في حسابك.</p>
+            <h4 class="editable">Auto-Sweep</h4>
+            <p class="editable">Decide a cash surplus level and automatically save your money into your deposit account.</p>
 
             <div class="clearfix margin_top4"></div>
 
             <i class="fa fa-archive"></i>
-            <h4 class="editable">الحصالة</h4>
-            <p class="editable">وإذا كنت من الناس اللي تحب إنها تدخر ، ابتكرنا لك خدمة "الحصَّالة" اللي تقدر من خلالها توفر أموالك وتحقق لك أهداف توفير متنوعة.</p>
+            <h4 class="editable">Jam Jar</h4>
+            <p class="editable">By using Jam Jars you can create and keep constant track of your personal saving plans.</p>
+
+        </div>
+
+        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300"><img src="/resources/images/site-img25a.jpg" alt="picture of Meem banking app on an iPhone" class="rimg editable" /></div>
+
+        <div class="onecol_thirtyfive last right animate" data-anim-type="fadeInRight" data-anim-delay="300">
+
+            <i class="fa fa-calculator"></i>
+            <h4 class="editable">Currency Exchange Calculator</h4>
+            <p class="editable">Calculate exchange rates and review the currency amounts before making any payments.</p>
+
+            <div class="clearfix margin_top4"></div>
+
+            <i class="fa fa-money"></i>
+            <h4 class="editable">Bill Payments (Sadad)</h4>
+            <p class="editable">Manage, view and pay your bills online. We'll also send you reminders as bills are due.</p>
+
+            <div class="clearfix margin_top4"></div>
+
+            <i class="fa fa-user-plus"></i>
+            <h4 class="editable">Beneficiary Management</h4>
+            <p class="editable">Create beneficiaries online, group them, label them and even pull their own social media profile.</p>
 
         </div>
 
     </div>
-</div>-->
+</div> -->
 
 <div class="clearfix margin_top8"></div>
 
 <div class="title33">
-    <h1 class="white"><strong> مراكزنا ومنافذ الخدمة</strong></h1>
+    <h1 class="white editable"><strong>Our Store</strong></h1>
 </div>
 
 <div class="clearfix"></div>
@@ -189,24 +159,24 @@ sitemap:
 <div class="works01">
 
     <div id="grid-container" class="cbp-l-grid-fullWidth">
+
         {% for grid in site.stores %}
         <div class="cbp-item">
-            <a href="{{ grid.store-grid-lightbox-image }}" class="cbp-caption cbp-lightbox" data-title="{{ grid.ar-store-grid-lightbox-title }}">
+            <a href="{{ grid.store-grid-lightbox-image }}" class="cbp-caption cbp-lightbox editable" data-title="{{ grid.en-store-grid-lightbox-title }}">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="{{ grid.store-grid-lightbox-image }}" alt="{{ grid.ar-store-grid-description }}" />
+                    <img src="{{ grid.store-grid-lightbox-image }}" alt="{{ grid.en-store-grid-description }}" class="editable" />
                 </div>
                 <div class="cbp-caption-activeWrap center">
                     <div class="cbp-l-caption-alignLeft">
                         <div class="cbp-l-caption-body">
-                            <h4>{{ grid.ar-store-grid-title }}</h4>
-                            <h6>{{ grid.ar-store-grid-description }}</h6>
+                            <h4 class="editable">{{ grid.en-store-grid-title }}</h4>
+                            <p class="editable">{{ grid.en-store-grid-description }}</p>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
         {% endfor %}
-
     </div>
 </div>
 
@@ -215,23 +185,36 @@ sitemap:
 <div class="featured_section26">
     <div class="container">
 
-        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
+        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="100">
+
+            <i class="fa fa-phone"></i>
 
             <div class="cont">
-                <a href="/ar/meem-locations-ar.html"> <h3 class="editable">زور أقرب مركز ميم</h3></a>
-                <h5 class="editable">تبغى تزورنا؟</h5>
-                <p class="margin_top1 editable">عندنا 12 مركز ومنفذ خدمة منتشرين في الرياض، وجدة، والدمام، والخبر، والظهران. بعض منافذ الخدمة تحت خدمتك حتى في الليل وطول أيام الأسبوع.</p>
+                <h3 class="editable">Call us on +973 17776336</h3>
+                <h5 style="font-size:14px;" class="editable">Our customer care team is available to help you 24 hours/ 7 days a week.</h5>
             </div>
+
+        </div><!--
+
+        <div class="one_third animate" data-anim-type="fadeIn" data-anim-delay="200">
+
+            <i class="fa fa-comments"></i>
+
+            <div class="cont">
+                <h3 class="editable">Chat Live Now</h3>
+                <h5 style="font-size:14px;" class="editable">Chat live with our customer care team regarding any queries you may have.</h5>
+            </div>
+
+        </div> -->
+
+        <div class="one_half last animate" data-anim-type="fadeIn" data-anim-delay="300">
 
             <i class="fa fa-map-marker"></i>
 
-        </div>
-
-        <div class="one_half animate" data-anim-type="fadeIn" data-anim-delay="100" style="float:right">
-
-            <div class="cont editable"><h3>17776336 973+ </h3><h5>تبي نتكلم عن خدماتنا ومنتجاتنا؟</h5><p class="margin_top1">فريق رعاية العملاء في ميم موجود وحاضر وتحت الخدمة 24 ساعة طوال أيام الأسبوع.</p></div>
-
-            <i class="fa fa-phone"></i>
+            <div class="cont">
+                <a href="meem-locations-en.html"> <h3 class="editable">Our Store Location </h3></a>
+                <h5 style="font-size:14px;" class="editable">Our store is located in the heart of Manama, in the Avenues mall, Click <a href="meem-locations-en.html"><u>here</u></a> for directions</h5>
+            </div>
 
         </div>
 
@@ -242,7 +225,7 @@ sitemap:
 
 <div class="featured_section31">
     <div class="container">
-        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">حساب ميم</h2>
+        <h2 class="animate editable" data-anim-type="fadeIn" data-anim-delay="200">One Pack Account</h2>
     </div>
 </div>
 
@@ -251,23 +234,22 @@ sitemap:
 <div class="featured_section28">
     <div class="container">
 
-        <div class="one_half hidden-lg hidden-md hidden-sm">
-            <div><a href="/ar/meem-one-pack-account-ar.html" target="parent"><img src="/resources/images/media/meem_one_pack_player.jpg" alt="ميم - لدينا حساب حزمة واحدة" class="rimg" /></a></div>
+        <div class="clearfix margin_top6"></div>
+
+        <div class="one_half">
+            <!-- <iframe width="100%" height="325" src="https://www.youtube.com/embed/C7wIFvSxMC8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+            <!-- <div><a href="meem-one-pack-account-en.html" target="parent"><img src="/resources/images/media/meem_one_pack_player.jpg" alt="Meem - Our One Pack Account" class="rimg editable" /></a></div>-->
         </div>
 
-        <div class="one_half textright">
+        <div class="one_half last">
 
-            <div class="stcode_title5 ">
-                <h3 class="nmb textright editable"><strong>حساب ميم</strong></h3>
-            </div>
-
-            <p class="bigtfont editable">حساب ميم يشمل حسابك الجاري والتوفير تحت حساب واحد في نفس الوقت. و من مميزات الحساب:</p>
+            <p class="bigtfont editable">meem Debit Card is the first of its kind in Bahrain. It offers you the combined features: </p>
 
             <div class="isboxs animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
                 <span aria-hidden="true" class="fa fa-magic"></span>
 
-                <h5 class="editable">1- الحصالة: تساعدك بتحديد أهدافك بخطة توفير عشان تحققه</h5>
+                <h5 class="editable">Current Account</h5>
 
             </div>
 
@@ -275,7 +257,7 @@ sitemap:
 
                 <span aria-hidden="true" class="fa fa-database"></span>
 
-                <h5 class="editable">2- الميزانية: تخليك تضبط مصاريفك و تتابعها علشان تعرف وين فلوسك تروح</h5>
+                <h5 class="editable">Saving Accounts</h5>
 
             </div>
 
@@ -283,70 +265,72 @@ sitemap:
 
                 <span aria-hidden="true" class="fa fa-pie-chart"></span>
 
-                <h5 class="editable">3- التحويل الآلي: تقدر فيه تنقل فلوسك ما بين حسابك الجاري والتوفير</h5>
+                <h5 class="editable">Multi-currency Account</h5>
 
             </div>
 
+            <p class="margin_top2">All packaged into one product.</p>
+
             <p class="margin_top2">
-                <a class="but_small4meem animate editable" data-anim-type="fadeInUp" data-anim-delay="700" style="margin-left: 20px;" href="https://online.meem.bh?navigateTo=frmGetStarted" target="_self">افتح حساب</a>
-                <a class="but_small4 animate editable" data-anim-type="fadeInUp" data-anim-delay="700" href="/ar/meem-one-pack-account-ar.html" target="_self">&nbsp;تفاصيل أكثر</a>
+                <a class="but_small4 animate editable" data-anim-type="fadeInUp" data-anim-delay="700" href="meem-one-pack-account-en.html" target="_parent">Tell me more</a>
+
+                <a class="but_small4meem animate editable" data-anim-type="fadeInUp" data-anim-delay="700" style="margin-left: 20px;" href="https://online.meem.bh?navigateTo=frmGetStarted" target="_parent">Apply Now!</a>
             </p>
             <div class="clearfix marb12"></div>
 
+            <div class="clear"></div>
+
         </div>
 
-       <!-- <div class="one_half last hidden-xs">
-            <iframe width="100%" height="325" src="https://www.youtube.com/embed/C7wIFvSxMC8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-           <!-- <div><a href="/ar/meem-one-pack-account-ar.html" target="parent"><img src="/resources/images/media/meem_one_pack_player.jpg" alt="ميم - لدينا حساب حزمة واحدة" class="rimg" /></a></div>
-        </div>-->
+        <div class="clearfix margin_top6"></div>
 
     </div>
 </div>
 
 <div class="clearfix margin_top4"></div>
 
-<!--<div class="parallax_section4">
+<!-- <div class="parallax_section4">
     <div class="container">
 
-        <h2 class="title21 white">منتجاتنا وخدماتنا الأخرى</h2>
-
-        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="100">
-
-            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_loan.png" alt="التمويل الشخصي" /></div></div>
-            <h3 class="white editable">التمويل الشخصي</h3>
-            <p class="white editable">تمويل شخصي مبني على المرابحة متوافق مع أحكام الشريعة ويتميز بسهولة وسرعة إجراءاته</p>
-            <p><a href="/ar/meem-personal-finance-ar.html" class="but_small4 margin_top6 editable">تفاصيل أكثر</a></p>
-
-        </div>
+        <h2 class="title21 white editable">Other Products & Services</h2>
 
         <div class="one_fourth animate" data-anim-type="fadeInDown" data-anim-delay="100">
 
-            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_creditcard.png" alt="بطاقة م الإئتمانية" /></div></div>
-            <h3 class="white editable">بطاقة ميم الإئتمانية</h3>
-            <p class="white editable">بطاقة فيزا البلاتنية الإئتمانية المتوافقة مع أحكام الشريعة &nbsp;ذات مزايا متعددة&nbsp;</p>
-            <p><a href="/ar/meem-visa-platinum-credit-card-ar.html" class="but_small4 margin_top6 editable">تفاصيل أكثر</a></p>
+            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_currency.png" alt="meem currency card" /></div></div>
+            <h3 class="white editable">Currencies Card</h3>
+            <p class="white editable">A&nbsp; Shariah compliant&nbsp; Visa Debit Card that can link up to 4 of your foregin currency accounts</p>
+            <p><a href="meem-currency-card-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
         </div>
 
         <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
-            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_murabaha.png" alt="وديعة المرابحة" /></div></div>
-            <h3 class="white editable">وديعة المرابحة</h3>
-            <p class="white editable">إستثمار مبني على المضاربة متوافق مع أحكام الشريعة، يتميز بعوائده و قلة مخاطره</p>
-            <p><a href="/ar/meem-murabaha-deposit-ar.html" class="but_small4 margin_top6 editable">تفاصيل أكثر</a></p>
+            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_murabaha.png" alt="meem murahaba deposit" /></div></div>
+            <h3 class="white editable">Murabaha Deposit</h3>
+            <p class="white editable">A Shariah compliant Mudarabah investment product that is low risk yet rewarding</p>
+            <p><a href="meem-murabaha-deposit-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
         </div>
 
-        <div class="one_fourth last animate" data-anim-type="fadeInUp" data-anim-delay="100">
+        <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="100">
 
-            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_currency.png" alt="بطاقة العملات" /></div></div>
-            <h3 class="white editable">بطاقة العملات</h3>
-            <p class="white editable">بطاقة صراف&nbsp; فيزا &nbsp;متوافقه مع أحكام الشريعة يمكنك ربطها&nbsp; بأربع حسابات عملات أجنبية مختلفة&nbsp;</p>
-            <p><a href="/ar/meem-currency-card-ar.html" class="but_small4 margin_top6 editable">تفاصيل أكثر</a></p>
+            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_creditcard.png" alt="meem credit card" /></div></div>
+            <h3 class="white editable">Credit Card</h3>
+            <p class="white editable">A Shariah compliant Platinum Visa Credit Card with a wide range of benefits</p>
+            <p><a href="meem-visa-platinum-credit-card-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
+
+        </div>
+
+        <div class="one_fourth last animate" data-anim-type="fadeInDown" data-anim-delay="100">
+
+            <div class="outline"><div class="circle"><img src="/resources/images/icons/icon_loan.png" alt="meem personal loan" /></div></div>
+            <h3 class="white editable">Personal Finance</h3>
+            <p class="white editable">A Shariah compliant Murabaha based personal finance with easy and instant access</p>
+            <p><a href="meem-personal-finance-en.html" class="but_small4 margin_top6 editable">Tell me more</a></p>
 
         </div>
 
     </div>
-</div>-->
+</div> -->
 
 <div class="clearfix margin_top4"></div>
