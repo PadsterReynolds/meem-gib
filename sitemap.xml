@@ -83,23 +83,4 @@ sitemap:
     {% endfor %}
     {% endif %}
     {% endfor %}
-    <url>
-        <loc>http://www.meem.com/wp-redsea.html</loc>
-
-        <lastmod>2017-08-15T12:28:03+01:00</lastmod>
-
-
-        <changefreq>yearly</changefreq>
-
-    </url>
-
-    <url>
-        <loc>http://www.meem.com/wp-redsea.html</loc>
-
-        <lastmod>2017-08-15T12:28:03+01:00</lastmod>
-
-
-        <changefreq>yearly</changefreq>
-
-    </url>
 </urlset>
