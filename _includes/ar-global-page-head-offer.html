@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     {% comment %} Viewport meta tag for mobile/tablet browsers {% endcomment %}
+    {% include components/google/tag_manager/google_tag_manager.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <title>{% if page.lang == 'ar-sa' %}{{ page.title }}
         {% elsif page.lang == 'en-us' %}meem | {{ page.title }}{% else %}
@@ -85,8 +86,5 @@
 </head>
 
 <body class="bg-cover compact">
-<script>
-    dataLayer = [];
-</script>
-{% include components/google/tag_manager/google_tag_manager.html %}
+{% include components/google/tag_manager/google_tag_manager-noscript.html %}
 <div class="site_wrapper">
