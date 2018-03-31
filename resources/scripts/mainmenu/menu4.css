@@ -194,7 +194,7 @@ padding-left: 5px;}
 .navbar-nav>li>a {
     padding-top: 23px;
     padding-bottom: 30px;
-    text-transform: lowercase;
+
 }
 
 .navbar-nav>li>a i {
@@ -406,7 +406,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 .compact .header .navbar-nav>li>a {
     padding-top: 1px;
     padding-bottom: 18px;
-    text-transform: lowercase;
+
 }
 
 .compact .header .navbar-collapse.collapse {
@@ -585,7 +585,7 @@ ul.nav>li>a.active {
 color:#156570;
 font-size:14px;
 font-weight: 600;
-text-transform: lowercase;
+
 }
 
 .menu_main3 .navbar-default .navbar-nav>li>a {
