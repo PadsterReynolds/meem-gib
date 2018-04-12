@@ -8,11 +8,11 @@ $(function() {
 
     function mobileVsDesktop() {
         if (isMobileDevice() === false){
-            $('.apple').hide();
-            $('.android').hide();
+            $('.apple').toggle("slow");
+            $('.android').toggle("slow");
         } else if (isMobileDevice() === true){
-            $('.login').hide();
-            $('.apply').hide();
+            $('.login').toggle("slow");
+            $('.apply').toggle("slow");
         }
     }
 });
