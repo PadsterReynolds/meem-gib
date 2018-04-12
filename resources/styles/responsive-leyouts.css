@@ -91,6 +91,11 @@
         width: 45%;
     }
 
+    .page_title1.sty8 {
+        height: 400px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_1170x450.jpg) no-repeat center top;
+    }
+
     .page_title3 {
         position: relative;
         float: left;
@@ -770,6 +775,11 @@
         width: 950px;
     }
 
+    .page_title1.sty8 {
+        height: 400px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_1000x400.jpg) no-repeat center top;
+    }
+
     .page_title3 {
         position: relative;
         float: left;
@@ -1139,6 +1149,11 @@
 
     .top_section2 .right .tinfo strong {
         font-size: 14px;
+    }
+
+    .page_title1.sty8 {
+        height: 400px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_1000x400.jpg) no-repeat center top;
     }
 
     .page_title3 {
@@ -2320,6 +2335,11 @@
 
     .top_section2 .right .tinfo em {
         line-height: 10px;
+    }
+
+    .page_title1.sty8 {
+        height: 350px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_780x350.jpg) no-repeat center top;
     }
 
     .page_title3 {
@@ -3867,6 +3887,11 @@
 
     .sample_slider9 {
         margin-top: -155px;
+    }
+
+    .page_title1.sty8 {
+        height: 300px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_680x300.jpg) no-repeat center top;
     }
 
     .page_title3 {
@@ -5514,6 +5539,11 @@
     .top_section2 .right .tinfo em {
         font-size: 9px;
         line-height: 5px;
+    }
+
+    .page_title1.sty8 {
+        height: 300px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_480x300.jpg) no-repeat center top;
     }
 
     .page_title3 {
@@ -7283,6 +7313,11 @@
     .top_section2 .right .tinfo em {
         font-size: 9px;
         line-height: 5px;
+    }
+
+    .page_title1.sty8 {
+        height: 300px;
+        background: #999 url(/resources/images/banners/credit_cards/meem-credit-cardv3_480x300.jpg) no-repeat center top;
     }
 
     .page_title3 {
