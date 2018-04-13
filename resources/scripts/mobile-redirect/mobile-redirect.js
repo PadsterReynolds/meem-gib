@@ -28,6 +28,7 @@ $(function() {
 //            $('.login').toggle("slow");
 //            $('.apply').toggle("slow");
             $(".login[href='https://online.meem.bh']").attr('href', 'https://play.google.com/store/apps/details?id=com.gib.meembah')
+            $(".apply[href='https://online.meem.bh']").attr('href', 'https://play.google.com/store/apps/details?id=com.gib.meembah')
         }
         else if (checker.iphone){
 //            $('.android').toggle("slow");
@@ -35,6 +36,7 @@ $(function() {
 //            $('.login').toggle("slow");
 //            $('.apply').toggle("slow");
             $(".login[href='https://online.meem.bh']").attr('href', 'https://itunes.apple.com/us/app/meem-bah/id1345368637?mt=8')
+            $(".apply[href='https://online.meem.bh']").attr('href', 'https://itunes.apple.com/us/app/meem-bah/id1345368637?mt=8')
         }
     }
 
