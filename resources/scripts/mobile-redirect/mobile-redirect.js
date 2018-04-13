@@ -1,8 +1,6 @@
 $(function() {
 
-//    mobileVsDesktop();
-
-    customizeForDevice();
+    mobileVsDesktop();
 
 
     function mobileVsDesktop() {
