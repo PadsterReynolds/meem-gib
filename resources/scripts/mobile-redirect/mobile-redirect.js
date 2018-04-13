@@ -14,7 +14,7 @@ $(function() {
             $('.android').append("hello");
         }
         else if (checker.iphone){
-            $('.iphone').append("hello");
+            $('.apple').append("hello");
         }
     }
 
