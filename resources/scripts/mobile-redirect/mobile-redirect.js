@@ -2,7 +2,9 @@ $(function() {
 
 //    mobileVsDesktop();
 
-    var customizeForDevice = function(){
+    customizeForDevice();
+
+    function customizeForDevice(){
         var ua = navigator.userAgent;
         var checker = {
             iphone: ua.match(/(iPhone|iPod|iPad)/),
@@ -15,7 +17,7 @@ $(function() {
             $('.iphone').append("hello");
         }
     }
-    
+
 //    function isMobileDevice() {
 //        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 //    }
@@ -29,4 +31,4 @@ $(function() {
 //            $('.apply').toggle("slow");
 //        }
 //    }
-//});
+});
