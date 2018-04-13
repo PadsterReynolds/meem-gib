@@ -24,11 +24,13 @@ $(function() {
         };
         if (checker.android){
             $('.apple').toggle("slow");
+            $('.apple-apply').toggle("slow");
             $('.login').toggle("slow");
             $('.apply').toggle("slow");
         }
         else if (checker.iphone){
             $('.android').toggle("slow");
+            $('.android-apply').toggle("slow");
             $('.login').toggle("slow");
             $('.apply').toggle("slow");
         }
