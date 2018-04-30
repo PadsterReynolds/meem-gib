@@ -478,6 +478,10 @@ a:hover {
 	color: #00859D;
 }
 
+.links {
+	margin-right: 90px;
+}
+
 
 blockquote, q {
 quotes: none;
