@@ -7905,7 +7905,9 @@ ul.footer_social_links5 {
 }
 
 .page_title1.stytest {
-	background: #999 url(../images/a-samples/test-1920x500.jpg) no-repeat center top;
+	background: #999 url(../images/banners/banner-landing-page.jpg) no-repeat center top;
+	width: 1920px;
+	height: 500px;
 }
 
 .page_title1.stybb {
