@@ -776,6 +776,10 @@
         width: 100%;
     }
 
+    .featured_section300 p {
+        padding-right: 37%;
+    }
+
 }
 
 @media only screen and (min-width: 970px) and (max-width: 999px) {
@@ -1030,6 +1034,10 @@
         margin-top: 100px;
         padding: 70px 200px 90px 0;
         background: #999 url(/resources/images/banners/personalfinance/meem-personal-finance_1000x400-04.jpg) no-repeat center top;
+    }
+
+    .featured_section300 p {
+        padding-right: 37%;
     }
 
     /* end page title */
@@ -2202,6 +2210,13 @@
         border-bottom: 1px solid #f3f3f3;
     }
 
+    .featured_section300 p {
+        padding-right: 20%;
+    }
+
+    .featured_section300 p {
+        padding-right: 34%;
+    }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 767px) {
@@ -3620,6 +3635,10 @@
         background: #fff;
         padding: 30px 50px;
         border-bottom: 1px solid #f3f3f3;
+    }
+
+    .featured_section300 p {
+        padding-right: 29%;
     }
 
 }
@@ -5232,6 +5251,10 @@
         background: #fff;
         padding: 30px 50px;
         border-bottom: 1px solid #f3f3f3;
+    }
+
+    .featured_section300 p {
+        padding-right: 23%;
     }
 
 }
@@ -6943,6 +6966,10 @@
         background: #fff;
         padding: 30px 50px;
         border-bottom: 1px solid #f3f3f3;
+    }
+
+    .featured_section300 p {
+        padding-right: 11%;
     }
 
 }
