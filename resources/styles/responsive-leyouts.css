@@ -780,6 +780,8 @@
         width: 100%;
     }
 
+
+
 }
 
 @media only screen and (min-width: 970px) and (max-width: 999px) {
@@ -2205,6 +2207,10 @@
         background: #fff;
         padding: 30px 50px;
         border-bottom: 1px solid #f3f3f3;
+    }
+
+    .featured_section300 p {
+        margin-left: 22%;
     }
 
 }
@@ -5243,6 +5249,10 @@
         background: #fff;
         padding: 30px 50px;
         border-bottom: 1px solid #f3f3f3;
+    }
+
+    .featured_section300 p {
+        margin-left: 14%;
     }
 
 }
